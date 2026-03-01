@@ -9,25 +9,31 @@ Tags: `Fraud Analysis` | `AI Safety` | `Social Engineering` | `Multilingual NLP`
 ```
 Root
 ├── data/
+│   ├── raw/
+│   │   └── reddit_processed.jsonl
 │   └── source/
 │       └── resources.md
 ├── documentation/
 │   ├── 01_sprint/
 │   │   └── preprocess.md
 │   ├── 02_sprint/
+│   │   ├── corpus_readme.md
+│   │   └── token_count.md
 │   ├── 03_sprint/
 │   ├── 04_sprint/
 │   ├── 05_sprint/
 │   ├── Project Charter.md
 │   └── TeamContract.md
 ├── src/
-│   ├── 01_sprint/
-│   │   └── preprocess.py
-│   ├── 02_sprint/
-│   ├── 03_sprint/
-│   ├── 04_sprint/
-│   └── 05_sprint/
+│   ├── __init__.py
+│   ├── preprocess.py
+│   ├── token_count.py
+│   └── website_scrape.py
+├── tests/
+│   ├── __init__.py
+│   └── test_scrape.py
 ├── .gitignore
+├── requirements.txt
 └── README.md
 ```
 ---
