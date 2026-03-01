@@ -22,4 +22,4 @@ output: pdf_document
 
 **Total Amount of Text (in tokens):** 72,609,542
 
-**Any Known Problem:** N/A
+**Any Known Problem:** The kaggle dataset that we have downloaded online is very new and may have some problems. Although currently not known, we anticipate there may be issues with data as we do not know where it has been scraped from or how long ago. This does not have an immediate impact on our project, but this is something to consider in the future. 
