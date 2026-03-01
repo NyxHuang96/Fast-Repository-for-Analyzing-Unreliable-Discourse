@@ -18,7 +18,7 @@ output: pdf_document
 | Label | String | The **classification metadata**. It categorizes the text into specific classes: `Ham` (legitimate), `Spam`, or `Phish`. |
 | Text | String | The **raw text**. This is the actual email or message content. |
 
-**Total Number of Documents:** 1 (So far)
+**Total Number of Documents:** 1
 
 **Total Amount of Text (in tokens):** 72,609,542
 
