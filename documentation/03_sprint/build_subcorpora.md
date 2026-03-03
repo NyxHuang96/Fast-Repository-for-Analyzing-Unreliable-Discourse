@@ -1,6 +1,6 @@
 ---
-title: build_subcorpora.md
-author: Yusen Huang
+title: "build_subcorpora.md"
+author: "Yusen Huang"
 date: "2026-03-02"
 Disclaimer: This documentation is generated with the help of Gemini3
 ---
@@ -27,8 +27,7 @@ The script defines two target sub-corpora with a stratified sampling goal:
 
 -   **English Subset**: 16,667 records per class.
 
--   **Chinese Subset**: 3,333 records per class.
-    It dynamically locates the source file `kaggle_corpus.json` within the `data/processed/` directory relative to the script location.
+-   **Chinese Subset**: 3,333 records per class. It dynamically locates the source file `kaggle_corpus.json` within the `data/processed/` directory relative to the script location.
 
 ### 2. Streamed Loading & Filtering
 
@@ -54,8 +53,7 @@ The extracted pool is sliced into two distinct segments:
 
 -   The first **16,667** records are assigned to the English bucket.
 
--   The subsequent **3,333** records are assigned to the Chinese bucket.
-    This slicing method ensures that no single record from the source corpus appears in both output files.
+-   The subsequent **3,333** records are assigned to the Chinese bucket. This slicing method ensures that no single record from the source corpus appears in both output files.
 
 ### 5. Serialization & Logging
 
