@@ -7,9 +7,7 @@ Description: Calculate the tokens after processing text with nltk tokenizer
 """
 import json
 import nltk
-import pandas as pd
 from pathlib import Path
-from nltk.tokenize import word_tokenize
 
 # You must download the 'punkt' resource the first time you use NLTK tokenizers
 nltk.download('punkt')
