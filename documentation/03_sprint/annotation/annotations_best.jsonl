@@ -1,0 +1,1343 @@
+{
+  "label": "Ham",
+  "text": "daren bp invoiced hpl at escapenumber escapenumber for the deal below and sitara shows escapenumber escapenumber can you please verify the pricing thanks",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "0:5:PERSON;6:8:ORG;18:21:ORG;69:75:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "on march escapenumber martin lin will be participating in a panel discussion with dick o ' neill of ferc a rep of morgan stanley and ed cazalet of apx on market turmoil trading and risk management harvard electricity group at the present time except in several limited regions marketers do not have the ability to hedge transmission risk by reselling it above cost last year we approached dick o ' neill ' s staff about the possibility of lifting the cap on resales of transmission but they were not inclined to proceed absent the use of certain restrictions there have been several recent developments in power and gas as discussed in the attached memo it would be helpful for martin to discuss these recent orders as necessary in order to attempt to gain support from dick o ' neill for the idea of lifting the cap for power after martin ' s discussion we should consider reapproaching ferc to seek approval",
+  "text_zh": "",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": "null",
+  "entities": "24:34:PERSON;77:90:PERSON;97:101:ORG:REGULATOR;111:125:ORG;130:140:PERSON;144:147:ORG;185:210:ORG;707:711:ORG:REGULATOR",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "greg our copel shares are falling in value we have never marked this investment even though it is public we currently own adr ' s elp is the ticker we are restricted i think in selling until july at the current price we would lose escapenumber to escapenumber million original message from gorny vladimir sent monday april escapenumber escapenumber escapenumber escapenumber am to lavorato john subject copel copel is trading at escapenumber escapenumber down over escapenumber escapenumber from thursday close the rumor is that this is the aftershock of a escapenumber mm block trade last week",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "0:4:PERSON;330:345:PERSON;381:394:PERSON;77:82:ORG;132:135:ID",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "who knows if this is true mike triem na ipaq displays business planning escapenumber escapenumber escapenumber subject escapenumber p bill charge for e mail vote no on bill escapenumber p i guess the warnings were true federal bill escapenumber p escapenumber cents per e mail sent it figures no more free e mail we knew this was coming bill escapenumber p willpermit the federal government to charge a escapenumber cent charge on every deliverede mail please read the following carefully if you intend to stay online and continue using e mail the last few months have revealed an alarming trendin the government of the united states attempting to quietly push throughlegislation that will affect our use of the internet under proposed legislation the us postal service will be attempting to bille mail users out of alternative postage fees bill escapenumber p will permit thefederal government to charge a escapenumber cent surcharge on every e mail delivered by billing internet service providers at source the consumer would then bebilled in turn by the isp washington dc lawyer richard stepp is working without pay to prevent thislegislation from becoming law the us postal service is claiming lost revenue due to the proliferation of e mail is costing nearly escapenumber escapenumber escapenumber in revenue per year you may have noticed their recent ad campaign there is nothing like a letter since the average person received about escapenumber pieces of e mail per day in escapenumber the cost of the typical individual would be an additional escapenumber cents a day or over escapenumber per year above and beyond their regular internet costs note that this would be money paid directly to the us postal service for a service they do not even provide the whole point of the internet is democracy and noninterference you are already paying an exorbitant price for snail mail because of bureaucratic efficiency it currently takes up to escapenumber days for a letter to be delivered from coast to coast if the us postal service is allowed to tinker with e mail it will mark the end of the free internet in the united states our congressional representative tony schnell r has even suggested a escapenumber escapenumber per month surcharge on all internet service above and beyond the governments proposed e mail charges note that most of the major newspapers have ignored the story and the only exception being the washingtonian which called the idea of e mail surcharge a useful concept who ' s time has come march escapenumber th escapenumber editorial do not sit by and watch your freedom erode away send this to e mail to everyone on your list and tell all your friends and relatives write their congressional representative and say no to bill escapenumber p it will only take a few moments of your time and could very well be instrumental in killing a bill we do not want please forward",
+  "text_zh": "",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": "URGENCY",
+  "entities": "39:49:PERSON;343:361:ORG;658:676:ORG;707:720:PERSON;1194:1208:ORG",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "vince the following information is missing from your employee profile which will be used at the md prc meeting on escapenumber escapenumber escapenumber current responsibilities previous experience at enron please go into your gis file and update by end of business day monday july escapenumber st if you have any questions or problems getting into your file please call kathy schultea at ext escapenumber thank you",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "AUTHORITY",
+  "entities": "0:5:PERSON;139:144:ORG;237:240:SYSTEM_NAME;337:349:PERSON;365:375:PHONE",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "per our phone conversation reliant requests to continue its use of contract escapenumber capacity for the period escapenumber escapenumber escapenumber escapenumber escapenumber terms of this arrangement will be the same as december ' s",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "21:28:ORG;48:57:ID",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "i organized our thoughts from yesterday into an outline we can follow this also gives us a place to start to record our facts assumptions as we identify them i moved the document into o energy ops opm hours survey for now so we can all access",
+  "text_zh": "",
+  "scenario": "OTHER",
+  "tactic_primary": "null",
+  "entities": "28:37:DATE",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "bob shults is scheduled to be in atlanta ga on the escapenumber th of march and would like to reschedule the customer profiling meeting to friday march escapenumber th at escapenumber escapenumber p m location to be announced if you are unable to attend please let me know lydia escapenumber escapenumber",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "0:10:PERSON;31:41:LOCATION;116:121:DATE;125:136:TIME;176:181:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "spring escapenumber faculty the spring escapenumber schematic has been posted to embanet to access the schematic please open the jgsm area icon on the embanet desktop next please open the announcement jgsm icon you will find the spring escapenumber schematic located under the subject column please open the document if you do not have access to embanet you will need to speak with david kilgore at kilgore rice edu or by calling david at escapenumber escapenumber escapenumber thanks kathy kathy m spradling mba program coordinator jesse h jones graduate school of management rice university escapenumber main street ms escapenumber houston texas escapenumber escapenumber phone escapenumber escapenumber escapenumber fax escapenumber escapenumber escapenumber email spradlin rice edu http www rice edu jgs e mail spradlin rice edu http www ruf rice edu jgs",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "51:58:SYSTEM_NAME;163:170:SYSTEM_NAME;353:365:PERSON;366:382:EMAIL;470:482:PERSON;491:511:ORG;525:533:LOCATION;535:540:LOCATION;712:733:EMAIL;736:757:URL;760:782:EMAIL;785:807:URL",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "sally i ' ll be there and look forward to the event is there an agenda i wonder when it all starts on the sunday i plan to fly out on the sunday and go back on thursday morning so i can spend a few days at the office as well regards jan erland sent by patti thompson ect to mike jordan lon ect ect james new lon ect ect mike wellings lon ect ect coralie evans lon ect ect robert yeo lon ect ect paul d ' arcy lon ect ect david a wall risk mgmt lon ect ect andrew cornfield lon ect ect cindy horn lon ect ect jeffrey c gossett hou ect ect leslie reeves hou ect ect bob m hall na enron enron stacey w white hou ect ect peggy hedstrom cal ect ect brenda f herod hou ect ect brent a price hou ect ect scott earnest hou ect ect d todd hall hou ect ect sheila glover hou ect ect kevin sweeney hou ect ect fernley dyson lon ect ect heidi mason enron development enron development jan erland bekeng ap enron enron scott mills hou ect ect barry pearce enron communications enron communications kristin albrecht enron communications enron communications wanda curry hou ect ect meredith m eggleston hou ees ees shona wilson na enron enron eugenio perez hou ect ect michael e moscoso hou ect ect neil tarling enron communications enron communications cc subject global operations controller forum please fill in the following information and email or fax escapenumber escapenumber escapenumber to me as soon as possible the same day would be great please select dinner entr e for sunday oct escapenumber pan seared medallions of black angus tenderloin or yes grilled chicken breast w artichoke mushrooms light herb sauce hotel reservation both sunday and monday nights yes sunday night only monday night only extend for additional nights also tuesday and wednesday nights smoking or non smoking room no smoking flight information date of arrival escapenumber nd october airline flight number ual escapenumber houston arrival time escapenumber escapenumber pm shirt size women ' s or men ' s size men ' s size small med large x large xx large medium thanks patti x escapenumber",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "URGENCY",
+  "entities": "0:5:PERSON;228:239:PERSON;263:274:PERSON;292:304:PERSON;322:336:PERSON;354:364:PERSON;382:397:PERSON;415:429:PERSON;447:463:PERSON;481:491:PERSON;509:528:PERSON;546:559:PERSON;577:589:PERSON;607:622:PERSON;640:654:PERSON;672:688:PERSON;706:720:PERSON;738:751:PERSON;769:783:PERSON;801:815:PERSON;833:846:PERSON;864:878:PERSON;896:908:PERSON;926:947:PERSON;965:987:PERSON;1005:1020:PERSON;1038:1058:PERSON;1076:1095:PERSON;1113:1126:PERSON;1144:1163:PERSON;1181:1199:PERSON;1217:1240:PERSON;1258:1279:PERSON;1297:1315:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "vince just in case here is a draft copy of the event for you to refer to paul finmathmail doc",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "0:5:PERSON;68:72:PERSON;73:89:ATTACHMENT",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "mary the rate currency business requirement is to be able to get a next day fx wire done through escapenumber escapenumber pm in unify this unify systems transaction would then interface to accountsfpayable and then to treasury via the related systems processes as discussed on the phone please call laurel or myself if more informationis needed sheila forwarded by sheila glover hou ect on escapenumber escapenumber escapenumber escapenumber escapenumber pm enron global finance from mary perkins escapenumber escapenumber escapenumber escapenumber escapenumber pm to sheila glover hou ect ect cc brent a price hou ect ect sally beck hou ect ect laurel adams hou ect ect theresa t brogan hou ect ect sam round hou ect ect subject re manual wires sign off sheila changes to the manual list for north america need to be authorized by wes and sally we are specifically limiting the number of signers i think that what we need to do is immediately address the issues that are causing your wires to miss the standard process we did not have the issue prior to sap please outline your processing requirements and we can work together with ap and sap to fix the underlying issue thanks for the help mary from sheila glover escapenumber escapenumber escapenumber escapenumber escapenumber am to mary perkins hou ect ect cc brent a price hou ect ect sally beck hou ect ect laurel adams hou ect ect theresa t brogan hou ect ect subject manual wires sign off mary i want my name and theresa brogan ' s added to the authorized approvers on manual wires thanks sheila forwarded by sheila glover hou ect on escapenumber escapenumber escapenumber escapenumber escapenumber am from sheila glover escapenumber escapenumber escapenumber escapenumber escapenumber am to mary perkins hou ect ect larry dallman gpgfin enron enron wes colwell hou ect ect cc frieda schutza gpgfin enron enron carolyn centilli corp enron enron laurel adams hou ect ect brent a price hou ect ect sally beck hou ect ect subject manual wires mary larry and wes we just received a faxed copy of the manual wire and same day payment memo which was sent by betty tauzier on escapenumber escapenumber escapenumber rate currency trades fx which is settled the following day and requires next day payments for fx currently we are severely hampered because our infomation is required into unify by escapenumber escapenumber for an accounts payable run at escapenumber escapenumber for next day payments we are still trading after these cut offs and tying out the day ' s activity with trading therefore we currently have to rely on manual wires to make payments to our counterparties on the value date we need to get timeframes which mirror our business requirements i would like to get the accounts payable run for our companies escapenumber and escapenumber moved to after escapenumber escapenumber pm information is not due to the bank until next day escapenumber escapenumber am london time please let laurel and me know what changes can be done to our processing flows thanks sheila",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "AUTHORITY",
+  "entities": "0:4:PERSON;237:243:PERSON;262:275:PERSON;425:437:PERSON;474:486:PERSON;503:517:PERSON;534:543:PERSON;560:572:PERSON;589:605:PERSON;622:632:PERSON;831:835:PERSON;862:875:PERSON;948:962:PERSON;979:988:PERSON;1005:1017:PERSON;1034:1050:PERSON;1158:1171:PERSON;1326:1339:PERSON;1356:1368:PERSON;1385:1397:PERSON;1414:1426:PERSON;1443:1459:PERSON;1476:1493:PERSON;1510:1519:PERSON;1536:1548:PERSON;1716:1728:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "team below is a project request spreadsheet developed by facility planning we will use this form in an attempt to better communicate and track all the various cost estimates and project requests originating from tw marketing this form should at a minimum help to escapenumber better track requests escapenumber allocate planning and engineering resources and escapenumber better communicate needs and wants so more accurate cost figures can be generated this form is a preliminary step in a larger project that eric faucheaux is developing for now tw marketing is required to submit this form to fp on any new project requests effective immediately if once a form is submitted and the project is later revised then a revised form must be submitted this is a great tool that will not only help us but will help all the groups that support us and our marketing efforts thanks for your cooperation kh original message from faucheaux eric sent thursday march escapenumber escapenumber escapenumber escapenumber am to hyatt kevin subject re cost estimate kevin this is okay for now facility planning will be rolling out a form and procedures in the very near future that we will all use attached is just a sample of the form and general functionality select enable macros when opening i am currently revising it",
+  "text_zh": "",
+  "scenario": "EXPENSE_ADMIN",
+  "tactic_primary": "AUTHORITY",
+  "entities": "455:467:PERSON;481:492:PERSON;891:905:PERSON;917:928:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "anita there is a delivery nom of escapenumber the above mentioned meter for escapenumber escapenumber production this is a receipt meter can you please explain the purpose of this delivery nom being this receipt meter i also have the same situation escapenumber escapenumber for escapenumber escapenumber also this activity is continuing on into escapenumber escapenumber clem cernosek expressed that these delivery noms are causing errors on his end of the spectrum forwarded by jackie young hou ect on escapenumber escapenumber escapenumber escapenumber escapenumber pm lauri a allen escapenumber escapenumber escapenumber escapenumber escapenumber pm to jackie young hou ect ect cc daren j farmer hou ect ect pat clynes corp enron enron subject meter escapenumber jackie i cannot for the life of me remember why this sale deal is in there i do believe it is valid and is a part of the purchase deal with tesoro jill zively was the dealmaker and could probably answer your question as could george weissman and melissa graves you might also check with anita the allocator to see the support she gets for the allocation this may give you some clue as to what this volume represents let me know too since i hate forgetting things",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "0:5:PERSON;253:267:PERSON;298:313:PERSON;366:378:PERSON;397:410:PERSON;428:438:PERSON;598:611:PERSON;664:678:PERSON;683:697:PERSON;702:707:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "here is the list marcelo and i put together in september see attachment at the bottom forwarded by shona wilson na enron on escapenumber escapenumber escapenumber escapenumber escapenumber pm from shona wilson escapenumber escapenumber escapenumber escapenumber escapenumber pm to mike jordan lon ect ect cc subject re action point list forwarded by shona wilson na enron on escapenumber escapenumber escapenumber escapenumber escapenumber pm from shona wilson escapenumber escapenumber escapenumber escapenumber escapenumber am to paul wallace hel ect ect cc tim poullain patterson lon ect ect richard sage lon ect ect mike jordan lon ect ect alfred pennisi mglondon com marcelo parra mgusa com louis colarusso mgusa com andy cornfield william morley eu enron enron subject re action point list dear paul thanks for the update can you liase with al pennisi and marcelo parra to look at the r n information we are trying to get a handle on how comfortable we are outsourcing the majority of the middle office for the us brokerage business not just settlements but nearly all functions al is putting together some information regarding r n together with al kevin rhodes and marcelo we should be able to come to a recommendation either the middle office operations is something we should start to do ourselves or that we think it is best to continue to use r n as an outsourcer for the brokerage business if you want to discuss call me at escapenumber escapenumber escapenumber regards shona paul wallace ect escapenumber escapenumber escapenumber escapenumber escapenumber am to shona wilson na enron enron cc tim poullain patterson lon ect ect richard sage lon ect ect mike jordan lon ect ect alfred pennisi mglondon com enron mary perkins hou ect ect marcelo parra mgusa com enron louis colarusso mgusa com enron andy cornfield enron william morley eu enron enron subject re action point list hi shona ideally i think will morley recent hire to london documentation team should be looking after the documentation area as he is managing the london side i will confirm this on the settlements side i am happy to look at the rolfe nowlan side as i have around escapenumber years experience using and developing r n in my previous employments thanks enron capital trade resources corp from shona wilson enron escapenumber escapenumber escapenumber escapenumber escapenumber to tim poullain patterson lon ect ect richard sage lon ect ect mike jordan lon ect ect cc alfred pennisi mglondon com mary perkins hou ect ect marcelo parra mgusa com louis colarusso mgusa com andy cornfield paul wallace hel ect ect subject action point list as requested here is the action point list marcelo i put together for ny best regards shona",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "18:25:PERSON;102:114:PERSON;161:173:PERSON;199:210:PERSON;270:282:PERSON;319:331:PERSON;367:379:PERSON;404:428:PERSON;446:458:PERSON;476:487:PERSON;505:520:PERSON;521:535:EMAIL;536:548:PERSON;549:560:EMAIL;561:576:PERSON;577:588:EMAIL;589:603:PERSON;604:618:PERSON;642:646:PERSON;681:692:PERSON;697:709:PERSON;1098:1110:PERSON;1193:1205:PERSON;1280:1304:PERSON;1322:1334:PERSON;1352:1363:PERSON;1381:1396:PERSON;1397:1411:EMAIL;1419:1431:PERSON;1451:1463:PERSON;1464:1475:EMAIL;1483:1498:PERSON;1499:1510:EMAIL;1518:1532:PERSON;1540:1552:PERSON;1588:1593:PERSON;1609:1620:PERSON;1912:1924:PERSON;2019:2043:PERSON;2061:2073:PERSON;2091:2102:PERSON;2121:2136:PERSON;2137:2151:EMAIL;2152:2164:PERSON;2184:2196:PERSON;2197:2208:EMAIL;2209:2224:PERSON;2225:2236:EMAIL;2237:2251:PERSON;2252:2264:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "you made my day original message from kitchen louise sent friday october escapenumber escapenumber escapenumber escapenumber am to palmer mark a pr subject chin up as the brits say hard times but we ' re all behind you keep going",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "28:42:PERSON;93:109:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "company from enron attached is a draft press release regarding the completion of aep ' s purchase of hpl this transaction is expected to close today friday june escapenumber and the release would follow the completion of the deal please review and return any comments to me at your earliest convenience eric",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "13:18:ORG;78:81:ORG;95:98:ORG;161:165:DATE;285:289:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "this list is just a basic excel document with names id ' s and e mail addresses pam escapenumber escapenumber escapenumber at escapenumber escapenumber pm escapenumber escapenumber escapenumber escapenumber you wrote pam thanks the list of e mail addresses would be useful as well vince pamela vande krol castro on escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber pm to vince j kaminski enron com cc subject mgmt escapenumber rice university here are your rosters for mgmt escapenumber let me know if you need a list of e mail addresses as well i will update you as student schedules change pam escapenumber escapenumber escapenumber see attached file escapenumber doc escapenumber xls",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "78:81:PERSON;186:191:PERSON;192:215:PERSON;271:288:EMAIL;301:305:ID;306:321:ORG;550:553:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "hi sally i need to be working on my newest project for which we went to hallettsville this week and tomorrow is garden club and i am almost through as president i will not preside in april as i have a conflict new secretary in colonial dames and then all we have left in garden club will be our may luncheon being presdent has not been too bad as all of the ladies are very helpful my project is the completion of our papers for the recognition of our cemetery by the state historic commissson that is why we were in hallettville hope to get that done by tuesday there are many attachments necessary we stayed in a bed and breakfast which was fair but not oustanding breakfast i ran by to see dot for a few minutes before we headed home mary had spent sunday night with us to go with us and we met our cousin from missouri city also enough of that this will be a great quick way to communicate i am glad cindy gave me your address hope you have had a great week end i will write more another time love mom almost signed it sue",
+  "text_zh": "",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": "null",
+  "entities": "3:8:PERSON;67:80:LOCATION;522:533:LOCATION;739:742:PERSON;763:767:PERSON;822:835:LOCATION;900:905:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "i will be in new york tuesday and wednesday on business let me know if there is an alternate time date including today laura original message from schoppe tammie sent monday september escapenumber escapenumber escapenumber escapenumber pm to luce laura subject re trading origination the only time louise has available is from escapenumber escapenumber escapenumber escapenumber p m tomorrow escapenumber escapenumber please let me know if this will work for you thanks tammie schoppe enron americas office of the chair assistant to louise kitchen escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber fax escapenumber escapenumber escapenumber mobile original message from luce laura sent monday september escapenumber escapenumber escapenumber escapenumber pm to kitchen louise cc schoppe tammie subject trading origination louise hunter and i would like to meet with you for escapenumber minutes to discuss escapenumber interface between trading and origination escapenumber trading origination track as usual we have an opinion and i wanted to ensure you heard our view laura",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "13:21:LOCATION;108:113:PERSON;130:143:PERSON;170:180:PERSON;252:258:PERSON;435:448:PERSON;476:490:PERSON;562:572:PERSON;585:599:PERSON;614:628:PERSON;630:636:PERSON;795:800:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "louise never heard from shawn any issues with me contacting on monday jim original message from kitchen louise sent wednesday january escapenumber escapenumber escapenumber escapenumber pm to ' shawn k feeney ssmb com ' cc steffes james d subject re presentation shawn we have had a lot of discussion on the contractual arrangements we would need to put in place in order to recommence trading as quickly as possible i am working on producing a fuller list for you today however there is one particular contract licence which does require special treatment power marketing licence to be granted by ferc in order to ensure that we start this process as quickly as possible we are looking to complete the filing documentation in advance of the bankruptcy decision on our future our current strategy is as follows all dates are approximate present january escapenumber th escapenumber complete filing documentation january escapenumber th visit with ferc one of senior executives here plus a senior executive from our buyer january escapenumber th file and request an expedited process it would be extremelly helpful if you could identify someone for the head of our regulatory group jim steffes to co ordinate with at citi thanks louise",
+  "text_zh": "",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": "null",
+  "entities": "0:6:PERSON;24:29:PERSON;69:72:PERSON;91:105:PERSON;144:149:PERSON;214:218:ORG:REGULATOR;907:911:ORG:REGULATOR;1109:1121:PERSON;1140:1144:ORG",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "attached please find the cover letter from tournament chairman michael roberts plus a pdf file with all the events ' information and registration form please read the cover letter as we have instituted several changes for this year ' s tournament also i ' ve attached a pledge form if your company hasn ' t already committed to a sponsorship for this year your support ensures the success of this event which has been a long industry tradition don ' t miss this year ' s tournament",
+  "text_zh": "",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": "null",
+  "entities": "62:77:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "louise do you know of anyone in the uk that might be interested in this thanks don original message from keller dean ibd mailto dean keller ssmb com sent thursday september escapenumber escapenumber escapenumber escapenumber pm to donahue jeff detmering timothy j miller don asset mktg subject we just closed the saltend sale to calpine in the uk i thought you might find the attached interesting",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "0:6:PERSON;73:76:PERSON;95:106:PERSON;126:138:EMAIL;186:198:PERSON;199:218:PERSON;219:229:PERSON;278:285:ORG",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "attached is a summary of the new york rto order issued by ferc late yesterday i apologize for the length but i wanted to include a number of quotes from the order that repeat arguments that we have been making over the past few years in a procedural order issued today ferc has scheduled the northeast mediation process to begin next thursday july escapenumber th",
+  "text_zh": "",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": "null",
+  "entities": "32:40:LOCATION;58:62:ORG:REGULATOR;270:274:ORG:REGULATOR",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "frank i am definitely interested in the resume i can meet the candidate on campus when i visit my son i am planning to come to palo alto around thanksgiving also energy and power risk management an english publication organizes every year in houston a power risk conference typically in may they ask me for recommendations regarding speakers would you be interested in participating vince frank a wolak on escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber am to vkamins enron com cc subject vince i am writing about a student of mine who is on the job market this year when you stopped by my office about escapenumber months ago you asked if i had any students that might be appropriate for your group although i didn ' t at the time now i do this student has excellent technical skills including an m s in statistics and a ph d in economics by the end of the current academic year his dissertation research is on the investment behavior of independent power producers in the us as a result of research assistance he has done for me he knows the california market very well and is familiar with the other isos i think he would be an excellent match for you the only problem is that he will probably have many other options available however i definitely think he ' s worth a look if you ' d like him to send you a cv please let me know thanks frank wolak professor frank a wolak email wolak zia stanford edu department of economics phone escapenumber escapenumber escapenumber office stanford university fax escapenumber escapenumber escapenumber stanford ca escapenumber escapenumber phone escapenumber escapenumber escapenumber home world wide web page http www stanford edu wolak cell phone escapenumber escapenumber escapenumber",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "0:5:PERSON;118:127:LOCATION;366:371:PERSON;372:385:PERSON;411:429:EMAIL;442:447:PERSON;1343:1354:PERSON;1365:1378:PERSON;1385:1409:EMAIL;1452:1467:ORG;1474:1483:PHONE;1491:1508:ORG;1513:1522:PHONE;1523:1538:LOCATION;1560:1569:PHONE;1602:1632:URL;1644:1653:PHONE",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "house speaker hastert has decided to close the entire capitol complex including the office buildings on the house side at the end of the working day today through monday as a precautionary move to allow for special agents and germ experts to conduct a sweep of the ventilation systems and all remaining unopened mail the senate side is expected to do the same it has also been confirmed that the anthrax laden letter sent to senate majority leader daschle ' s office was of a particularly potent high grade military quality anthrax that quickly spread once opened some escapenumber staff in dachle ' s office or the mail room have tested positive and some anthrax spores were found in the ventilation system of the hart building where daschle ' s office is located and in one of the tunnels leading to the capitol itself if there is even a hint that this military grade anthrax came from iraq there will be a strike by the u s against iraq another possibility is that the anthrax is of russian origin and was somehow illicitly acquired by al qaeda or the taliban there has not been a second anthrax letter or a new outbreak of anthrax nor is there any evidence of anthrax spores spreading to committee rooms located in the other senate or house buildings this was a pre cautionary move by house speaker hastert though it in no way diminishes how ugly the situation is",
+  "text_zh": "",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": "THREAT",
+  "entities": "14:21:PERSON;445:452:PERSON;717:725:PERSON;864:868:LOCATION;902:906:LOCATION;1023:1032:ORG;1040:1047:ORG;1410:1417:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "original message from vonderheide scott sent friday october escapenumber escapenumber escapenumber escapenumber pm to port david subject structured deals original message from mckillop gordon sent friday october escapenumber escapenumber escapenumber escapenumber pm to sullo sharon e vonderheide scott subject re check list presentation",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "22:39:PERSON;95:106:PERSON;121:137:PERSON;180:194:PERSON;195:212:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "nesa escapenumber rd annual meeting advance registration deadline friday august escapenumber sign up today attached below for your review is a copy of the annual meeting program you will need adobe acrobat to view the brochure which you can download from our website at www nesanet org airfare discounts are available on continental airlines official meeting airline check page escapenumber for details low fares can also be found on delta and united into savannah ga airport shuttles can be arranged through low country adventures by calling escapenumber escapenumber escapenumber or emailing info com at least escapenumber hours prior to arrival round trip from savannah is escapenumber per person round trip from hilton head is escapenumber per person delegate registration list is attached below in an excel ' escapenumber worksheet for your review please contact nesa headquarters if you have problems opening the file or to request an updated list late arrivals on wednesday september escapenumber will be accommodated by extended registration hours prior to the opening reception please join us at the nesa registration table located on the basshead deck as soon as you arrive please contact nesa headquarters at escapenumber escapenumber escapenumber with questions or for additional information our fax number is escapenumber escapenumber escapenumber don ' t delay fax your delegate registration form for the annual meeting to nesa today we look forward to welcoming you to hilton head in september escapenumber nesa escapenumber brochure pdf escapenumber annual meeting delegates xls",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "URGENCY",
+  "entities": "0:4:ORG;276:291:URL;305:326:ORG;418:423:ORG;428:434:ORG;440:448:LOCATION;476:497:ORG;610:618:LOCATION;630:641:LOCATION;827:831:ORG;1038:1042:ORG;1062:1066:ORG;1147:1151:PHONE;1217:1226:PHONE;1274:1278:ORG;1320:1331:LOCATION",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "the summer associate program is a critical component of our recruiting efforts we appreciate you acting as a mentor for the following summer associate vince a reception to introduce you to the summer associates is scheduled for june escapenumber nd the reception will be held from escapenumber escapenumber pm until escapenumber escapenumber pm at sierra ' s grill located at escapenumber montrose escapenumber escapenumber escapenumber we have also provided the summer associate with your name and phone number however we encourage you to contact guiseppe prior to the reception if possible please rsvp your attendance to cheryl kuehl at x escapenumber or by email thank you charlene jackson",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "129:134:PERSON;360:366:LOCATION;442:450:PERSON;496:508:PERSON;540:556:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "fyi i understand you are going to this meeting steve forwarded by steven harris et s enron on escapenumber escapenumber escapenumber escapenumber escapenumber am sarabeth smith escapenumber escapenumber escapenumber escapenumber escapenumber pm to mike mcgowan et s enron enron john goodpasture ots enron enron steven harris et s enron enron dave neubauer et s enron enron rockey storie et s enron enron john dushinske et s enron enron kent miller et s enron enron robert hayes fgt enron enron robert hill npng enron enron lorna brennan et s enron enron steve klimesh et s enron enron kristen hand et s enron enron kimberly watson et s enron enron martha janousek et s enron enron vasant shanbhogue hou ect ect clayton vernon corp enron enron michael ratner ots enron cc subject long term outlook additionally here is the long term outlook from wefa that accompanies the short term outlook forwarded in the previous message forwarded by sarabeth smith et s enron on escapenumber escapenumber escapenumber escapenumber escapenumber pm denhardt ron on escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber pm to sarabeth smith enron com cc subject long term outlook ron denhardt vice president energy services wefa inc escapenumber crosby drive bedford ma escapenumber tel escapenumber escapenumber escapenumber fax escapenumber escapenumber escapenumber houston lterm pdf houston lterm zip",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "46:51:PERSON;63:76:PERSON;139:153:PERSON;196:209:PERSON;226:243:PERSON;260:273:PERSON;290:304:PERSON;321:337:PERSON;354:370:PERSON;387:398:PERSON;415:427:PERSON;444:455:PERSON;472:485:PERSON;502:515:PERSON;532:546:PERSON;563:578:PERSON;595:610:PERSON;627:643:PERSON;660:675:PERSON;692:706:PERSON;723:737:PERSON;788:792:ORG;914:928:PERSON;985:997:PERSON;1066:1080:EMAIL;1113:1125:PERSON;1145:1153:ORG;1163:1175:LOCATION;1176:1185:LOCATION;1194:1203:PHONE;1208:1217:PHONE",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "this is to nominate escapenumber escapenumber mmbtu d for escapenumber escapenumber from hpl to eastrans escapenumber escapenumber mmbtu will come from fuels cotton valley escapenumber escapenumber mmbtu will be delivered to pg e",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "65:68:ORG;72:80:ORG;117:124:ORG;176:182:ORG",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "attached please find the txu fuel nominations for wednesday oct escapenumber escapenumber see attached file hpll escapenumber xls hpll escapenumber xls",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "25:28:ORG;132:145:ATTACHMENT;146:159:ATTACHMENT",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "escapenumber escapenumber escapenumber emily butler is scheduled for a follow up interview for the trading scheduling admin support position i will distribute a copy of her resume for your review please note the schedule for friday ' s interview emily butler mt adams conference room escapenumber escapenumber pm bill williams iii escapenumber escapenumber pm cara semperger escapenumber escapenumber pm tim belden if you have questions please let me know i can be reached at x escapenumber",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "24:36:PERSON;245:257:PERSON;258:276:LOCATION;295:312:PERSON;331:345:PERSON;364:374:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "forgot saguoro sold it last week original message from kitchen louise sent sunday september escapenumber escapenumber escapenumber escapenumber pm to lavorato john subject still got some bits to fill in but here is where we got to",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "7:14:ORG;48:62:PERSON;102:115:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "yannis yes very much please stop by this week or during the week of the escapenumber th i am in australia next week vince",
+  "text_zh": "",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": "null",
+  "entities": "0:6:PERSON;94:103:LOCATION;115:120:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "daren vance the two meters below are new and have unallocatable flow i will need a purchase for each of them please respond with a deal number or further suggestions for resolution so that i can clear this up as soon as possible mary enron on escapenumber escapenumber escapenumber escapenumber escapenumber am katherine benedict ect escapenumber escapenumber escapenumber escapenumber escapenumber pm to mary poorman na enron enron fred boas hou ect ect aimee lannou hou ect ect cc subject meter variances ua escapenumber clean up hi guys please take a look at the following meters which are showing up with variances on my ua escapenumber report once the variance has been cleared please send me an e mail please try to clear these within the next couple of days thanks kathy benedict meter number escapenumber variance escapenumber escapenumber meter type daily swing production month august escapenumber logistics contact none volume mgmt contact anita luong meter number escapenumber variance escapenumber meter type daily swing production month august escapenumber logistics contact none volume mgmt contact anita luong",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "0:11:PERSON;226:230:PERSON;276:293:PERSON;343:355:PERSON;378:387:PERSON;407:419:PERSON;732:746:PERSON;921:932:PERSON;1032:1043:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "sally let me know how i can help you with this opportunity thanks hector g mcloughlin phr human resources enron net works office escapenumber escapenumber escapenumber cell escapenumber escapenumber escapenumber",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "0:5:PERSON;69:87:PERSON;107:124:ORG",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "thanks for the story have an all day meeting today and my grandparents are going back to maryland i did get a pair of pj ' s for meaghan at gymboree the red ones with the little pique heart design hope you did not get them too bonnie hitschel escapenumber escapenumber escapenumber original message from michelle lokay enron com sent thursday july escapenumber escapenumber escapenumber escapenumber am to bhitschel tesoropetroleum com subject fw no truer words were ever spoken a man asked his wife what she ' d like for her birthday i ' d love to be six again she replied on the morning of her birthday he got her up bright and early and off they went to a local theme park what a day he put her on every ride in the park the death slide the screaming loop the wall of fear everything there was wow five hours later she staggered out of the theme park her head reeling and her stomach upside down right to a mcdonald ' s they went where he husband ordered a big mac for her along with extra fries and refreshing chocolate shake then it was off to a movie the latest star wars what a fabulous adventure finally she wobbled home with her husband and collapsed into bed he leaned over and lovingly asked well dear what is it like being six again one eye opened you idiot i meant my dress size the moral of this story is if a woman speaks and a man is there to hear her he will get it wrong anyway",
+  "text_zh": "",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": "null",
+  "entities": "88:96:LOCATION;126:133:PERSON;144:152:LOCATION;221:235:PERSON;259:282:EMAIL",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "more information than you want forwarded by bob m hall na enron on escapenumber escapenumber escapenumber escapenumber escapenumber am from tommy yanowski enron enronxgate on escapenumber escapenumber escapenumber escapenumber escapenumber pm to dbsimpson aep com enron smtp enronxgate tyanows enron com smtp enronxgate cc dabanks aep com smtp enronxgate kdwissner aep com smtp enronxgate tjgoldstein aep com smtp enronxgate edward d gottlob hou ect ect bob m hall na enron enron sbjackson aep com enron smtp enronxgate cc subject re items requiring attention don i tried to call you when i had a minute to discuss your note i will respond to your questions in this email but we still need to talk asap if you call back and get my phonemail please call me on my cell phone at escapenumber escapenumber escapenumber original message from dbsimpson aep com enron mailto imceanotes dbsimpson escapenumber aep escapenumber ecom escapenumber enron enron com sent friday march escapenumber escapenumber escapenumber escapenumber am to tyanows enron com cc dabanks aep com kdwissner aep com tjgoldstein aep com subject items requiring attention tommy here are some items that we need some help from you to achieve it has always been my understanding that there would be a complete separate instance of all required tables to run hpl ' s business and as a result we would be able to run all required enron software to maintain our business independent of enron we have just been told that we will not have access to the customer tables to add new customers and that this must be accomplished through enron if this is true it is not acceptable could we please discuss yanowski tommy j in our original proposal when we offered up a long term service deal the fee structure covered us setting up a totally seperate environment for hpl aep it would take somewhere between escapenumber escapenumber mm in hardware to duplicate our environment for hpl you guys came back and said you just wanted something for an interim time period at a lower cost it was then that we offered letting you use our applications running on our boxes and on the same database most of our applications have enough application and database level security that we can keep enron ' s data seperate from hpl aep ' s there are two applications erms cpr where we felt it necessary to create a duplicate environment due to security concerns remember security cuts both ways and we don ' t want you looking at enron ' s data just as much as you don ' t want enron looking at yours never the less the hardware to run these two applications plus setting up the terminal server environment plus the resource time is costing us about escapenumber k hence the charge for set up costs there are three areas where enron and aep will be sharing data they are in the global reference data area global common codes your codes for mmbtu and us dollars will be the same as ours global facilities your access to pipeline meter numbers and drn numbers will be the same as ours all of this information is public knowledge and is provided to us via ihs energy who is the gisb certified provider of this information to the industry you will have the ability to update you own meter information global counterparties you will be sharing customer names and addresses such as those for settlements or statements with enron we can identify within the counterparty system who uses which address in that way we can filter the view to the business units so that they only see those customers that they deal with the process for hpl aep is the same that is used across enron our retail business units only see their customers and ena only see theirs the reason we only have one group updating this information is because if ees starts doing business with someone who is already a customer of ena then we wouldn ' t want to duplicate that customer information it helps us roll up total credit exposure across enron for a customer the people who update this information are seperate from the rest of the business units and are instructed not to share any customer information even though most of it is public knowledge if you look up that customer on the internet let me know in detail what your concern is the ena trading community will not know who your customers are and vice versa they will not know what addresses you use and vice versa there are only a few people across enron who can find out this information and they are enron net works employees who provide this service to all of enron as well as the escapenumber rd party customers we are providing it services for you will have a web interface to view your own customer information and to request updates or additions it looks like we will need access to dcaf in order to send out confirmations for physical contracts executed on behalf of hpl do you foresee any problems with this yanowski tommy j we can provide confirms for those spot and escapenumber day deals that hit sitara and dcaf ii all this is set up and is ready to go long term and financial deals for enron also flow into tagg and into erms it is from tagg that long term and financial confirmations are generated via dcaf i i had been told that you will not be using erms for forward risk and would be confirming deals out of zainet so we did not set up a seperate tagg and dcaf i environment to go with the seperate erms and cpr environment needed for intramonth valuation we need to talk about this asap i need to understand what if anything you will be confirming out of zainet if you want to change your mind this late in the game and let enron confirm everyting except for financial deals then i need to know asap so that we can begin scrambling to see if we can set this up in time we actually have put in code to block generating hpl aep confirms that now needs to be removed also i extended offers to ken ellerman and greg lind yesterday with a start date to be mutually determined and worked out between you and me yanowski tommy j thanks for letting me know have you communicated anything to dave stadnick i probably need to talk to him and let him know how much we need him but it would be nice for me to know what he is aware of before i meet with him kindest regards don",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "42:55:PERSON;85:99:PERSON;146:162:EMAIL;166:183:EMAIL;188:203:EMAIL;208:224:EMAIL;229:249:EMAIL;250:273:PERSON;274:287:PERSON;288:303:EMAIL;547:550:PERSON;769:785:EMAIL;998:1014:EMAIL;1019:1034:EMAIL;1035:1051:EMAIL;1052:1072:EMAIL;1110:1115:PERSON;1258:1261:ORG;1323:1328:ORG;1381:1386:ORG;1550:1558:PERSON;1811:1814:ORG;1815:1818:ORG;1973:2076:ORG;2101:2106:ORG;2109:2112:ORG;2227:2232:ORG;2267:2272:ORG;2314:2319:ORG;2360:2365:ORG;2845:2848:ORG;2901:2912:ORG;3105:3108:ORG;3109:3112:ORG;3142:3147:ORG;3196:3199:ORG;3244:3247:ORG;3310:3313:ORG;3338:3341:ORG;3603:3606:ORG;3619:3624:ORG;3667:3682:ORG;3733:3738:ORG;4521:4524:ORG;4618:4622:SYSTEM_NAME;4809:4814:ORG;4841:4845:SYSTEM_NAME;4846:4852:SYSTEM_NAME;4979:4983:SYSTEM_NAME;4995:4999:SYSTEM_NAME;5028:5033:SYSTEM_NAME;5075:5080:SYSTEM_NAME;5117:5121:SYSTEM_NAME;5181:5187:SYSTEM_NAME;5301:5306:SYSTEM_NAME;5311:5317:SYSTEM_NAME;5357:5361:SYSTEM_NAME;5366:5369:SYSTEM_NAME;5494:5500:SYSTEM_NAME;5632:5638:SYSTEM_NAME;5679:5684:ORG;5783:5787:ORG;5788:5791:ORG;5905:5917:PERSON;5922:5931:PERSON;6021:6029:PERSON;6141:6154:PERSON;6265:6268:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "hi vince been meaning to ask for your input about larry thorpe ' s proprietary model for electricity returns i have not been able to get much information about the parameters as larry says the nature is proprietary it is hard to make a judgement about its usefulness without such information larry ' s e mails to me indicate that he is working on npl escapenumber real time prices and he promises to share the results with us please advise on direction to take as i am not quite sure about the model without further information separately larry indicated that you had promised him some data and would like to know if you have forwarded it to him i can convey your position to him thanks",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "3:8:PERSON;51:63:PERSON;167:172:PERSON;311:316:PERSON;511:516:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "i will be out of the office on thursday and friday my pager may not reach me but i will be checking my voice mail please call george grant in my absence at ext escapenumber thanks pat get with me today if you need anything by the end of the week",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "117:129:PERSON;164:167:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "i have entered a one month deal in sitara deal escapenumber for referenced sale this delivery is subject to an external expense transport fee to entex see old deal sitara escapenumber for details fee to entex is escapenumber cents please someone enter this transport info into deal escapenumber as i don ' t know how what to do lee escapenumber escapenumber",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "40:47:SYSTEM_NAME;48:60:ID;136:141:ORG;158:165:SYSTEM_NAME;166:178:ID;190:195:ORG;261:273:ID;302:305:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "hi vince i ' m sorry you weren ' t around in sydney this week you missed a very good book launch party that john martin organised here for us paul made a short speech in which he relayed some great comments which he said came from you thanks very much please find attached the next eprm article its not really tided up fully from our end yet but i wanted to send it off before the weekend in case you got chance to look at it because of the easter break robin is after it by thursday of next week best regards chris eprm escapenumber fwd curve simulation doc",
+  "text_zh": "",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": "null",
+  "entities": "3:8:PERSON;49:55:LOCATION;115:126:PERSON;143:147:PERSON;470:475:PERSON;523:528:PERSON;529:566:ATTACHMENT",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "fyi i would like to meet with both of you to discuss same preferably after the escapenumber escapenumber meeting please let me know your thoughts regards ed original message from mcmichael jr ed sent friday october escapenumber escapenumber escapenumber escapenumber am to breslau craig lagrasta fred josey scott luce laura mrha jean redmond brian tycholiz barry vickers frank w subject gas structuring communication session agenda for escapenumber escapenumber meeting thanks againg for sharing your thoughts and opinions in our escapenumber escapenumber meeting in an effort to make our escapenumber escapenumber meeting as productive as possible i have put together an agenda attached for the monday afternoon meeting it would be most helpful if you could review the agenda prior to the meeting and come ready to discuss your thoughts related to the discussion items if the discussion items do not address your primary issues please let me know so i can either modify the agenda or include it in the next meeting if you have any questions plese ask regards ed",
+  "text_zh": "",
+  "scenario": "EXPENSE_ADMIN",
+  "tactic_primary": "null",
+  "entities": "122:124:PERSON;143:159:PERSON;215:228:PERSON;229:242:PERSON;243:254:PERSON;255:265:PERSON;266:275:PERSON;276:289:PERSON;290:305:PERSON;306:322:PERSON;972:974:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "eric i have a number of case studies on enron but not the one on sutton bridge i know that peter tufano was working on it but when i checked the hbs site and tried to purchase it i could not locate it when i talked to peter a few months ago he told me that the case study was ready and he was going through enron ' s internal approvals i cc mark palmer on it maybe he knows about this specific case study i wander if it was completed given sutton bridge developments vince eric gadd escapenumber escapenumber escapenumber escapenumber escapenumber am to vince j kaminski hou ect ect cc subject enron case studies vince where might i find copies of the case studies enron has published i ' m particularly interested in the sutton bridge publication for havard but would like to know if there is a library of case studies",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "0:4:PERSON;46:51:ORG;68:81:LOCATION;93:105:PERSON;133:136:ORG;214:219:PERSON;317:322:ORG;345:356:PERSON;443:456:LOCATION;463:468:PERSON;469:479:PERSON;519:534:PERSON;553:558:ORG;564:569:PERSON;604:609:ORG;666:679:LOCATION",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "michelle lokay if you registered as a foursome please review the following to obtain your tee assignment for monday ' s tournament on the tpc course at the woodlands you should report directly to the tpc anytime after escapenumber escapenumber for lunch and registration shotgun tee time of escapenumber escapenumber p m remember the format is par as your friend also these pairings were made on a first come first served basis of the teams who registered as members of hea or nesa with full payment if you don ' t see your name you will be playing the oaks course escapenumber a billy shields rob henk tom mathiasmeier lester lipperdt escapenumber b charles neuberger john lewis perry lee johnson tom brown escapenumber a lee hanse buck guinn jody sumrall bruce boyd escapenumber b matt liner rob bond john wortham sam ansley escapenumber a keith sawyer paul drexelius pat banks neal stockham escapenumber b dan james ken ballard mike cobb poe reed escapenumber a ed troutman jeff ambrose ken perkins tristan mathews escapenumber b steve mcadory tom rinehart mike smith pat anderson escapenumber a darcy pach larry sanderson lee byassee pierce rice escapenumber b tim kingsmill greg harper bill whaley kelly adams escapenumber a mark cook steve lichty dave loe russell schneider escapenumber b linda roberts gary bryan dennis novosad greg hambrick escapenumber a corey grindal mike mcginnis preston troutman phil landers escapenumber b marty zolkoski bill harper mickey simmons ron kapavik escapenumber a darlene clark jack beckham roy cutsinger tom fritts escapenumber b stephen wolfe randy hairr mark hawkins kim norman escapenumber a bob foley bob dorcheus jerry pinto allan knopp escapenumber b darin aucoin kevin thompson tom van matre jim andritsos escapenumber a elizabeth roberts larry clayton mark darnell linda whatley escapenumber b ronnie sceroler henderson cosnahan bob withers ershel redd escapenumber a beau gervais matt rosser kevin holder alan cook escapenumber b charles steen mark steen rankin schurman jim lindsay escapenumber a john poe andy levine geoff beiermeister dennis henderson escapenumber b brett fishburn mark pyburn graham mccarrol dan burns escapenumber a doug ray laurie rutherford jerry vitek vicki taormina escapenumber b gary boening jeff gillespie bob ankersheil shane riley escapenumber a matt fleming paul tate bonnie briggs bill briggs escapenumber b mike wells randy parr ernie merkel cliff brundrett escapenumber a pete petracco matt kwak chris cater richard kelman escapenumber b clint stockman jerry brown sam charlton calvin johnson escapenumber a david smith doug davis david garza mike bucher escapenumber b ralph young curtis holtman lou marquez david bosse escapenumber a boyd cherry bill eiser gary booker patrick black escapenumber b jay davis robert epps david little sandy hobbs escapenumber a brad petrick ed fedorchak bert bonassin tim delay escapenumber b bob broxson jake woodall greg dodd steve becker this message was sent by teresa knight executive director houston energy association hea phone escapenumber escapenumber escapenumber fax for hea escapenumber escapenumber escapenumber tknight houstonenergy org if you would like to have your email address removed from our mailing list please click the link below to the hea home page where you will find a mini form to remove your name automatically http www houstonenergy org if you did not receive the attached file or it was corrupted you can find it at http www houstonenergy org public",
+  "text_zh": "",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": "null",
+  "entities": "0:14:PERSON;459:462:ORG;467:471:ORG;533:537:LOCATION;554:567:PERSON;568:576:PERSON;577:592:PERSON;593:609:PERSON;621:638:PERSON;639:649:PERSON;650:665:PERSON;666:675:PERSON;687:696:PERSON;697:707:PERSON;708:720:PERSON;721:732:PERSON;744:753:PERSON;754:762:PERSON;763:775:PERSON;776:787:PERSON;799:810:PERSON;811:826:PERSON;827:837:PERSON;838:851:PERSON;863:872:PERSON;873:884:PERSON;885:894:PERSON;895:904:PERSON;916:927:PERSON;928:940:PERSON;941:952:PERSON;953:968:PERSON;980:993:PERSON;994:1006:PERSON;1007:1017:PERSON;1018:1031:PERSON;1043:1053:PERSON;1054:1069:PERSON;1070:1083:PERSON;1084:1097:PERSON;1109:1124:PERSON;1125:1137:PERSON;1138:1152:PERSON;1153:1166:PERSON;1178:1191:PERSON;1192:1203:PERSON;1204:1220:PERSON;1221:1235:PERSON;1247:1258:PERSON;1259:1270:PERSON;1271:1286:PERSON;1287:1301:PERSON;1313:1326:PERSON;1327:1339:PERSON;1340:1354:PERSON;1355:1368:PERSON;1380:1391:PERSON;1392:1403:PERSON;1404:1416:PERSON;1417:1429:PERSON;1441:1453:PERSON;1454:1469:PERSON;1470:1481:PERSON;1482:1494:PERSON;1506:1518:PERSON;1519:1535:PERSON;1536:1554:PERSON;1555:1571:PERSON;1583:1598:PERSON;1599:1617:PERSON;1618:1631:PERSON;1632:1643:PERSON;1655:1666:PERSON;1667:1678:PERSON;1679:1690:PERSON;1691:1701:PERSON;1713:1728:PERSON;1729:1748:PERSON;1749:1760:PERSON;1761:1775:PERSON;1787:1799:PERSON;1800:1811:PERSON;1812:1823:PERSON;1824:1833:PERSON;1845:1856:PERSON;1857:1871:PERSON;1872:1883:PERSON;1884:1895:PERSON;1907:1921:PERSON;1922:1931:PERSON;1932:1944:PERSON;1945:1960:PERSON;1972:1983:PERSON;1984:1994:PERSON;1995:2006:PERSON;2007:2019:PERSON;2031:2042:PERSON;2043:2050:PERSON;2051:2067:PERSON;2068:2079:PERSON;2091:2102:PERSON;2103:2113:PERSON;2114:2123:PERSON;2124:2137:PERSON;2149:2160:PERSON;2161:2174:PERSON;2175:2189:PERSON;2190:2199:PERSON;2211:2224:PERSON;2225:2234:PERSON;2235:2245:PERSON;2246:2259:PERSON;2271:2284:PERSON;2285:2300:PERSON;2301:2314:PERSON;2315:2324:PERSON;2336:2347:PERSON;2348:2358:PERSON;2359:2371:PERSON;2372:2384:PERSON;2431:2444:PERSON;2465:2493:ORG;2494:2497:ORG;2529:2532:ORG;2568:2590:EMAIL;2697:2700:ORG;2788:2816:URL;2883:2911:URL",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "barbara yes i would like to renew the subscription thanks for the reminder vince barbara lee enron escapenumber escapenumber escapenumber escapenumber escapenumber pm to vince j kaminski hou ect ect cc subject subscription renewal esource august escapenumber escapenumber dear vince this is to inform you that your subscription to operational risk is up for renewal if you would like to renew please let me know and i will take care of it the price for this publication escapenumber year escapenumber escapenumber escapenumber years escapenumber years if you should have any questions please do not hesitate to call me at ext escapenumber escapenumber thank you for using esource sincerely barbara",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "0:7:PERSON;66:71:PERSON;72:83:PERSON;84:89:ORG;121:136:PERSON;156:161:PERSON;669:676:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "i work with john ambler in apachi pr and have been assisting vince with efforts on the energy derivatives book which lacima consultants is publishing and to which vince is contributing a chapter attached is the draft contract agreement which requires your legal review and approval could you kindly look it over and let me know your comments when we have your approval we will send lacima a copy for their signature after which vince will sign the document we will ensure that your office has a copy for your records if you wish to speak to me please do not hesitate to call me at ext escapenumber thank you for your kind assistance habiba",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "13:24:PERSON;28:38:ORG;64:69:PERSON;117:135:ORG;166:171:PERSON;391:397:ORG;430:435:PERSON;643:649:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "according to measurement there is flow of escapenumber escapenumber in escapenumber escapenumber however there is nothing to indicate this is gas that was received on hpl in oss i checked mips and there is a measurement statement that supports the flow rate of escapenumber escapenumber mmbtu daren is there a deal in cpr which may not have fed over to oss thanks stella",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "128:131:ORG;135:138:SYSTEM_NAME;151:155:SYSTEM_NAME;260:265:PERSON;281:284:SYSTEM_NAME;313:316:SYSTEM_NAME;324:330:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "there may be a business opportunity with this company but i would not advise making an investment kevin garland richard reichardt escapenumber escapenumber escapenumber escapenumber escapenumber pm to mike mcconnell hou ect ect cc larry lawyer enron communications enron communications tom gros enron communications enron communications vince j kaminski hou ect ect kevin garland enron communications enron communications richard dimichele enron communications enron communications ken rice enron communications enron communications subject seismic data on oil gas field development via satellite mike using nasa satellite transmission of maritime data and establishing a houston data center to consolidate and centrally process escapenumber d seismic data surveys for oil and gas extraction exploration and development could save the petroleum industry more than escapenumber million dollars annually through reduced operational expenses added value in shortening the time to process and deliver the finished surveys should generate more than escapenumber million per site based upon escapenumber barrel for average oil well production to market escapenumber days sooner in revenue by re selling this data to market analysts or by internally using this data for forecasting future oil gas production enron could increase the accuracy of forecasting reserves and production capabilities globally by holding the data as exclusive or partially exclusive enron would have a significant market advantage in futures pricing for oil and gas vince ' s team is quantifying the valuation of this information attached please find an updated version of the business case for seismic data transfer via satellite by a geophysicist at spacedata william k aylor calculated using escapenumber barrel oil based upon your availability jon adler and i would like to make a presentation to you or your designated representative on the enron potential of this opportunity sometime next week escapenumber escapenumber october sdt business case escapenumber pdf v r richard reichardt enron broadband services escapenumber escapenumber escapenumber office escapenumber escapenumber escapenumber mobile escapenumber smith street suite eb escapenumber houston texas escapenumber",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "92:105:PERSON;106:123:PERSON;154:168:PERSON;183:194:PERSON;195:219:ORG;220:244:ORG;245:254:PERSON;255:279:ORG;280:304:ORG;305:322:PERSON;323:347:ORG;348:372:ORG;373:391:PERSON;392:416:ORG;417:441:ORG;442:450:PERSON;451:475:ORG;476:500:ORG;556:560:PERSON;567:571:ORG;609:616:LOCATION;1287:1292:ORG;1448:1453:ORG;1696:1705:ORG;1706:1720:PERSON;1799:1808:PERSON;1915:1920:ORG;1998:2016:PERSON;2017:2043:ORG;2086:2095:PHONE;2109:2118:PHONE;2119:2153:LOCATION;2154:2161:LOCATION",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "hi daren bryan hull gave me your name a customer was interested in trading intrastate gas and bryan had informed me that our exxon katy location is intrastate i was wondering if you would be interested in changing the long description on eol for this location to include the phrase intrastate gas so that any customers that are interested would be able to see that if this is okay with you i will forward it on to our product development team thanks kara kara boudreau lauer enrononline marketing escapenumber escapenumber escapenumber kara lauer enron com",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "3:8:PERSON;9:19:PERSON;111:116:PERSON;176:186:ORG;247:250:SYSTEM_NAME;443:447:PERSON;448:467:PERSON;468:479:ORG;507:528:EMAIL",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "daren bp invoiced hpl at escapenumber escapenumber for the deal below and sitara shows escapenumber escapenumber can you please verify the pricing thanks",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "0:5:PERSON;6:8:ORG;18:21:ORG;69:75:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "on march escapenumber martin lin will be participating in a panel discussion with dick o ' neill of ferc a rep of morgan stanley and ed cazalet of apx on market turmoil trading and risk management harvard electricity group at the present time except in several limited regions marketers do not have the ability to hedge transmission risk by reselling it above cost last year we approached dick o ' neill ' s staff about the possibility of lifting the cap on resales of transmission but they were not inclined to proceed absent the use of certain restrictions there have been several recent developments in power and gas as discussed in the attached memo it would be helpful for martin to discuss these recent orders as necessary in order to attempt to gain support from dick o ' neill for the idea of lifting the cap for power after martin ' s discussion we should consider reapproaching ferc to seek approval",
+  "text_zh": "",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": "null",
+  "entities": "24:34:PERSON;77:90:PERSON;97:101:ORG:REGULATOR;111:125:ORG;130:140:PERSON;144:147:ORG;185:210:ORG;707:711:ORG:REGULATOR",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "greg our copel shares are falling in value we have never marked this investment even though it is public we currently own adr ' s elp is the ticker we are restricted i think in selling until july at the current price we would lose escapenumber to escapenumber million original message from gorny vladimir sent monday april escapenumber escapenumber escapenumber escapenumber am to lavorato john subject copel copel is trading at escapenumber escapenumber down over escapenumber escapenumber from thursday close the rumor is that this is the aftershock of a escapenumber mm block trade last week",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "0:4:PERSON;330:345:PERSON;381:394:PERSON;77:82:ORG;132:135:ID",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "who knows if this is true mike triem na ipaq displays business planning escapenumber escapenumber escapenumber subject escapenumber p bill charge for e mail vote no on bill escapenumber p i guess the warnings were true federal bill escapenumber p escapenumber cents per e mail sent it figures no more free e mail we knew this was coming bill escapenumber p willpermit the federal government to charge a escapenumber cent charge on every deliverede mail please read the following carefully if you intend to stay online and continue using e mail the last few months have revealed an alarming trendin the government of the united states attempting to quietly push throughlegislation that will affect our use of the internet under proposed legislation the us postal service will be attempting to bille mail users out of alternative postage fees bill escapenumber p will permit thefederal government to charge a escapenumber cent surcharge on every e mail delivered by billing internet service providers at source the consumer would then bebilled in turn by the isp washington dc lawyer richard stepp is working without pay to prevent thislegislation from becoming law the us postal service is claiming lost revenue due to the proliferation of e mail is costing nearly escapenumber escapenumber escapenumber in revenue per year you may have noticed their recent ad campaign there is nothing like a letter since the average person received about escapenumber pieces of e mail per day in escapenumber the cost of the typical individual would be an additional escapenumber cents a day or over escapenumber per year above and beyond their regular internet costs note that this would be money paid directly to the us postal service for a service they do not even provide the whole point of the internet is democracy and noninterference you are already paying an exorbitant price for snail mail because of bureaucratic efficiency it currently takes up to escapenumber days for a letter to be delivered from coast to coast if the us postal service is allowed to tinker with e mail it will mark the end of the free internet in the united states our congressional representative tony schnell r has even suggested a escapenumber escapenumber per month surcharge on all internet service above and beyond the governments proposed e mail charges note that most of the major newspapers have ignored the story and the only exception being the washingtonian which called the idea of e mail surcharge a useful concept who ' s time has come march escapenumber th escapenumber editorial do not sit by and watch your freedom erode away send this to e mail to everyone on your list and tell all your friends and relatives write their congressional representative and say no to bill escapenumber p it will only take a few moments of your time and could very well be instrumental in killing a bill we do not want please forward",
+  "text_zh": "",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": "URGENCY",
+  "entities": "39:49:PERSON;343:361:ORG;658:676:ORG;707:720:PERSON;1194:1208:ORG",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "vince the following information is missing from your employee profile which will be used at the md prc meeting on escapenumber escapenumber escapenumber current responsibilities previous experience at enron please go into your gis file and update by end of business day monday july escapenumber st if you have any questions or problems getting into your file please call kathy schultea at ext escapenumber thank you",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "AUTHORITY",
+  "entities": "0:5:PERSON;139:144:ORG;237:240:SYSTEM_NAME;337:349:PERSON;365:375:PHONE",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "per our phone conversation reliant requests to continue its use of contract escapenumber capacity for the period escapenumber escapenumber escapenumber escapenumber escapenumber terms of this arrangement will be the same as december ' s",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "21:28:ORG;48:57:ID",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "i organized our thoughts from yesterday into an outline we can follow this also gives us a place to start to record our facts assumptions as we identify them i moved the document into o energy ops opm hours survey for now so we can all access",
+  "text_zh": "",
+  "scenario": "OTHER",
+  "tactic_primary": "null",
+  "entities": "28:37:DATE",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "bob shults is scheduled to be in atlanta ga on the escapenumber th of march and would like to reschedule the customer profiling meeting to friday march escapenumber th at escapenumber escapenumber p m location to be announced if you are unable to attend please let me know lydia escapenumber escapenumber",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "0:10:PERSON;31:41:LOCATION;116:121:DATE;125:136:TIME;176:181:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "spring escapenumber faculty the spring escapenumber schematic has been posted to embanet to access the schematic please open the jgsm area icon on the embanet desktop next please open the announcement jgsm icon you will find the spring escapenumber schematic located under the subject column please open the document if you do not have access to embanet you will need to speak with david kilgore at kilgore rice edu or by calling david at escapenumber escapenumber escapenumber thanks kathy kathy m spradling mba program coordinator jesse h jones graduate school of management rice university escapenumber main street ms escapenumber houston texas escapenumber escapenumber phone escapenumber escapenumber escapenumber fax escapenumber escapenumber escapenumber email spradlin rice edu http www rice edu jgs e mail spradlin rice edu http www ruf rice edu jgs",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "51:58:SYSTEM_NAME;163:170:SYSTEM_NAME;353:365:PERSON;366:382:EMAIL;470:482:PERSON;491:511:ORG;525:533:LOCATION;535:540:LOCATION;712:733:EMAIL;736:757:URL;760:782:EMAIL;785:807:URL",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "sally i ' ll be there and look forward to the event is there an agenda i wonder when it all starts on the sunday i plan to fly out on the sunday and go back on thursday morning so i can spend a few days at the office as well regards jan erland sent by patti thompson ect to mike jordan lon ect ect james new lon ect ect mike wellings lon ect ect coralie evans lon ect ect robert yeo lon ect ect paul d ' arcy lon ect ect david a wall risk mgmt lon ect ect andrew cornfield lon ect ect cindy horn lon ect ect jeffrey c gossett hou ect ect leslie reeves hou ect ect bob m hall na enron enron stacey w white hou ect ect peggy hedstrom cal ect ect brenda f herod hou ect ect brent a price hou ect ect scott earnest hou ect ect d todd hall hou ect ect sheila glover hou ect ect kevin sweeney hou ect ect fernley dyson lon ect ect heidi mason enron development enron development jan erland bekeng ap enron enron scott mills hou ect ect barry pearce enron communications enron communications kristin albrecht enron communications enron communications wanda curry hou ect ect meredith m eggleston hou ees ees shona wilson na enron enron eugenio perez hou ect ect michael e moscoso hou ect ect neil tarling enron communications enron communications cc subject global operations controller forum please fill in the following information and email or fax escapenumber escapenumber escapenumber to me as soon as possible the same day would be great please select dinner entr e for sunday oct escapenumber pan seared medallions of black angus tenderloin or yes grilled chicken breast w artichoke mushrooms light herb sauce hotel reservation both sunday and monday nights yes sunday night only monday night only extend for additional nights also tuesday and wednesday nights smoking or non smoking room no smoking flight information date of arrival escapenumber nd october airline flight number ual escapenumber houston arrival time escapenumber escapenumber pm shirt size women ' s or men ' s size men ' s size small med large x large xx large medium thanks patti x escapenumber",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "URGENCY",
+  "entities": "0:5:PERSON;228:239:PERSON;263:274:PERSON;292:304:PERSON;322:336:PERSON;354:364:PERSON;382:397:PERSON;415:429:PERSON;447:463:PERSON;481:491:PERSON;509:528:PERSON;546:559:PERSON;577:589:PERSON;607:622:PERSON;640:654:PERSON;672:688:PERSON;706:720:PERSON;738:751:PERSON;769:783:PERSON;801:815:PERSON;833:846:PERSON;864:878:PERSON;896:908:PERSON;926:947:PERSON;965:987:PERSON;1005:1020:PERSON;1038:1058:PERSON;1076:1095:PERSON;1113:1126:PERSON;1144:1163:PERSON;1181:1199:PERSON;1217:1240:PERSON;1258:1279:PERSON;1297:1315:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "vince just in case here is a draft copy of the event for you to refer to paul finmathmail doc",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "0:5:PERSON;68:72:PERSON;73:89:ATTACHMENT",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "mary the rate currency business requirement is to be able to get a next day fx wire done through escapenumber escapenumber pm in unify this unify systems transaction would then interface to accountsfpayable and then to treasury via the related systems processes as discussed on the phone please call laurel or myself if more informationis needed sheila forwarded by sheila glover hou ect on escapenumber escapenumber escapenumber escapenumber escapenumber pm enron global finance from mary perkins escapenumber escapenumber escapenumber escapenumber escapenumber pm to sheila glover hou ect ect cc brent a price hou ect ect sally beck hou ect ect laurel adams hou ect ect theresa t brogan hou ect ect sam round hou ect ect subject re manual wires sign off sheila changes to the manual list for north america need to be authorized by wes and sally we are specifically limiting the number of signers i think that what we need to do is immediately address the issues that are causing your wires to miss the standard process we did not have the issue prior to sap please outline your processing requirements and we can work together with ap and sap to fix the underlying issue thanks for the help mary from sheila glover escapenumber escapenumber escapenumber escapenumber escapenumber am to mary perkins hou ect ect cc brent a price hou ect ect sally beck hou ect ect laurel adams hou ect ect theresa t brogan hou ect ect subject manual wires sign off mary i want my name and theresa brogan ' s added to the authorized approvers on manual wires thanks sheila forwarded by sheila glover hou ect on escapenumber escapenumber escapenumber escapenumber escapenumber am from sheila glover escapenumber escapenumber escapenumber escapenumber escapenumber am to mary perkins hou ect ect larry dallman gpgfin enron enron wes colwell hou ect ect cc frieda schutza gpgfin enron enron carolyn centilli corp enron enron laurel adams hou ect ect brent a price hou ect ect sally beck hou ect ect subject manual wires mary larry and wes we just received a faxed copy of the manual wire and same day payment memo which was sent by betty tauzier on escapenumber escapenumber escapenumber rate currency trades fx which is settled the following day and requires next day payments for fx currently we are severely hampered because our infomation is required into unify by escapenumber escapenumber for an accounts payable run at escapenumber escapenumber for next day payments we are still trading after these cut offs and tying out the day ' s activity with trading therefore we currently have to rely on manual wires to make payments to our counterparties on the value date we need to get timeframes which mirror our business requirements i would like to get the accounts payable run for our companies escapenumber and escapenumber moved to after escapenumber escapenumber pm information is not due to the bank until next day escapenumber escapenumber am london time please let laurel and me know what changes can be done to our processing flows thanks sheila",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "AUTHORITY",
+  "entities": "0:4:PERSON;237:243:PERSON;262:275:PERSON;425:437:PERSON;474:486:PERSON;503:517:PERSON;534:543:PERSON;560:572:PERSON;589:605:PERSON;622:632:PERSON;831:835:PERSON;862:875:PERSON;948:962:PERSON;979:988:PERSON;1005:1017:PERSON;1034:1050:PERSON;1158:1171:PERSON;1326:1339:PERSON;1356:1368:PERSON;1385:1397:PERSON;1414:1426:PERSON;1443:1459:PERSON;1476:1493:PERSON;1510:1519:PERSON;1536:1548:PERSON;1716:1728:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "team below is a project request spreadsheet developed by facility planning we will use this form in an attempt to better communicate and track all the various cost estimates and project requests originating from tw marketing this form should at a minimum help to escapenumber better track requests escapenumber allocate planning and engineering resources and escapenumber better communicate needs and wants so more accurate cost figures can be generated this form is a preliminary step in a larger project that eric faucheaux is developing for now tw marketing is required to submit this form to fp on any new project requests effective immediately if once a form is submitted and the project is later revised then a revised form must be submitted this is a great tool that will not only help us but will help all the groups that support us and our marketing efforts thanks for your cooperation kh original message from faucheaux eric sent thursday march escapenumber escapenumber escapenumber escapenumber am to hyatt kevin subject re cost estimate kevin this is okay for now facility planning will be rolling out a form and procedures in the very near future that we will all use attached is just a sample of the form and general functionality select enable macros when opening i am currently revising it",
+  "text_zh": "",
+  "scenario": "EXPENSE_ADMIN",
+  "tactic_primary": "AUTHORITY",
+  "entities": "455:467:PERSON;481:492:PERSON;891:905:PERSON;917:928:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "anita there is a delivery nom of escapenumber the above mentioned meter for escapenumber escapenumber production this is a receipt meter can you please explain the purpose of this delivery nom being this receipt meter i also have the same situation escapenumber escapenumber for escapenumber escapenumber also this activity is continuing on into escapenumber escapenumber clem cernosek expressed that these delivery noms are causing errors on his end of the spectrum forwarded by jackie young hou ect on escapenumber escapenumber escapenumber escapenumber escapenumber pm lauri a allen escapenumber escapenumber escapenumber escapenumber escapenumber pm to jackie young hou ect ect cc daren j farmer hou ect ect pat clynes corp enron enron subject meter escapenumber jackie i cannot for the life of me remember why this sale deal is in there i do believe it is valid and is a part of the purchase deal with tesoro jill zively was the dealmaker and could probably answer your question as could george weissman and melissa graves you might also check with anita the allocator to see the support she gets for the allocation this may give you some clue as to what this volume represents let me know too since i hate forgetting things",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "0:5:PERSON;253:267:PERSON;298:313:PERSON;366:378:PERSON;397:410:PERSON;428:438:PERSON;598:611:PERSON;664:678:PERSON;683:697:PERSON;702:707:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "here is the list marcelo and i put together in september see attachment at the bottom forwarded by shona wilson na enron on escapenumber escapenumber escapenumber escapenumber escapenumber pm from shona wilson escapenumber escapenumber escapenumber escapenumber escapenumber pm to mike jordan lon ect ect cc subject re action point list forwarded by shona wilson na enron on escapenumber escapenumber escapenumber escapenumber escapenumber pm from shona wilson escapenumber escapenumber escapenumber escapenumber escapenumber am to paul wallace hel ect ect cc tim poullain patterson lon ect ect richard sage lon ect ect mike jordan lon ect ect alfred pennisi mglondon com marcelo parra mgusa com louis colarusso mgusa com andy cornfield william morley eu enron enron subject re action point list dear paul thanks for the update can you liase with al pennisi and marcelo parra to look at the r n information we are trying to get a handle on how comfortable we are outsourcing the majority of the middle office for the us brokerage business not just settlements but nearly all functions al is putting together some information regarding r n together with al kevin rhodes and marcelo we should be able to come to a recommendation either the middle office operations is something we should start to do ourselves or that we think it is best to continue to use r n as an outsourcer for the brokerage business if you want to discuss call me at escapenumber escapenumber escapenumber regards shona paul wallace ect escapenumber escapenumber escapenumber escapenumber escapenumber am to shona wilson na enron enron cc tim poullain patterson lon ect ect richard sage lon ect ect mike jordan lon ect ect alfred pennisi mglondon com enron mary perkins hou ect ect marcelo parra mgusa com enron louis colarusso mgusa com enron andy cornfield enron william morley eu enron enron subject re action point list hi shona ideally i think will morley recent hire to london documentation team should be looking after the documentation area as he is managing the london side i will confirm this on the settlements side i am happy to look at the rolfe nowlan side as i have around escapenumber years experience using and developing r n in my previous employments thanks enron capital trade resources corp from shona wilson enron escapenumber escapenumber escapenumber escapenumber escapenumber to tim poullain patterson lon ect ect richard sage lon ect ect mike jordan lon ect ect cc alfred pennisi mglondon com mary perkins hou ect ect marcelo parra mgusa com louis colarusso mgusa com andy cornfield paul wallace hel ect ect subject action point list as requested here is the action point list marcelo i put together for ny best regards shona",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "18:25:PERSON;102:114:PERSON;161:173:PERSON;199:210:PERSON;270:282:PERSON;319:331:PERSON;367:379:PERSON;404:428:PERSON;446:458:PERSON;476:487:PERSON;505:520:PERSON;521:535:EMAIL;536:548:PERSON;549:560:EMAIL;561:576:PERSON;577:588:EMAIL;589:603:PERSON;604:618:PERSON;642:646:PERSON;681:692:PERSON;697:709:PERSON;1098:1110:PERSON;1193:1205:PERSON;1280:1304:PERSON;1322:1334:PERSON;1352:1363:PERSON;1381:1396:PERSON;1397:1411:EMAIL;1419:1431:PERSON;1451:1463:PERSON;1464:1475:EMAIL;1483:1498:PERSON;1499:1510:EMAIL;1518:1532:PERSON;1540:1552:PERSON;1588:1593:PERSON;1609:1620:PERSON;1912:1924:PERSON;2019:2043:PERSON;2061:2073:PERSON;2091:2102:PERSON;2121:2136:PERSON;2137:2151:EMAIL;2152:2164:PERSON;2184:2196:PERSON;2197:2208:EMAIL;2209:2224:PERSON;2225:2236:EMAIL;2237:2251:PERSON;2252:2264:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "you made my day original message from kitchen louise sent friday october escapenumber escapenumber escapenumber escapenumber am to palmer mark a pr subject chin up as the brits say hard times but we ' re all behind you keep going",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "28:42:PERSON;93:109:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "company from enron attached is a draft press release regarding the completion of aep ' s purchase of hpl this transaction is expected to close today friday june escapenumber and the release would follow the completion of the deal please review and return any comments to me at your earliest convenience eric",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "13:18:ORG;78:81:ORG;95:98:ORG;161:165:DATE;285:289:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "this list is just a basic excel document with names id ' s and e mail addresses pam escapenumber escapenumber escapenumber at escapenumber escapenumber pm escapenumber escapenumber escapenumber escapenumber you wrote pam thanks the list of e mail addresses would be useful as well vince pamela vande krol castro on escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber pm to vince j kaminski enron com cc subject mgmt escapenumber rice university here are your rosters for mgmt escapenumber let me know if you need a list of e mail addresses as well i will update you as student schedules change pam escapenumber escapenumber escapenumber see attached file escapenumber doc escapenumber xls",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "78:81:PERSON;186:191:PERSON;192:215:PERSON;271:288:EMAIL;301:305:ID;306:321:ORG;550:553:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "hi sally i need to be working on my newest project for which we went to hallettsville this week and tomorrow is garden club and i am almost through as president i will not preside in april as i have a conflict new secretary in colonial dames and then all we have left in garden club will be our may luncheon being presdent has not been too bad as all of the ladies are very helpful my project is the completion of our papers for the recognition of our cemetery by the state historic commissson that is why we were in hallettville hope to get that done by tuesday there are many attachments necessary we stayed in a bed and breakfast which was fair but not oustanding breakfast i ran by to see dot for a few minutes before we headed home mary had spent sunday night with us to go with us and we met our cousin from missouri city also enough of that this will be a great quick way to communicate i am glad cindy gave me your address hope you have had a great week end i will write more another time love mom almost signed it sue",
+  "text_zh": "",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": "null",
+  "entities": "3:8:PERSON;67:80:LOCATION;522:533:LOCATION;739:742:PERSON;763:767:PERSON;822:835:LOCATION;900:905:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "i will be in new york tuesday and wednesday on business let me know if there is an alternate time date including today laura original message from schoppe tammie sent monday september escapenumber escapenumber escapenumber escapenumber pm to luce laura subject re trading origination the only time louise has available is from escapenumber escapenumber escapenumber escapenumber p m tomorrow escapenumber escapenumber please let me know if this will work for you thanks tammie schoppe enron americas office of the chair assistant to louise kitchen escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber fax escapenumber escapenumber escapenumber mobile original message from luce laura sent monday september escapenumber escapenumber escapenumber escapenumber pm to kitchen louise cc schoppe tammie subject trading origination louise hunter and i would like to meet with you for escapenumber minutes to discuss escapenumber interface between trading and origination escapenumber trading origination track as usual we have an opinion and i wanted to ensure you heard our view laura",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "13:21:LOCATION;108:113:PERSON;130:143:PERSON;170:180:PERSON;252:258:PERSON;435:448:PERSON;476:490:PERSON;562:572:PERSON;585:599:PERSON;614:628:PERSON;630:636:PERSON;795:800:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "louise never heard from shawn any issues with me contacting on monday jim original message from kitchen louise sent wednesday january escapenumber escapenumber escapenumber escapenumber pm to ' shawn k feeney ssmb com ' cc steffes james d subject re presentation shawn we have had a lot of discussion on the contractual arrangements we would need to put in place in order to recommence trading as quickly as possible i am working on producing a fuller list for you today however there is one particular contract licence which does require special treatment power marketing licence to be granted by ferc in order to ensure that we start this process as quickly as possible we are looking to complete the filing documentation in advance of the bankruptcy decision on our future our current strategy is as follows all dates are approximate present january escapenumber th escapenumber complete filing documentation january escapenumber th visit with ferc one of senior executives here plus a senior executive from our buyer january escapenumber th file and request an expedited process it would be extremelly helpful if you could identify someone for the head of our regulatory group jim steffes to co ordinate with at citi thanks louise",
+  "text_zh": "",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": "null",
+  "entities": "0:6:PERSON;24:29:PERSON;69:72:PERSON;91:105:PERSON;144:149:PERSON;214:218:ORG:REGULATOR;907:911:ORG:REGULATOR;1109:1121:PERSON;1140:1144:ORG",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "attached please find the cover letter from tournament chairman michael roberts plus a pdf file with all the events ' information and registration form please read the cover letter as we have instituted several changes for this year ' s tournament also i ' ve attached a pledge form if your company hasn ' t already committed to a sponsorship for this year your support ensures the success of this event which has been a long industry tradition don ' t miss this year ' s tournament",
+  "text_zh": "",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": "null",
+  "entities": "62:77:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "louise do you know of anyone in the uk that might be interested in this thanks don original message from keller dean ibd mailto dean keller ssmb com sent thursday september escapenumber escapenumber escapenumber escapenumber pm to donahue jeff detmering timothy j miller don asset mktg subject we just closed the saltend sale to calpine in the uk i thought you might find the attached interesting",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "0:6:PERSON;73:76:PERSON;95:106:PERSON;126:138:EMAIL;186:198:PERSON;199:218:PERSON;219:229:PERSON;278:285:ORG",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "attached is a summary of the new york rto order issued by ferc late yesterday i apologize for the length but i wanted to include a number of quotes from the order that repeat arguments that we have been making over the past few years in a procedural order issued today ferc has scheduled the northeast mediation process to begin next thursday july escapenumber th",
+  "text_zh": "",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": "null",
+  "entities": "32:40:LOCATION;58:62:ORG:REGULATOR;270:274:ORG:REGULATOR",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "frank i am definitely interested in the resume i can meet the candidate on campus when i visit my son i am planning to come to palo alto around thanksgiving also energy and power risk management an english publication organizes every year in houston a power risk conference typically in may they ask me for recommendations regarding speakers would you be interested in participating vince frank a wolak on escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber am to vkamins enron com cc subject vince i am writing about a student of mine who is on the job market this year when you stopped by my office about escapenumber months ago you asked if i had any students that might be appropriate for your group although i didn ' t at the time now i do this student has excellent technical skills including an m s in statistics and a ph d in economics by the end of the current academic year his dissertation research is on the investment behavior of independent power producers in the us as a result of research assistance he has done for me he knows the california market very well and is familiar with the other isos i think he would be an excellent match for you the only problem is that he will probably have many other options available however i definitely think he ' s worth a look if you ' d like him to send you a cv please let me know thanks frank wolak professor frank a wolak email wolak zia stanford edu department of economics phone escapenumber escapenumber escapenumber office stanford university fax escapenumber escapenumber escapenumber stanford ca escapenumber escapenumber phone escapenumber escapenumber escapenumber home world wide web page http www stanford edu wolak cell phone escapenumber escapenumber escapenumber",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "0:5:PERSON;118:127:LOCATION;366:371:PERSON;372:385:PERSON;411:429:EMAIL;442:447:PERSON;1343:1354:PERSON;1365:1378:PERSON;1385:1409:EMAIL;1452:1467:ORG;1474:1483:PHONE;1491:1508:ORG;1513:1522:PHONE;1523:1538:LOCATION;1560:1569:PHONE;1602:1632:URL;1644:1653:PHONE",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "house speaker hastert has decided to close the entire capitol complex including the office buildings on the house side at the end of the working day today through monday as a precautionary move to allow for special agents and germ experts to conduct a sweep of the ventilation systems and all remaining unopened mail the senate side is expected to do the same it has also been confirmed that the anthrax laden letter sent to senate majority leader daschle ' s office was of a particularly potent high grade military quality anthrax that quickly spread once opened some escapenumber staff in dachle ' s office or the mail room have tested positive and some anthrax spores were found in the ventilation system of the hart building where daschle ' s office is located and in one of the tunnels leading to the capitol itself if there is even a hint that this military grade anthrax came from iraq there will be a strike by the u s against iraq another possibility is that the anthrax is of russian origin and was somehow illicitly acquired by al qaeda or the taliban there has not been a second anthrax letter or a new outbreak of anthrax nor is there any evidence of anthrax spores spreading to committee rooms located in the other senate or house buildings this was a pre cautionary move by house speaker hastert though it in no way diminishes how ugly the situation is",
+  "text_zh": "",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": "THREAT",
+  "entities": "14:21:PERSON;445:452:PERSON;717:725:PERSON;864:868:LOCATION;902:906:LOCATION;1023:1032:ORG;1040:1047:ORG;1410:1417:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "original message from vonderheide scott sent friday october escapenumber escapenumber escapenumber escapenumber pm to port david subject structured deals original message from mckillop gordon sent friday october escapenumber escapenumber escapenumber escapenumber pm to sullo sharon e vonderheide scott subject re check list presentation",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "22:39:PERSON;95:106:PERSON;121:137:PERSON;180:194:PERSON;195:212:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "nesa escapenumber rd annual meeting advance registration deadline friday august escapenumber sign up today attached below for your review is a copy of the annual meeting program you will need adobe acrobat to view the brochure which you can download from our website at www nesanet org airfare discounts are available on continental airlines official meeting airline check page escapenumber for details low fares can also be found on delta and united into savannah ga airport shuttles can be arranged through low country adventures by calling escapenumber escapenumber escapenumber or emailing info com at least escapenumber hours prior to arrival round trip from savannah is escapenumber per person round trip from hilton head is escapenumber per person delegate registration list is attached below in an excel ' escapenumber worksheet for your review please contact nesa headquarters if you have problems opening the file or to request an updated list late arrivals on wednesday september escapenumber will be accommodated by extended registration hours prior to the opening reception please join us at the nesa registration table located on the basshead deck as soon as you arrive please contact nesa headquarters at escapenumber escapenumber escapenumber with questions or for additional information our fax number is escapenumber escapenumber escapenumber don ' t delay fax your delegate registration form for the annual meeting to nesa today we look forward to welcoming you to hilton head in september escapenumber nesa escapenumber brochure pdf escapenumber annual meeting delegates xls",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "URGENCY",
+  "entities": "0:4:ORG;276:291:URL;305:326:ORG;418:423:ORG;428:434:ORG;440:448:LOCATION;476:497:ORG;610:618:LOCATION;630:641:LOCATION;827:831:ORG;1038:1042:ORG;1062:1066:ORG;1147:1151:PHONE;1217:1226:PHONE;1274:1278:ORG;1320:1331:LOCATION",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "the summer associate program is a critical component of our recruiting efforts we appreciate you acting as a mentor for the following summer associate vince a reception to introduce you to the summer associates is scheduled for june escapenumber nd the reception will be held from escapenumber escapenumber pm until escapenumber escapenumber pm at sierra ' s grill located at escapenumber montrose escapenumber escapenumber escapenumber we have also provided the summer associate with your name and phone number however we encourage you to contact guiseppe prior to the reception if possible please rsvp your attendance to cheryl kuehl at x escapenumber or by email thank you charlene jackson",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "129:134:PERSON;360:366:LOCATION;442:450:PERSON;496:508:PERSON;540:556:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "fyi i understand you are going to this meeting steve forwarded by steven harris et s enron on escapenumber escapenumber escapenumber escapenumber escapenumber am sarabeth smith escapenumber escapenumber escapenumber escapenumber escapenumber pm to mike mcgowan et s enron enron john goodpasture ots enron enron steven harris et s enron enron dave neubauer et s enron enron rockey storie et s enron enron john dushinske et s enron enron kent miller et s enron enron robert hayes fgt enron enron robert hill npng enron enron lorna brennan et s enron enron steve klimesh et s enron enron kristen hand et s enron enron kimberly watson et s enron enron martha janousek et s enron enron vasant shanbhogue hou ect ect clayton vernon corp enron enron michael ratner ots enron cc subject long term outlook additionally here is the long term outlook from wefa that accompanies the short term outlook forwarded in the previous message forwarded by sarabeth smith et s enron on escapenumber escapenumber escapenumber escapenumber escapenumber pm denhardt ron on escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber pm to sarabeth smith enron com cc subject long term outlook ron denhardt vice president energy services wefa inc escapenumber crosby drive bedford ma escapenumber tel escapenumber escapenumber escapenumber fax escapenumber escapenumber escapenumber houston lterm pdf houston lterm zip",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "46:51:PERSON;63:76:PERSON;139:153:PERSON;196:209:PERSON;226:243:PERSON;260:273:PERSON;290:304:PERSON;321:337:PERSON;354:370:PERSON;387:398:PERSON;415:427:PERSON;444:455:PERSON;472:485:PERSON;502:515:PERSON;532:546:PERSON;563:578:PERSON;595:610:PERSON;627:643:PERSON;660:675:PERSON;692:706:PERSON;723:737:PERSON;788:792:ORG;914:928:PERSON;985:997:PERSON;1066:1080:EMAIL;1113:1125:PERSON;1145:1153:ORG;1163:1175:LOCATION;1176:1185:LOCATION;1194:1203:PHONE;1208:1217:PHONE",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "this is to nominate escapenumber escapenumber mmbtu d for escapenumber escapenumber from hpl to eastrans escapenumber escapenumber mmbtu will come from fuels cotton valley escapenumber escapenumber mmbtu will be delivered to pg e",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "65:68:ORG;72:80:ORG;117:124:ORG;176:182:ORG",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "attached please find the txu fuel nominations for wednesday oct escapenumber escapenumber see attached file hpll escapenumber xls hpll escapenumber xls",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "25:28:ORG;132:145:ATTACHMENT;146:159:ATTACHMENT",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "escapenumber escapenumber escapenumber emily butler is scheduled for a follow up interview for the trading scheduling admin support position i will distribute a copy of her resume for your review please note the schedule for friday ' s interview emily butler mt adams conference room escapenumber escapenumber pm bill williams iii escapenumber escapenumber pm cara semperger escapenumber escapenumber pm tim belden if you have questions please let me know i can be reached at x escapenumber",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "24:36:PERSON;245:257:PERSON;258:276:LOCATION;295:312:PERSON;331:345:PERSON;364:374:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "forgot saguoro sold it last week original message from kitchen louise sent sunday september escapenumber escapenumber escapenumber escapenumber pm to lavorato john subject still got some bits to fill in but here is where we got to",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "7:14:ORG;48:62:PERSON;102:115:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "yannis yes very much please stop by this week or during the week of the escapenumber th i am in australia next week vince",
+  "text_zh": "",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": "null",
+  "entities": "0:6:PERSON;94:103:LOCATION;115:120:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "daren vance the two meters below are new and have unallocatable flow i will need a purchase for each of them please respond with a deal number or further suggestions for resolution so that i can clear this up as soon as possible mary enron on escapenumber escapenumber escapenumber escapenumber escapenumber am katherine benedict ect escapenumber escapenumber escapenumber escapenumber escapenumber pm to mary poorman na enron enron fred boas hou ect ect aimee lannou hou ect ect cc subject meter variances ua escapenumber clean up hi guys please take a look at the following meters which are showing up with variances on my ua escapenumber report once the variance has been cleared please send me an e mail please try to clear these within the next couple of days thanks kathy benedict meter number escapenumber variance escapenumber escapenumber meter type daily swing production month august escapenumber logistics contact none volume mgmt contact anita luong meter number escapenumber variance escapenumber meter type daily swing production month august escapenumber logistics contact none volume mgmt contact anita luong",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "0:11:PERSON;226:230:PERSON;276:293:PERSON;343:355:PERSON;378:387:PERSON;407:419:PERSON;732:746:PERSON;921:932:PERSON;1032:1043:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "sally let me know how i can help you with this opportunity thanks hector g mcloughlin phr human resources enron net works office escapenumber escapenumber escapenumber cell escapenumber escapenumber escapenumber",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "0:5:PERSON;69:87:PERSON;107:124:ORG",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "thanks for the story have an all day meeting today and my grandparents are going back to maryland i did get a pair of pj ' s for meaghan at gymboree the red ones with the little pique heart design hope you did not get them too bonnie hitschel escapenumber escapenumber escapenumber original message from michelle lokay enron com sent thursday july escapenumber escapenumber escapenumber escapenumber am to bhitschel tesoropetroleum com subject fw no truer words were ever spoken a man asked his wife what she ' d like for her birthday i ' d love to be six again she replied on the morning of her birthday he got her up bright and early and off they went to a local theme park what a day he put her on every ride in the park the death slide the screaming loop the wall of fear everything there was wow five hours later she staggered out of the theme park her head reeling and her stomach upside down right to a mcdonald ' s they went where he husband ordered a big mac for her along with extra fries and refreshing chocolate shake then it was off to a movie the latest star wars what a fabulous adventure finally she wobbled home with her husband and collapsed into bed he leaned over and lovingly asked well dear what is it like being six again one eye opened you idiot i meant my dress size the moral of this story is if a woman speaks and a man is there to hear her he will get it wrong anyway",
+  "text_zh": "",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": "null",
+  "entities": "88:96:LOCATION;126:133:PERSON;144:152:LOCATION;221:235:PERSON;259:282:EMAIL",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "more information than you want forwarded by bob m hall na enron on escapenumber escapenumber escapenumber escapenumber escapenumber am from tommy yanowski enron enronxgate on escapenumber escapenumber escapenumber escapenumber escapenumber pm to dbsimpson aep com enron smtp enronxgate tyanows enron com smtp enronxgate cc dabanks aep com smtp enronxgate kdwissner aep com smtp enronxgate tjgoldstein aep com smtp enronxgate edward d gottlob hou ect ect bob m hall na enron enron sbjackson aep com enron smtp enronxgate cc subject re items requiring attention don i tried to call you when i had a minute to discuss your note i will respond to your questions in this email but we still need to talk asap if you call back and get my phonemail please call me on my cell phone at escapenumber escapenumber escapenumber original message from dbsimpson aep com enron mailto imceanotes dbsimpson escapenumber aep escapenumber ecom escapenumber enron enron com sent friday march escapenumber escapenumber escapenumber escapenumber am to tyanows enron com cc dabanks aep com kdwissner aep com tjgoldstein aep com subject items requiring attention tommy here are some items that we need some help from you to achieve it has always been my understanding that there would be a complete separate instance of all required tables to run hpl ' s business and as a result we would be able to run all required enron software to maintain our business independent of enron we have just been told that we will not have access to the customer tables to add new customers and that this must be accomplished through enron if this is true it is not acceptable could we please discuss yanowski tommy j in our original proposal when we offered up a long term service deal the fee structure covered us setting up a totally seperate environment for hpl aep it would take somewhere between escapenumber escapenumber mm in hardware to duplicate our environment for hpl you guys came back and said you just wanted something for an interim time period at a lower cost it was then that we offered letting you use our applications running on our boxes and on the same database most of our applications have enough application and database level security that we can keep enron ' s data seperate from hpl aep ' s there are two applications erms cpr where we felt it necessary to create a duplicate environment due to security concerns remember security cuts both ways and we don ' t want you looking at enron ' s data just as much as you don ' t want enron looking at yours never the less the hardware to run these two applications plus setting up the terminal server environment plus the resource time is costing us about escapenumber k hence the charge for set up costs there are three areas where enron and aep will be sharing data they are in the global reference data area global common codes your codes for mmbtu and us dollars will be the same as ours global facilities your access to pipeline meter numbers and drn numbers will be the same as ours all of this information is public knowledge and is provided to us via ihs energy who is the gisb certified provider of this information to the industry you will have the ability to update you own meter information global counterparties you will be sharing customer names and addresses such as those for settlements or statements with enron we can identify within the counterparty system who uses which address in that way we can filter the view to the business units so that they only see those customers that they deal with the process for hpl aep is the same that is used across enron our retail business units only see their customers and ena only see theirs the reason we only have one group updating this information is because if ees starts doing business with someone who is already a customer of ena then we wouldn ' t want to duplicate that customer information it helps us roll up total credit exposure across enron for a customer the people who update this information are seperate from the rest of the business units and are instructed not to share any customer information even though most of it is public knowledge if you look up that customer on the internet let me know in detail what your concern is the ena trading community will not know who your customers are and vice versa they will not know what addresses you use and vice versa there are only a few people across enron who can find out this information and they are enron net works employees who provide this service to all of enron as well as the escapenumber rd party customers we are providing it services for you will have a web interface to view your own customer information and to request updates or additions it looks like we will need access to dcaf in order to send out confirmations for physical contracts executed on behalf of hpl do you foresee any problems with this yanowski tommy j we can provide confirms for those spot and escapenumber day deals that hit sitara and dcaf ii all this is set up and is ready to go long term and financial deals for enron also flow into tagg and into erms it is from tagg that long term and financial confirmations are generated via dcaf i i had been told that you will not be using erms for forward risk and would be confirming deals out of zainet so we did not set up a seperate tagg and dcaf i environment to go with the seperate erms and cpr environment needed for intramonth valuation we need to talk about this asap i need to understand what if anything you will be confirming out of zainet if you want to change your mind this late in the game and let enron confirm everyting except for financial deals then i need to know asap so that we can begin scrambling to see if we can set this up in time we actually have put in code to block generating hpl aep confirms that now needs to be removed also i extended offers to ken ellerman and greg lind yesterday with a start date to be mutually determined and worked out between you and me yanowski tommy j thanks for letting me know have you communicated anything to dave stadnick i probably need to talk to him and let him know how much we need him but it would be nice for me to know what he is aware of before i meet with him kindest regards don",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "42:55:PERSON;85:99:PERSON;146:162:EMAIL;166:183:EMAIL;188:203:EMAIL;208:224:EMAIL;229:249:EMAIL;250:273:PERSON;274:287:PERSON;288:303:EMAIL;547:550:PERSON;769:785:EMAIL;998:1014:EMAIL;1019:1034:EMAIL;1035:1051:EMAIL;1052:1072:EMAIL;1110:1115:PERSON;1258:1261:ORG;1323:1328:ORG;1381:1386:ORG;1550:1558:PERSON;1811:1814:ORG;1815:1818:ORG;1973:2076:ORG;2101:2106:ORG;2109:2112:ORG;2227:2232:ORG;2267:2272:ORG;2314:2319:ORG;2360:2365:ORG;2845:2848:ORG;2901:2912:ORG;3105:3108:ORG;3109:3112:ORG;3142:3147:ORG;3196:3199:ORG;3244:3247:ORG;3310:3313:ORG;3338:3341:ORG;3603:3606:ORG;3619:3624:ORG;3667:3682:ORG;3733:3738:ORG;4521:4524:ORG;4618:4622:SYSTEM_NAME;4809:4814:ORG;4841:4845:SYSTEM_NAME;4846:4852:SYSTEM_NAME;4979:4983:SYSTEM_NAME;4995:4999:SYSTEM_NAME;5028:5033:SYSTEM_NAME;5075:5080:SYSTEM_NAME;5117:5121:SYSTEM_NAME;5181:5187:SYSTEM_NAME;5301:5306:SYSTEM_NAME;5311:5317:SYSTEM_NAME;5357:5361:SYSTEM_NAME;5366:5369:SYSTEM_NAME;5494:5500:SYSTEM_NAME;5632:5638:SYSTEM_NAME;5679:5684:ORG;5783:5787:ORG;5788:5791:ORG;5905:5917:PERSON;5922:5931:PERSON;6021:6029:PERSON;6141:6154:PERSON;6265:6268:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "hi vince been meaning to ask for your input about larry thorpe ' s proprietary model for electricity returns i have not been able to get much information about the parameters as larry says the nature is proprietary it is hard to make a judgement about its usefulness without such information larry ' s e mails to me indicate that he is working on npl escapenumber real time prices and he promises to share the results with us please advise on direction to take as i am not quite sure about the model without further information separately larry indicated that you had promised him some data and would like to know if you have forwarded it to him i can convey your position to him thanks",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "3:8:PERSON;51:63:PERSON;167:172:PERSON;311:316:PERSON;511:516:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "i will be out of the office on thursday and friday my pager may not reach me but i will be checking my voice mail please call george grant in my absence at ext escapenumber thanks pat get with me today if you need anything by the end of the week",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "117:129:PERSON;164:167:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "i have entered a one month deal in sitara deal escapenumber for referenced sale this delivery is subject to an external expense transport fee to entex see old deal sitara escapenumber for details fee to entex is escapenumber cents please someone enter this transport info into deal escapenumber as i don ' t know how what to do lee escapenumber escapenumber",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "40:47:SYSTEM_NAME;48:60:ID;136:141:ORG;158:165:SYSTEM_NAME;166:178:ID;190:195:ORG;261:273:ID;302:305:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "hi vince i ' m sorry you weren ' t around in sydney this week you missed a very good book launch party that john martin organised here for us paul made a short speech in which he relayed some great comments which he said came from you thanks very much please find attached the next eprm article its not really tided up fully from our end yet but i wanted to send it off before the weekend in case you got chance to look at it because of the easter break robin is after it by thursday of next week best regards chris eprm escapenumber fwd curve simulation doc",
+  "text_zh": "",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": "null",
+  "entities": "3:8:PERSON;49:55:LOCATION;115:126:PERSON;143:147:PERSON;470:475:PERSON;523:528:PERSON;529:566:ATTACHMENT",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "fyi i would like to meet with both of you to discuss same preferably after the escapenumber escapenumber meeting please let me know your thoughts regards ed original message from mcmichael jr ed sent friday october escapenumber escapenumber escapenumber escapenumber am to breslau craig lagrasta fred josey scott luce laura mrha jean redmond brian tycholiz barry vickers frank w subject gas structuring communication session agenda for escapenumber escapenumber meeting thanks againg for sharing your thoughts and opinions in our escapenumber escapenumber meeting in an effort to make our escapenumber escapenumber meeting as productive as possible i have put together an agenda attached for the monday afternoon meeting it would be most helpful if you could review the agenda prior to the meeting and come ready to discuss your thoughts related to the discussion items if the discussion items do not address your primary issues please let me know so i can either modify the agenda or include it in the next meeting if you have any questions plese ask regards ed",
+  "text_zh": "",
+  "scenario": "EXPENSE_ADMIN",
+  "tactic_primary": "null",
+  "entities": "122:124:PERSON;143:159:PERSON;215:228:PERSON;229:242:PERSON;243:254:PERSON;255:265:PERSON;266:275:PERSON;276:289:PERSON;290:305:PERSON;306:322:PERSON;972:974:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "eric i have a number of case studies on enron but not the one on sutton bridge i know that peter tufano was working on it but when i checked the hbs site and tried to purchase it i could not locate it when i talked to peter a few months ago he told me that the case study was ready and he was going through enron ' s internal approvals i cc mark palmer on it maybe he knows about this specific case study i wander if it was completed given sutton bridge developments vince eric gadd escapenumber escapenumber escapenumber escapenumber escapenumber am to vince j kaminski hou ect ect cc subject enron case studies vince where might i find copies of the case studies enron has published i ' m particularly interested in the sutton bridge publication for havard but would like to know if there is a library of case studies",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "0:4:PERSON;46:51:ORG;68:81:LOCATION;93:105:PERSON;133:136:ORG;214:219:PERSON;317:322:ORG;345:356:PERSON;443:456:LOCATION;463:468:PERSON;469:479:PERSON;519:534:PERSON;553:558:ORG;564:569:PERSON;604:609:ORG;666:679:LOCATION",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "michelle lokay if you registered as a foursome please review the following to obtain your tee assignment for monday ' s tournament on the tpc course at the woodlands you should report directly to the tpc anytime after escapenumber escapenumber for lunch and registration shotgun tee time of escapenumber escapenumber p m remember the format is par as your friend also these pairings were made on a first come first served basis of the teams who registered as members of hea or nesa with full payment if you don ' t see your name you will be playing the oaks course escapenumber a billy shields rob henk tom mathiasmeier lester lipperdt escapenumber b charles neuberger john lewis perry lee johnson tom brown escapenumber a lee hanse buck guinn jody sumrall bruce boyd escapenumber b matt liner rob bond john wortham sam ansley escapenumber a keith sawyer paul drexelius pat banks neal stockham escapenumber b dan james ken ballard mike cobb poe reed escapenumber a ed troutman jeff ambrose ken perkins tristan mathews escapenumber b steve mcadory tom rinehart mike smith pat anderson escapenumber a darcy pach larry sanderson lee byassee pierce rice escapenumber b tim kingsmill greg harper bill whaley kelly adams escapenumber a mark cook steve lichty dave loe russell schneider escapenumber b linda roberts gary bryan dennis novosad greg hambrick escapenumber a corey grindal mike mcginnis preston troutman phil landers escapenumber b marty zolkoski bill harper mickey simmons ron kapavik escapenumber a darlene clark jack beckham roy cutsinger tom fritts escapenumber b stephen wolfe randy hairr mark hawkins kim norman escapenumber a bob foley bob dorcheus jerry pinto allan knopp escapenumber b darin aucoin kevin thompson tom van matre jim andritsos escapenumber a elizabeth roberts larry clayton mark darnell linda whatley escapenumber b ronnie sceroler henderson cosnahan bob withers ershel redd escapenumber a beau gervais matt rosser kevin holder alan cook escapenumber b charles steen mark steen rankin schurman jim lindsay escapenumber a john poe andy levine geoff beiermeister dennis henderson escapenumber b brett fishburn mark pyburn graham mccarrol dan burns escapenumber a doug ray laurie rutherford jerry vitek vicki taormina escapenumber b gary boening jeff gillespie bob ankersheil shane riley escapenumber a matt fleming paul tate bonnie briggs bill briggs escapenumber b mike wells randy parr ernie merkel cliff brundrett escapenumber a pete petracco matt kwak chris cater richard kelman escapenumber b clint stockman jerry brown sam charlton calvin johnson escapenumber a david smith doug davis david garza mike bucher escapenumber b ralph young curtis holtman lou marquez david bosse escapenumber a boyd cherry bill eiser gary booker patrick black escapenumber b jay davis robert epps david little sandy hobbs escapenumber a brad petrick ed fedorchak bert bonassin tim delay escapenumber b bob broxson jake woodall greg dodd steve becker this message was sent by teresa knight executive director houston energy association hea phone escapenumber escapenumber escapenumber fax for hea escapenumber escapenumber escapenumber tknight houstonenergy org if you would like to have your email address removed from our mailing list please click the link below to the hea home page where you will find a mini form to remove your name automatically http www houstonenergy org if you did not receive the attached file or it was corrupted you can find it at http www houstonenergy org public",
+  "text_zh": "",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": "null",
+  "entities": "0:14:PERSON;459:462:ORG;467:471:ORG;533:537:LOCATION;554:567:PERSON;568:576:PERSON;577:592:PERSON;593:609:PERSON;621:638:PERSON;639:649:PERSON;650:665:PERSON;666:675:PERSON;687:696:PERSON;697:707:PERSON;708:720:PERSON;721:732:PERSON;744:753:PERSON;754:762:PERSON;763:775:PERSON;776:787:PERSON;799:810:PERSON;811:826:PERSON;827:837:PERSON;838:851:PERSON;863:872:PERSON;873:884:PERSON;885:894:PERSON;895:904:PERSON;916:927:PERSON;928:940:PERSON;941:952:PERSON;953:968:PERSON;980:993:PERSON;994:1006:PERSON;1007:1017:PERSON;1018:1031:PERSON;1043:1053:PERSON;1054:1069:PERSON;1070:1083:PERSON;1084:1097:PERSON;1109:1124:PERSON;1125:1137:PERSON;1138:1152:PERSON;1153:1166:PERSON;1178:1191:PERSON;1192:1203:PERSON;1204:1220:PERSON;1221:1235:PERSON;1247:1258:PERSON;1259:1270:PERSON;1271:1286:PERSON;1287:1301:PERSON;1313:1326:PERSON;1327:1339:PERSON;1340:1354:PERSON;1355:1368:PERSON;1380:1391:PERSON;1392:1403:PERSON;1404:1416:PERSON;1417:1429:PERSON;1441:1453:PERSON;1454:1469:PERSON;1470:1481:PERSON;1482:1494:PERSON;1506:1518:PERSON;1519:1535:PERSON;1536:1554:PERSON;1555:1571:PERSON;1583:1598:PERSON;1599:1617:PERSON;1618:1631:PERSON;1632:1643:PERSON;1655:1666:PERSON;1667:1678:PERSON;1679:1690:PERSON;1691:1701:PERSON;1713:1728:PERSON;1729:1748:PERSON;1749:1760:PERSON;1761:1775:PERSON;1787:1799:PERSON;1800:1811:PERSON;1812:1823:PERSON;1824:1833:PERSON;1845:1856:PERSON;1857:1871:PERSON;1872:1883:PERSON;1884:1895:PERSON;1907:1921:PERSON;1922:1931:PERSON;1932:1944:PERSON;1945:1960:PERSON;1972:1983:PERSON;1984:1994:PERSON;1995:2006:PERSON;2007:2019:PERSON;2031:2042:PERSON;2043:2050:PERSON;2051:2067:PERSON;2068:2079:PERSON;2091:2102:PERSON;2103:2113:PERSON;2114:2123:PERSON;2124:2137:PERSON;2149:2160:PERSON;2161:2174:PERSON;2175:2189:PERSON;2190:2199:PERSON;2211:2224:PERSON;2225:2234:PERSON;2235:2245:PERSON;2246:2259:PERSON;2271:2284:PERSON;2285:2300:PERSON;2301:2314:PERSON;2315:2324:PERSON;2336:2347:PERSON;2348:2358:PERSON;2359:2371:PERSON;2372:2384:PERSON;2431:2444:PERSON;2465:2493:ORG;2494:2497:ORG;2529:2532:ORG;2568:2590:EMAIL;2697:2700:ORG;2788:2816:URL;2883:2911:URL",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "barbara yes i would like to renew the subscription thanks for the reminder vince barbara lee enron escapenumber escapenumber escapenumber escapenumber escapenumber pm to vince j kaminski hou ect ect cc subject subscription renewal esource august escapenumber escapenumber dear vince this is to inform you that your subscription to operational risk is up for renewal if you would like to renew please let me know and i will take care of it the price for this publication escapenumber year escapenumber escapenumber escapenumber years escapenumber years if you should have any questions please do not hesitate to call me at ext escapenumber escapenumber thank you for using esource sincerely barbara",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "0:7:PERSON;66:71:PERSON;72:83:PERSON;84:89:ORG;121:136:PERSON;156:161:PERSON;669:676:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "i work with john ambler in apachi pr and have been assisting vince with efforts on the energy derivatives book which lacima consultants is publishing and to which vince is contributing a chapter attached is the draft contract agreement which requires your legal review and approval could you kindly look it over and let me know your comments when we have your approval we will send lacima a copy for their signature after which vince will sign the document we will ensure that your office has a copy for your records if you wish to speak to me please do not hesitate to call me at ext escapenumber thank you for your kind assistance habiba",
+  "text_zh": "",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": "null",
+  "entities": "13:24:PERSON;28:38:ORG;64:69:PERSON;117:135:ORG;166:171:PERSON;391:397:ORG;430:435:PERSON;643:649:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "according to measurement there is flow of escapenumber escapenumber in escapenumber escapenumber however there is nothing to indicate this is gas that was received on hpl in oss i checked mips and there is a measurement statement that supports the flow rate of escapenumber escapenumber mmbtu daren is there a deal in cpr which may not have fed over to oss thanks stella",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "128:131:ORG;135:138:SYSTEM_NAME;151:155:SYSTEM_NAME;260:265:PERSON;281:284:SYSTEM_NAME;313:316:SYSTEM_NAME;324:330:PERSON",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "there may be a business opportunity with this company but i would not advise making an investment kevin garland richard reichardt escapenumber escapenumber escapenumber escapenumber escapenumber pm to mike mcconnell hou ect ect cc larry lawyer enron communications enron communications tom gros enron communications enron communications vince j kaminski hou ect ect kevin garland enron communications enron communications richard dimichele enron communications enron communications ken rice enron communications enron communications subject seismic data on oil gas field development via satellite mike using nasa satellite transmission of maritime data and establishing a houston data center to consolidate and centrally process escapenumber d seismic data surveys for oil and gas extraction exploration and development could save the petroleum industry more than escapenumber million dollars annually through reduced operational expenses added value in shortening the time to process and deliver the finished surveys should generate more than escapenumber million per site based upon escapenumber barrel for average oil well production to market escapenumber days sooner in revenue by re selling this data to market analysts or by internally using this data for forecasting future oil gas production enron could increase the accuracy of forecasting reserves and production capabilities globally by holding the data as exclusive or partially exclusive enron would have a significant market advantage in futures pricing for oil and gas vince ' s team is quantifying the valuation of this information attached please find an updated version of the business case for seismic data transfer via satellite by a geophysicist at spacedata william k aylor calculated using escapenumber barrel oil based upon your availability jon adler and i would like to make a presentation to you or your designated representative on the enron potential of this opportunity sometime next week escapenumber escapenumber october sdt business case escapenumber pdf v r richard reichardt enron broadband services escapenumber escapenumber escapenumber office escapenumber escapenumber escapenumber mobile escapenumber smith street suite eb escapenumber houston texas escapenumber",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "92:105:PERSON;106:123:PERSON;154:168:PERSON;183:194:PERSON;195:219:ORG;220:244:ORG;245:254:PERSON;255:279:ORG;280:304:ORG;305:322:PERSON;323:347:ORG;348:372:ORG;373:391:PERSON;392:416:ORG;417:441:ORG;442:450:PERSON;451:475:ORG;476:500:ORG;556:560:PERSON;567:571:ORG;609:616:LOCATION;1287:1292:ORG;1448:1453:ORG;1696:1705:ORG;1706:1720:PERSON;1799:1808:PERSON;1915:1920:ORG;1998:2016:PERSON;2017:2043:ORG;2086:2095:PHONE;2109:2118:PHONE;2119:2153:LOCATION;2154:2161:LOCATION",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "hi daren bryan hull gave me your name a customer was interested in trading intrastate gas and bryan had informed me that our exxon katy location is intrastate i was wondering if you would be interested in changing the long description on eol for this location to include the phrase intrastate gas so that any customers that are interested would be able to see that if this is okay with you i will forward it on to our product development team thanks kara kara boudreau lauer enrononline marketing escapenumber escapenumber escapenumber kara lauer enron com",
+  "text_zh": "",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": "null",
+  "entities": "3:8:PERSON;9:19:PERSON;111:116:PERSON;176:186:ORG;247:250:SYSTEM_NAME;443:447:PERSON;448:467:PERSON;468:479:ORG;507:528:EMAIL",
+  "notes": ""
+},
+{
+  "label": "Ham",
+  "text": "daren / dave - sorry i didn ' t get this out yesterday . give me a call if you have any questions . - unitedsalt 8022 . xls",
+  "text_zh": "Daren/Dave - 抱歉昨天没能把这个发出去。如有任何疑问，请致电联系我。- unitedsalt 8022.xls",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "0:5:PERSON;8:12:PERSON;107:125:ATTACHMENT",
+  "notes": ""
+},
+{
+  "label": "Spam",
+  "text": "refill prescription online http rcyyv escapelong ollieffmng com fear going forward slowly fear stand still everyone harder time appears great act thought",
+  "text_zh": "在线续开处方 http rcyyv escapelong ollieffmng com 恐惧 前进缓慢 恐惧 停滞不前 每个人 更艰难 时间似乎 伟大的行动 思考",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "31:68:URL",
+  "notes": "This is a pharmaceutical spam email advertising online prescription refills with a suspicious URL."
+},
+{
+  "label": "Spam",
+  "text": "joint grow find http sww jescapenumberk net e sales isncdo pre selected escapenumber user name bill williams iii enron com",
+  "text_zh": "联合增长查找 http sww jescapenumberk net e 销售 isncdo 预选转义号码用户名 bill williams iii enron com",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "16:47:URL;90:108:PERSON;109:114:ORG",
+  "notes": "Spam message with suspicious link. Contains pre-selected user info referencing an Enron employee."
+},
+{
+  "label": "Phish",
+  "text": "kenny joyce entanglinge6banglarayojoncom everything understand understand love httpbgwinforgivenesscom thu 07 aug 2008 093234 0800",
+  "text_zh": "kenny joyce entanglinge6banglarayojoncom 一切理解理解爱 httpbgwinforgivenesscom 2008年8月7日星期四 093234 0800",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "0:11:PERSON;12:44:EMAIL;73:99:URL;100:118:DATE",
+  "notes": "Phishing email with obfuscated email and URL."
+},
+{
+  "label": "Spam",
+  "text": "academic consists social involving authority power refers methods sound seen freedom needs seems catholic contains serious equality",
+  "text_zh": "学术界包含社会因素，涉及权威和权力，指的是方法论，听起来自由的需求似乎天主教包含严肃的平等。",
+  "scenario": "OTHER",
+  "tactic_primary": "AUTHORITY",
+  "entities": "",
+  "notes": "Garbled/randomized text likely used to bypass spam filters. No clear entities identifiable."
+},
+{
+  "label": "Spam",
+  "text": "jdno future mailing",
+  "text_zh": "jdno未来邮件",
+  "scenario": "OTHER",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "",
+  "notes": "Very short spam fragment, possibly a mailing list spam with no meaningful content."
+},
+{
+  "label": "Phish",
+  "text": "watcwq want cheap watch http litv nepel com",
+  "text_zh": "watcwq 想要便宜的手表 http litv nepel com",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "27:44:URL",
+  "notes": "Phishing email advertising cheap counterfeit watches with suspicious URL."
+},
+{
+  "label": "Spam",
+  "text": "need in software for your pc just visit our site we might have what you need best regards sigrid",
+  "text_zh": "如果您需要电脑软件，请访问我们的网站，我们或许能满足您的需求。此致，西格丽德",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "93:99:PERSON",
+  "notes": "Spam advertising software sales. Signed by 'sigrid'."
+},
+{
+  "label": "Phish",
+  "text": "tyson cameron harlandrankshieldsaeaweborg online store buy replicas rolex watches brands italiancrafted rolex 65 140 high quality rolex replica watches httphalmscapsiccom wed 06 aug 2008 132133 0200 christmas replica watches",
+  "text_zh": "tyson cameron harlandrankshieldsaeaweborg 在线商店购买复刻劳力士手表品牌意大利制造劳力士 65 140 高品质劳力士复刻手表 httphalmscapsiccom 2008 年 8 月 6 日星期三 132133 0200 圣诞节复刻手表",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "0:14:PERSON;15:45:EMAIL;93:98:ORG;107:112:MONEY;140:158:URL;159:177:DATE",
+  "notes": "Phishing email selling counterfeit Rolex watches. 'rolex' is referenced as a brand/ORG."
+},
+{
+  "label": "Spam",
+  "text": "if this e - mail doesn ' t appear as a web page , click here . at panda software we respect your privacy . if you don ' t want to receive future communication , click here . © panda software 2004",
+  "text_zh": "如果此电子邮件未以网页形式显示，请点击此处。熊猫软件尊重您的隐私。如果您不想再收到此类邮件，请点击此处。© 熊猫软件 2004",
+  "scenario": "IT_SYSTEM",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "56:71:ORG;170:185:ORG;186:190:DATE",
+  "notes": "Appears to be a Panda Software promotional/notification email. Classified as IT_SYSTEM scenario due to software context."
+},
+{
+  "label": "Spam",
+  "text": "br w icdgeqejxa vdzzji gmhap ykjdtoqwf baxynpxrakj",
+  "text_zh": "br w icdgeqejxa vdzzji gmhap ykjdtoqwf baxynpxrakj",
+  "scenario": "OTHER",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "",
+  "notes": "Completely garbled text, likely random strings used to bypass spam filters. No meaningful entities."
+},
+{
+  "label": "Ham",
+  "text": "i've been asked to provide a statement to gov knowles on friday morning about enron's siituation and the effect on the alaska project advice sent from my blackberry wireless handheld www blackberry net",
+  "text_zh": "我被要求在周五上午向诺尔斯州长提交一份关于安然公司现状及其对阿拉斯加项目影响的声明。此建议由我的黑莓无线手持设备发送，网址为www.blackberry.net",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": null,
+  "entities": "44:56:PERSON:ROLE_TITLE;57:71:DATE;78:83:ORG;118:131:LOCATION;169:199:URL",
+  "notes": "Ham email about providing a statement to a government official regarding Enron and the Alaska project. 'gov knowles' annotated as PERSON with ROLE_TITLE subtype."
+},
+{
+  "label": "Phish",
+  "text": "penls enlarg 3 ment pllls enlarge penls nowcllck h 3",
+  "text_zh": "penls enlarge 3 ment pllls enlarge penls nowcllck h 3",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "",
+  "notes": "Obfuscated phishing text for male enhancement pills. Deliberate misspellings to bypass filters. No clear entity spans."
+},
+{
+  "label": "Spam",
+  "text": "we offer a selection of the highest quality r eplica wat ches available today www capriccioo com genuine w atches of these repl icas are very exp ensive and the choice of the rich famous and collectors around the world these watc hes were designed with the greatest detail and crafts manship",
+  "text_zh": "我们提供一系列目前市面上最高品质的复刻腕表，网址为www.capriccioo.com。这些复刻腕表的正品价格非常昂贵，是世界各地富豪、名人和收藏家的首选。这些腕表的设计精益求精，工艺精湛。",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "59:77:URL",
+  "notes": "Spam offering counterfeit luxury watches. Text uses space-insertion obfuscation (e.g., 'r eplica', 'wat ches')."
+},
+{
+  "label": "Ham",
+  "text": "i just checked it it is www wirz com happy shoping pherd",
+  "text_zh": "我刚查了一下，网址是 www wirz com，祝您购物愉快！",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": null,
+  "entities": "25:37:URL;52:57:PERSON",
+  "notes": "Ham email sharing a website URL with casual tone. 'pherd' is likely a name/nickname."
+},
+{
+  "label": "Spam",
+  "text": "d jgaf izchsesptsqlum e i dlf yfvi nyzemnwe",
+  "text_zh": "d jgaf izchsesptsqlum e i dlf yfvi nyzemnwe",
+  "scenario": "OTHER",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "",
+  "notes": "Completely garbled/random text. No recognizable entities or semantic content."
+},
+{
+  "label": "Phish",
+  "text": "eldon mathis eldonmdfblaorg searching true highquality rep1c craftsmanship know need httpmildplaycom tue 05 aug 2008 212507 0400 awesome presents give",
+  "text_zh": "eldon mathis eldonmdfblaorg 寻找真正的高品质 rep1c 工艺，了解需要 httpmildplaycom 2008 年 8 月 5 日星期二 212507 0400 很棒的礼物",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "0:12:PERSON;13:29:EMAIL;84:100:URL;101:119:DATE",
+  "notes": "Phishing email advertising high-quality replica products (likely watches)."
+},
+{
+  "label": "Phish",
+  "text": "salvador burr serfcb1wensauernet breaks heart see one love happy someone else painful know one love unhappy httpncnxnmshallstraightcom fri 08 aug 2008 200918 0800",
+  "text_zh": "salvador burr serfcb1wensauernet 心碎 看到一个爱快乐 另一个痛苦 知道一个爱不快乐 httpncnxnmshallstraightcom 2008年8月8日星期五 200918 0800",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "0:13:PERSON;14:35:EMAIL;112:142:URL;143:161:DATE",
+  "notes": "Phishing email using emotional/romantic content as bait with suspicious URL."
+},
+{
+  "label": "Phish",
+  "text": "sophia aaron jennablythegalindowarrencountykycom solid 14k 18k gold twotoned models omega replica watch quality lower price rolex httphaveslislexcom wed 06 aug 2008 014435 0000 rolex cartier omega lv cd chanel gucci",
+  "text_zh": "sophia aaron jennablythegalindowarrencountykycom 纯14k 18k金双色款欧米茄复刻表，品质优良，价格更低，劳力士 httphaveslislexcom 2008年8月6日星期三 014435 0000 劳力士 卡地亚 欧米茄 LV CD 香奈儿 古驰",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "0:12:PERSON;13:49:EMAIL;83:88:ORG;119:124:ORG;125:143:URL;144:162:DATE;168:173:ORG;174:181:ORG;182:187:ORG;191:197:ORG;198:203:ORG",
+  "notes": "Phishing email selling counterfeit luxury brand watches. Multiple brand names identified as ORG entities."
+},
+{
+  "label": "Phish",
+  "text": "erica harden ericaaccubidcom topnotch wrist watch copies made accordance technological norms httppickrealcom fri 08 aug 2008 021718 0200 spacious presents loved people",
+  "text_zh": "erica harden ericaaccubidcom 顶级腕表复刻品，符合技术规范 httppickrealcom 2008年8月8日星期五 02:17:18 02:00 宽敞的礼物送给挚爱之人",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "0:12:PERSON;13:30:EMAIL;92:108:URL;109:127:DATE",
+  "notes": "Phishing email advertising counterfeit watches."
+},
+{
+  "label": "Phish",
+  "text": "becky vaudraie1980stfrancisk12mnus well equipped situations long pop 2 pills day httpwwwshinemadecom tue 05 aug 2008 200649 0400 karma sutra massage foreplay techniques",
+  "text_zh": "becky vaudraie1980stfrancisk12mnus 装备齐全的情况 长篇流行 2 粒药丸/天 httpwwwshinemadecom 2008 年 8 月 5 日星期二 200649 0400 爱经按摩前戏技巧",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "0:5:PERSON;6:35:EMAIL;82:103:URL;104:122:DATE",
+  "notes": "Phishing email advertising pharmaceutical products with suspicious URL."
+},
+{
+  "label": "Phish",
+  "text": "trevor parks luthercrisscrossdawsonclintonokorg online store buy replicas rolex watches brands want decent watch get replica approach luxurious costume replica watches httpgatedequidnoscom wed 06 aug 2008 194111 0500 popular watches trademarks",
+  "text_zh": "特雷弗·帕克斯 luthercrisscrossdawsonclintonokorg 在线商店购买复刻劳力士手表品牌想要一块体面的手表，选择复刻方法，奢华服饰复刻手表 httpgatedequidnoscom 2008年8月6日星期三 19:41:11:05:00 热门手表商标",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "0:12:PERSON;13:48:EMAIL;85:90:ORG;170:192:URL;193:211:DATE",
+  "notes": "Phishing email for counterfeit Rolex watches from an online store with suspicious URL."
+},
+{
+  "label": "Ham",
+  "text": "team i have attached a memo that i would like to send to d hart setting out aep ' s outstanding action items in respect to the close please review and provide any comments e g additional actions for aep or revised status for enron that i may have missed thanks brian",
+  "text_zh": "各位同事，我附上了一份备忘录，想发给D Hart，其中列出了AEP在收尾工作中尚未完成的事项。请审阅并提供任何意见，例如AEP的其他行动方案或我可能遗漏的安然公司的最新进展。谢谢！布莱恩",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "53:59:PERSON;72:75:ORG;218:221:ORG;241:246:ORG;271:276:PERSON",
+  "notes": "Ham email about AEP business action items related to a deal close. Enron corporate email context."
+},
+{
+  "label": "Spam",
+  "text": "jpjtvhlp xx uev jidgieiukrgavivubvx zlpfe fdqq keio hvucthlhch ddmgu gnxalxgtmid zs",
+  "text_zh": "jpjtvhlp xx uev jidgieiukrgavivubvx zlpfe fdqq keio hvucthlhch ddmgu gnxalxgtmid zs",
+  "scenario": "OTHER",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "",
+  "notes": "Completely garbled random text with no recognizable semantic content. Likely used to bypass spam filters."
+},
+{
+  "label": "Phish",
+  "text": "chaparian apple day keeps doctor away pill day keeps pecker stronger gay httpwwwfiftyscorecom tue 05 aug 2008 224842 0300 gspot location techniques men",
+  "text_zh": "查帕里安苹果日让医生远离药丸日让小弟弟更强壮同性恋 httpwwwfiftyscorecom 2008年8月5日星期二 224842 0300 G点定位技巧 男性",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "0:9:PERSON;77:100:URL;101:119:DATE",
+  "notes": "Phishing email advertising pharmaceutical products using crude humor as bait."
+},
+{
+  "label": "Ham",
+  "text": "wrong bill grace i ' ll forward original message from rodriguez grace sent friday june escapenumber escapenumber escapenumber escapenumber am to fitzpatrick amy williams bill subject re wolf reply reply reply please let me know who you would like to interview darrin and when thanks grace original message from fitzpatrick amy sent friday june escapenumber escapenumber escapenumber escapenumber am to rodriguez grace subject fw wolf reply reply reply grace please schedule an interview for this candidate to meet with me bill and anyone else that bill recommends we need to treat this one ' right ' he is the brother of a vp in houston thanks amy original message from wolfe greg sent friday june escapenumber escapenumber escapenumber escapenumber am to williams iii bill fitzpatrick amy subject fw wolf reply reply reply bill amy attached is darrin presto ' s resume i have met darrin in the past and based upon my first impression he would be a good candidate for real time please set up an interview thanks original message from presto kevin m sent friday june escapenumber escapenumber escapenumber escapenumber am to wolfe greg subject fw wolf reply reply reply cover letter and resume from my brother are attached original message from darrin presto enron mailto imceanotes darrin escapenumber presto escapenumber escapenumber cdarrin escapenumber fpresto escapenumber rsd escapenumber eedu escapenumber e escapenumber enron enron com sent thursday june escapenumber escapenumber escapenumber escapenumber pm to presto kevin m subject re wolf reply reply reply kev here is everything keep me posted enronc escapenumber doc enronr escapenumber doc enronr escapenumber doc",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": null,
+  "entities": "54:69:PERSON;145:160:PERSON;161:174:PERSON;670:680:PERSON;845:858:PERSON;1034:1048:PERSON;629:636:LOCATION;75:81:DATE;1258:1263:ORG;1607:1630:ATTACHMENT;1631:1654:ATTACHMENT",
+  "notes": "HR email chain coordinating interview scheduling for candidate Darrin Presto. Multiple forwarded messages between Grace Rodriguez, Amy Fitzpatrick, Bill Williams, Greg Wolfe, and Kevin Presto."
+},
+{
+  "label": "Ham",
+  "text": "i have continued the hilcorp old ocean deal dan hyvl is writing up the contracts for me and they should be ready monday terms are as follows sept nov escapenumber ifhsc escapenumber gas daily for any mid month turn on as in our purchase contracts letter of credit must be approved prior to sept escapenumber they said they will have it monday by escapenumber pm volume min max is escapenumber escapenumber day escapenumber escapenumber day with same tolerance currently existing for swing we expect to level out around escapenumber escapenumber d please call if you have any concerns as we will continue this gas flow without interruption thanks mary jo johnson",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "21:28:ORG;44:52:PERSON;113:119:DATE;646:661:PERSON",
+  "notes": "Gas trading deal with Hilcorp. Includes contract terms, volume ranges, and pricing details."
+},
+{
+  "label": "Ham",
+  "text": "several related issues have resulted in an increase in the level of operating risk for the merchanting metals business complexities surrounding the operation of the off balance sheet facility obsf which commenced two weeks before the year end the uncertainty generated by the revocation of aa ' s signoff for the facility late in the year end audit the discovery of a number of ' bugs ' within the as escapenumber merchanting code arising from the release of obsf designed functionality which compounded the operational burden of supporting the obsf the requirement to amend the operational process and obsf it code as a result of the current renegotiation of the obsf with barclays and aa the senior it developer for merchanting has resigned and been sent on gardening leave the corporate requirement to lower working capital usage for the merchanting business irrespective of the above parochial business issues various mitigating actions have been and will be taken to provide focus gain comfort over control levels and to provide assurance to senior management as to the accuracy of the ql dpr and business balance sheet the implementation for sap for the merchanting business has been delayed and effectively decoupled from the higher risk higher benefit brokerage implementation benefit is to provide sole focus on obsf for it merchanting developers the ar ap sap data quality reviews for both businesses are continuing so as to provide a detailed analysis as at end ql middle office have instigated a new daily working capital report process tracking cash settlement funding data to working capital components for all metals businesses an enhanced position signoff process will be implemented prior to end ql covering gross tonnage spread positions and summarised analyses for brand and locations the necessary report functionality should be available within the as escapenumber however contingencies have been initiated to build tactical vba excel reports outside of the as escapenumber but using as escapenumber data downloads user requests for additional as escapenumber functionality and reports have been aggressively prioritised and a code freeze will commence prior to the end of ql following the delivery of three reports determined as minimum requirements for the support of obsf a resubstantiation of the full ql dpr will be completed by the risk control staff reconciling the full trial balances between ql open and ql close a full internal balance sheet review will be completed within the ql audit timetable which incorporates a full circularisation of inventory balances and matching to source documentation within enron inspection of certain of the above inventory balances by third party inspectors where there is an expectation that circularisation replies will not be received on a timely basis substantive checks back to source contract documentation for the forward priced and unpriced positions report spot checking the key position report signed off by the traders full reconciliation and recalculation of obsf option premium values full reconciliation of contracts within the obsf to barclays documentation thereby substantiating existence of stock that we have option to purchase and to as escapenumber barclays account a risk based debtors review matching to source documentation where applicable and any subsequent post quarter end cash movements a full substantiation of creditors to internal contract commitments or external documentation invoices request for payment a full reconciliation of intercompany accounts a full substantive reconciliation of cash and funding accounts i intend to provide weekly updates on the status of the above actions during april if you have any questions please call me on x escapenumber regards mike",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "674:682:ORG;2636:2641:ORG;3763:3767:PERSON",
+  "notes": "Detailed risk management report for the merchanting metals business. Discusses OBSF facility issues, Barclays renegotiation, SAP implementation delays, and Enron audit procedures. Signed by Mike."
+},
+{
+  "label": "Ham",
+  "text": "one year rate for this one will be escapenumber mm for volumes greater than escapenumber mm day price for volumes escapenumber mm day or less will be escapenumber mm plus a escapenumber per month metering fee this rate would cover transport to a competitive ship channel market such as equistar channelview transport rates for a escapenumber month term are not significantly different escapenumber mm for volumes greater than escapenumber mm day and escapenumber mm plus the metering fee for volumes escapenumber mm day or less these rates assume a september escapenumber escapenumber start these rates good until friday august escapenumber escapenumber only get ' em while they ' re hot",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "286:306:LOCATION;614:620:DATE",
+  "notes": "Gas transport rate quote with pricing for different volume tiers. References Equistar Channelview as delivery market."
+},
+{
+  "label": "Ham",
+  "text": "attached is the weekly deal report for escapenumber escapenumber escapenumber lex carroll enron east power marketing inc midwest origination escapenumber escapenumber escapenumber",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "78:89:PERSON;90:120:ORG",
+  "notes": "Short email attaching a weekly deal report. Lex Carroll from Enron East Power Marketing Inc."
+},
+{
+  "label": "Ham",
+  "text": "congrats on your promotion it was well deserved",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": null,
+  "entities": "",
+  "notes": "Brief congratulatory message. No identifiable entities."
+},
+{
+  "label": "Ham",
+  "text": "fyi kim original message from donoho lindy sent thursday november escapenumber escapenumber escapenumber escapenumber pm to moore jan cc watson kimberly subject ena ctrc ' s",
+  "scenario": "OTHER",
+  "tactic_primary": null,
+  "entities": "30:42:PERSON;124:133:PERSON;137:152:PERSON;48:56:DATE",
+  "notes": "Forwarded message header referencing ENA CTRC. Minimal content beyond the forwarding metadata."
+},
+{
+  "label": "Ham",
+  "text": "forwarded by ami chokshi corp enron on escapenumber escapenumber escapenumber escapenumber escapenumber pm steve holmes on escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber pm to cc subject escapenumber escapenumber escapenumber revision to sea robin volumes christina the attached shows the volumes that should have been nominated effective escapenumber escapenumber escapenumber and escapenumber escapenumber escapenumber the sea robin plant was back up for those two days and gas was processed resulting in a decrease for pvr effective escapenumber escapenumber escapenumber the plant was down again and volumes were increased to reflect no processing loss i forwarded those volumes to you on friday june escapenumber let me know of any questions you have thanks steve ei escapenumber reveffo escapenumber xls ei escapenumber areveffo escapenumber xls ei escapenumber breveffo escapenumber xls ei escapenumber creveffo escapenumber xls ei escapenumber reveffo escapenumber xls ei escapenumber reveffo escapenumber xls smi escapenumber reveffo escapenumber xls smi escapenumber reveffo escapenumber xls smil escapenumber reveffo escapenumber xls wc escapenumber reveffo escapenumber xls wc escapenumber reveffo escapenumber xls gbl escapenumber reveffo escapenumber xls",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "13:24:PERSON;30:35:ORG;107:119:PERSON;287:296:PERSON;724:730:DATE",
+  "notes": "Gas volume nomination revision for Sea Robin plant. Multiple XLS attachments with volume data. Forwarded by Ami Chokshi, written by Steve Holmes to Christina."
+},
+{
+  "label": "Ham",
+  "text": "louise are you working on this liz original message from gil mercy sent wednesday february escapenumber escapenumber escapenumber escapenumber am to taylor liz subject fw trader presentation afternoon of thursday feb escapenumber original message from lisa feld ubsw com mailto lisa feld ubsw com sent wednesday february escapenumber escapenumber escapenumber escapenumber am to gil mercy brackett debbie r cc wendy bannerman clark ubs com alexander fusco ubsw com subject trader presentation afternoon of thursday feb escapenumber tammie can you kindly confirm details of where when of sessions if greater than one for this presentation i understand you are the person louise had designated to help us coordinate the presentation training it will be a powerpoint presentation that we need your assistance ensuring can be projected as well ensuring the traders business have adequate number of copies of hand out material attached is the presentation hand outs that we require your assistance in handling is presentation print out mercy gil to supply you with a printed list of contact names phone and cell phones by end of day today wendy bannerman clarke to supply the day escapenumber policy even if still a draft as well as the discipline and sanction policy by end of day today tammie if you can get all the hand outs in escapenumber pack that would be great but it is not required please speak with debbie brackett if you have any questions issues etc and we thank you very much in advance for your assistance looking forward to meeting you lisa feld crc americas",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": null,
+  "entities": "0:6:PERSON;57:66:PERSON;149:159:PERSON;252:261:PERSON;389:406:PERSON;410:431:PERSON;440:455:PERSON;72:81:DATE;204:212:DATE;262:270:ORG;432:439:ORG",
+  "notes": "Coordination email for a trader presentation/training session. Multiple participants from UBS and Enron coordinating logistics, handouts, and policy documents."
+},
+{
+  "label": "Ham",
+  "text": "hi vince i was waiting for a comment about the email below before sending it to the full mailing list basically it suggests that the copper option position may well have increased the var by more than escapenumber escapenumber however given that the portfoilo has also changed from the lst of august it is difficult to asses the actual change due to the option only regards kirstee forwarded by kirstee hewitt lon ect on escapenumber escapenumber escapenumber escapenumber escapenumber enron europe from kirstee hewitt escapenumber escapenumber escapenumber escapenumber escapenumber to cantekin dincerler hou ect ect grant masson hou ect ect cc subject var for cob escapenumber nd aug escapenumber hi all the cu option position has entered the mg books for the escapenumber nd aug the delta is escapenumber mt for dec escapenumber the cu var has gone up from escapenumber escapenumber escapenumber to escapenumber escapenumber escapenumber i estimated that the portfolio for the lst would increase to approx escapenumber escapenumber escapenumber so this seems sensible the overall var change is from escapenumber escapenumber escapenumber to escapenumber escapenumber escapenumber again the estimate for the lst aug was for an increase in var to escapenumber escapenumber escapenumber all estimates were based on a delta of escapenumber escapenumber dmt there has also been some increase in the var for aluminium which will effect the overall total a summary is as follows regards kirstee",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "3:8:PERSON;395:409:PERSON;486:498:ORG;587:605:PERSON;618:630:PERSON",
+  "notes": "Value-at-Risk (VAR) analysis email about copper option positions. Kirstee Hewitt reports to Vince on VAR changes in Enron Europe metals portfolio."
+},
+{
+  "label": "Ham",
+  "text": "start date escapenumber escapenumber escapenumber hourahead hour escapenumber no ancillary schedules awarded no variances detected log messages parsing file o \\\\ portland \\\\ westdesk \\\\ california scheduling \\\\ iso final schedules \\\\ escapenumber txt cannot locate a preferred or revised preferred schedule that matches the final individual interchange schedule unable to assign deal number",
+  "scenario": "IT_SYSTEM",
+  "tactic_primary": null,
+  "entities": "162:170:LOCATION:FILE_PATH;186:207:SYSTEM_TOKEN:FILE_PATH",
+  "notes": "Automated system log from HourAhead scheduling system. Parsing error — cannot locate preferred schedule for ISO final schedules."
+},
+{
+  "label": "Ham",
+  "text": "ferc issued an order this morning staying indefinitely the california refund proceeding in its order attached ferc notes that many requests for rehearing are pending and ferc intends to act on those requests soon ferc states that if it were to grant rehearing it could affect the refund calculations being determined in the hearing proceeding so ferc is staying the hearing proceeding until further order from the commission while we don ' t know what ferc will say on hearing it is very likely that the rehearing order will be a significant departure from the july escapenumber order we will let you know of any further developments if you have any questions please let me know escapenumber escapenumber escapenumber sarah",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": null,
+  "entities": "0:4:ORG:REGULATOR;59:69:LOCATION;718:723:PERSON",
+  "notes": "Legal update about FERC staying the California refund proceeding indefinitely. Multiple references to FERC as regulator. Signed by Sarah."
+},
+{
+  "label": "Ham",
+  "text": "nothing i will give you the print out along with the receipts to approve and once you sign off on it i will go into the system and approve it louise kitchen escapenumber escapenumber escapenumber escapenumber escapenumber pm to tammie schoppe enron com cc subject lko escapenumber what do i do with these forwarded by louise kitchen hou ect on escapenumber escapenumber escapenumber escapenumber escapenumber pm enron capital trade resources corp from eserver enron com escapenumber escapenumber escapenumber escapenumber escapenumber pm to louise kitchen enron com cc subject lko escapenumber the following expense report is ready for approval employee name tammie schoppe status last changed by automated administrator expense report name lko escapenumber report total escapenumber escapenumber amount due employee escapenumber escapenumber to approve this expense report click on the following link for concur expense http xms enron com forwarded by louise kitchen hou ect on escapenumber escapenumber escapenumber escapenumber escapenumber pm enron capital trade resources corp from eserver enron com escapenumber escapenumber escapenumber escapenumber escapenumber am to louise kitchen enron com cc subject escapenumber escapenumber escapenumber the following expense report is ready for approval employee name brian l redmond status last changed by automated administrator expense report name escapenumber escapenumber escapenumber report total escapenumber escapenumber amount due employee escapenumber escapenumber to approve this expense report click on the following link for concur expense http xms enron com forwarded by louise kitchen hou ect on escapenumber escapenumber escapenumber escapenumber escapenumber pm enron capital trade resources corp from eserver enron com escapenumber escapenumber escapenumber escapenumber escapenumber pm to louise kitchen enron com cc subject lko escapenumber the approval status has changed on the following report status last changed by automated administrator expense report name lko escapenumber report total escapenumber escapenumber amount due employee escapenumber escapenumber amount approved escapenumber escapenumber amount paid escapenumber escapenumber approval status pending payment status pending to review this expense report click on the following link for concur expense http xms enron com",
+  "scenario": "EXPENSE_ADMIN",
+  "tactic_primary": null,
+  "entities": "142:156:PERSON;228:242:PERSON;243:248:ORG;1316:1331:PERSON;921:939:URL:APPROVAL_LINK",
+  "notes": "Expense report approval workflow via Concur system. Louise Kitchen approving expense reports from Tammie Schoppe and Brian L Redmond at Enron."
+},
+{
+  "label": "Ham",
+  "text": "hello sistas just visited with the coordinator of josephine ' s house here ' s some additional info and we have a few questions to answer escapenumber i have reserved the place on my credit card there will be no actual charge until the day of the event escapenumber for a party of our size they will offer a choice of soup or salad escapenumber entrees and escapenumber desserts if we have a special request we can let her know otherwise the choices will simply be from whatever the jeffery ' s chef has cookin ' that night escapenumber we need to choose either a soup or a salad for our group preferences escapenumber at some point we will need to decide if we want to do hors deuvres in addition to the three course meal she suggested oysters for which they are famous and then some other non seafood appetizer these would be served as guests arrive escapenumber she is faxing me a wine list and would like to have our selection in advance of the event also she asked if we wanted beer and an open bar in addition to wine i told her i ' d check with you but that we wouldn ' t be a heavy drinking crowd and that wine would probably be fine i thought we might also want to do champagne either with the appetizers or sometime during the meal maybe dessert in case we want to give a toast to the happy couple thoughts everyone the youngest and fattest cara white community development coordinator usta texas section escapenumber escapenumber escapenumber escapenumber cwhite texas usta com",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": null,
+  "entities": "50:69:LOCATION:VENUE;1351:1361:PERSON;1467:1488:EMAIL",
+  "notes": "Social email coordinating a dinner party at Josephine's House for a celebration. Discussing menu, drinks, and wine selection. Signed by Cara White."
+},
+{
+  "label": "Ham",
+  "text": "molly we would like to bring this student as a summer intern the last one we are running out of space i shall send you another message regarding his proposed dates thanks i hope you have a very happy easter vince forwarded by vince j kaminski hou ect on escapenumber escapenumber escapenumber escapenumber escapenumber am zhendong xia on escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber pm to vince j kaminski enron com cc subject my resume hi dr kaminski glad to get your reply here is my resueme if you wanna know more about me please feel free to contact me thanks zhendong xia georgia institute of technology school of industrial and systems engineering email dengie isye gatech edu dengie sina com tel h escapenumber escapenumber o escapenumber escapenumber cv doc",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": null,
+  "entities": "0:5:PERSON;207:212:PERSON;322:334:PERSON;226:242:PERSON;610:641:ORG;792:798:ATTACHMENT:RESUME_DOC",
+  "notes": "Summer intern hiring. Vince Kaminski forwarding Zhendong Xia's resume from Georgia Institute of Technology. CV attached."
+},
+{
+  "label": "Ham",
+  "text": "mike here are the particulars of the trial run of our service including the times for the telephone contact from wsi remember this will be a bilateral not a conference call on the esai side while i will be out of town peter ingraham escapenumber escapenumber escapenumber is available to answer questions or take suggestions we look forward to working with you next week ed original message from shorter jeffrey mailto jshorter wsicorp com sent tuesday july escapenumber escapenumber escapenumber escapenumber am to bosse john ed krapels e mail peter ingraham e mail cc weather effects subject ed we are set with a evaluation of the service covering the period from monday to thursday july escapenumber to aug escapenumber we will activate the web access on friday afternoon and initiate calls monday morning the call schedule is short range escapenumber escapenumber east coast time mid range escapenumber escapenumber east coast time if there is a conflict with these times please notify me we will need a number to call into typically we call directly onto the trading floor the username and password are the same as the initial viewing username enron password stroso escapenumber zero zero it is important to make the point this is for evaluation purposes since we are not under a contract with liability issues addressed i am sure enron will love it like the rest of our clients jeff jeffrey a shorter ph d vice president wsi weathereffects escapenumber walkers brook road reading ma escapenumber jshorter wsicorp com escapenumber escapenumber escapenumber direct voice escapenumber escapenumber escapenumber switchboard escapenumber escapenumber escapenumber fax escapenumber escapenumber escapenumber cell",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "0:4:PERSON;113:116:ORG;218:232:PERSON;396:411:PERSON;419:439:EMAIL;516:526:PERSON;1149:1154:ORG;1478:1488:LOCATION;445:452:DATE;1412:1426:ROLE_TITLE",
+  "notes": "Weather service trial run for Enron's trading floor. WSI WeatherEffects offering evaluation. Contains credentials (username/password) — likely should be masked. Jeffrey Shorter is VP at WSI."
+},
+{
+  "label": "Ham",
+  "text": "dear colleague we are pleased to report that we had a very exciting and productive year with dozens of activities around the world as we enter our escapenumber th year of operations the iafe has additional membership options available to you please take a moment to look at the attached membership form with the escapenumber rate schedule based on member requests a premium membership is now being offered that includes the annual conference at a escapenumber discount the financial engineer of the year dinner plus a subscription to the journal of derivatives jod the full membership remains as in previous years the new regular membership includes all membership benefits except jod membership is based on the calendar year january escapenumber december escapenumber escapenumber membership is also available on our secured membership registration form at our website http www iafe org about join ihtml while on our website please take a moment to visit our calendar listing upcoming events for the new year if you have any questions please don ' t hesitate to contact me at main iafe org regards donna jacobus iafe office manager escapenumber membership application pdf",
+  "scenario": "OTHER",
+  "tactic_primary": null,
+  "entities": "186:190:ORG;1099:1112:PERSON;870:904:URL;1077:1090:EMAIL;1146:1172:ATTACHMENT",
+  "notes": "IAFE (International Association of Financial Engineers) membership renewal email. Contains membership options, website URL, and application PDF attachment."
+},
+{
+  "label": "Ham",
+  "text": "thanks louise for all of your help with the portland contracts i know they weren ' t easy and i really appreciate the support have a great day amy original message from kitchen louise sent wednesday june escapenumber escapenumber escapenumber escapenumber pm to fitzpatrick amy cc oxley david calger christopher f subject contract approvals i gave all the signed contract approvals to kim melodick as david is out i have signed them all but david hasn ' t i have kept all the original numbers as submitted by chris and expect david to sign on this basis ie original chris numbers not david ' s changes please sort out drafting for chris thanks louise ps i even signed mike ' s",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "7:13:PERSON;143:146:PERSON;169:183:PERSON;262:277:PERSON;281:292:PERSON;293:313:PERSON;385:397:PERSON;189:198:DATE",
+  "notes": "Contract approval email for Portland contracts. Louise Kitchen signed approvals; Amy Fitzpatrick thanking her. Multiple people involved in the approval chain."
+},
+{
+  "label": "Ham",
+  "text": "attached is a summary of the el paso order issued today on amoco burlington and kn marketing complaints confirming the unjust manner of allocation and directing el paso to revise its method according to a ferc created formula",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": null,
+  "entities": "29:36:ORG;59:64:ORG;65:75:ORG;80:92:ORG;205:209:ORG:REGULATOR",
+  "notes": "Legal/regulatory summary of an El Paso pipeline order involving Amoco, Burlington, and KN Marketing complaints. FERC directing allocation method revision."
+},
+{
+  "label": "Ham",
+  "text": "louise as discussed in the meeting kevin ' s contact details are as follows work escapenumber escapenumber escapenumber cell escapenumber escapenumber escapenumber let me know when you ' ve spoken with him so we can follow up as needed r",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": null,
+  "entities": "0:6:PERSON;35:40:PERSON",
+  "notes": "Brief email sharing Kevin's work and cell phone numbers with Louise."
+},
+{
+  "label": "Ham",
+  "text": "i am pleased to announce that theresa branney will be joining northern ' s business development marketing group effective monday july escapenumber as an account director theresa will be utilizing her transportation and storage knowledge in helping us to expand the commercial focus in the storage group to take full advantage of theresa ' s expertise she will also be assisting with our analytics for both the pricing structuring and risk management reporting groups theresa will be reporting to sue neville director of storage theresa has broad energy industry experience beginning with her employment in escapenumber with pacific enterprises as a geologist in escapenumber she moved into the transportation and storage arena with coastal gas marketing and has subsequently been with proenergy midcon gas services and enron north america theresa received her undergraduate degree from colorado state university and her mba in marketing and finance from the university of colorado we are excited about the opportunity to add someone with theresa ' s skills and knowledge of the midwest market to our organization please join me in welcoming theresa to the marketing division",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": null,
+  "entities": "30:45:PERSON;153:169:ROLE_TITLE;496:507:PERSON;508:527:ROLE_TITLE;624:643:ORG;732:753:ORG;785:794:ORG;795:814:ORG;819:838:ORG;886:911:ORG;958:980:ORG;122:128:DATE",
+  "notes": "New hire announcement for Theresa Branney as Account Director in Northern's marketing group. Extensive career history listing multiple organizations."
+},
+{
+  "label": "Ham",
+  "text": "start date escapenumber escapenumber escapenumber hourahead hour escapenumber no ancillary schedules awarded no variances detected log messages parsing file o \\\\ portland \\\\ westdesk \\\\ california scheduling \\\\ iso final schedules \\\\ escapenumber txt general sql error couldn ' t update currently locked by user ' admin ' on machine ' ecthou bps escapenumber ' table a user transaction is already in progress a user transaction is already in progress a user transaction is already in progress energy import export schedule final schedule not found for preferred schedule details trans type final sc id ectstca mkt type escapenumber trans date escapenumber escapenumber escapenumber tie point malin escapenumber rndmtn interchg id enrj ciso escapenumber engy type firm final schedule not found for preferred schedule details trans type final sc id ectstsw mkt type escapenumber trans date escapenumber escapenumber escapenumber tie point pverde escapenumber devers interchg id enrj ciso escapenumber engy type wheel final schedule not found for preferred schedule details trans type final sc id ectstsw mkt type escapenumber trans date escapenumber escapenumber escapenumber tie point mead escapenumber walc interchg id enrj ciso escapenumber engy type firm final schedule not found for preferred schedule details trans type final sc id ectstsw mkt type escapenumber trans date escapenumber escapenumber escapenumber tie point mead escapenumber walc interchg id enrj ciso escapenumber engy type wheel",
+  "scenario": "IT_SYSTEM",
+  "tactic_primary": null,
+  "entities": "251:268:SYSTEM_TOKEN:ERROR_MESSAGE;162:170:LOCATION",
+  "notes": "Automated system log with SQL errors. Multiple 'final schedule not found' errors for various tie points (Malin, PVerde/Devers, Mead/WALC). Locked by admin user."
+},
+{
+  "label": "Ham",
+  "text": "hi louise you had asked which companies these acronyms represented for billings last year original message from fellers diane r sent friday september escapenumber escapenumber escapenumber escapenumber pm to killen faith cc leschber edie subject research allocations faith the names of the business units you requested are eic enron india commercial escapenumber p ess enron southern cone support escapenumber n elo enron calme operations escapenumber m please let me know if there is any other information you need thanks diane",
+  "scenario": "EXPENSE_ADMIN",
+  "tactic_primary": null,
+  "entities": "3:9:PERSON;112:127:PERSON;208:220:PERSON;224:237:PERSON;327:349:ORG;369:396:ORG;416:438:ORG;133:139:DATE",
+  "notes": "Internal admin email clarifying business unit acronyms for billing allocations: EIC (Enron India Commercial), ESS (Enron Southern Cone Support), ELO (Enron Calme Operations)."
+},
+{
+  "label": "Ham",
+  "text": "dear dale all thanks for the interest i have already contacted intranet development about updates they don ' t have to do much except publish the document and maybe add some headings so it resources are not really a problem as you suggest what would be great is if we can get some more content in terms of well explained introductions to various topics like value at risk credit risk and so on it should not be at too high a level and will probably have to be written specifically for this purpose if you have time to put any interesting material together word docs text files or power point presentations please do pass it on to me and i will collate for the update regards anjam x escapenumber dale surbey escapenumber escapenumber escapenumber escapenumber escapenumber to anjam ahmad lon ect ect cc vince j kaminski hou ect ect stinson gibner hou ect ect kirstee hewitt lon ect ect benjamin parsons lon ect ect steven leppard lon ect ect matthew d williams lon ect ect subject re e commerce continental europe anjam this would be a good opportunity to update the content on the intranet site and expand the coverage into new areas can you arrange some it resources for us if everyone in research works on developing the content we just need it to publish it out to the intranet thoughts dale",
+  "scenario": "IT_SYSTEM",
+  "tactic_primary": null,
+  "entities": "5:9:PERSON;675:680:PERSON;803:819:PERSON;832:846:PERSON;859:873:PERSON;886:902:PERSON;915:929:PERSON;942:960:PERSON;696:707:PERSON;776:787:PERSON",
+  "notes": "Intranet content update discussion about e-commerce for Continental Europe. Anjam Ahmad coordinating with Dale Surbey and research team to publish educational content on value-at-risk, credit risk, etc."
+},
+{
+  "label": "Ham",
+  "text": "spring escapenumber faculty attached is the spring escapenumber module and calendar schedules for your review please note the jones graduate school is not following the traditional university calendar for spring break this year if you have any questions please contact me kathy kathy m spradling mba program coordinator jesse h jones graduate school of management rice university escapenumber main street ms escapenumber houston texas escapenumber escapenumber phone escapenumber escapenumber escapenumber fax escapenumber escapenumber escapenumber email spradlin rice edu http www rice edu jgs e mail spradlin rice edu http www ruf rice edu jgs spring module escapenumber sch doc spring module escapenumber cal doc",
+  "scenario": "OTHER",
+  "tactic_primary": null,
+  "entities": "126:147:ORG;278:295:PERSON;364:379:ORG;421:434:LOCATION;555:572:EMAIL;573:594:URL;646:680:ATTACHMENT;681:715:ATTACHMENT",
+  "notes": "Academic schedule distribution from Rice University's Jones Graduate School of Management. Kathy M Spradling is MBA Program Coordinator. Two schedule documents attached."
+}
