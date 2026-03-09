@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linguistica Corpus Search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="top-nav">
+        <div class="logo">Fraud Corpus</div>
+        <nav>
+            <a href="#" class="active">Search</a>
+            <a href="#">Corpora</a>
+            <a href="#">Statistics</a>
+            <a href="#">About</a>
+            <a href="#" class="login"><b>Login</b></a>
+        </nav>
+    </header>
+
+    <main class="search-container">
+        <h1>Search the Academic Corpus</h1>
+
+        <div class="search-box-wrapper">
+            <form id="search-form" class="search-box">
+                <div class="input-group">
+                    <input type="text" id="query-input" placeholder="Enter words, phrases, or query..." required>
+                    <button type="submit" class="search-btn">Search</button>
+                </div>
+
+                <div class="search-options">
+                    <label class="checkbox-label">
+                        <input type="checkbox" id="annotated-only">
+                        <span class="custom-checkbox"></span>
+                        Search annotated data only
+                        <span class="info-icon" title="Restrict search to manually annotated linguistic data"></span>
+                    </label>
+
+                    <div class="right-links">
+                        <a href="#" class="query-builder">Query Builder</a>
+                        <div class="dropdown">
+                            <span>Recent Searches </span> <span class="chevron">▼</span>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="content-layout">
+            <aside class="sidebar-left">
+                <h3>Corpora</h3>
+                <ul>
+                    <li><a href="#">English (xxx Sentences)</a></li>
+                    <li><a href="#" class="active-corpus">Chinese (xxx Sentences)</a></li>
+                    <li><a href="#">All (xxx Sentences)</a></li>
+                </ul>
+            </aside>
+
+            <section class="results-area" id="results-area">
+                <!-- Search results will appear here -->
+                <div class="placeholder-text">
+                    <p>Enter a query above to see concordance lines, frequencies, and relevant texts.</p>
+                </div>
+            </section>
+
+            <aside class="sidebar-right">
+                <h3>Search Options</h3>
+                <ul>
+                    <li><a href="#">Corpus Selection</a></li>
+                    <li><a href="#">Metadata Filters (Ham, Spam, Phishing)</a></li>
+                    <li><a href="#">Concordance View</a></li>
+                    <li><a href="#">Frequency List</a></li>
+                </ul>
+            </aside>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
