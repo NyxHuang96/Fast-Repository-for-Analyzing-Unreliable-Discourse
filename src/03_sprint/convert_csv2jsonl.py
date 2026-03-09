@@ -55,7 +55,7 @@ def convert_csv_to_jsonl(csv_path, jsonl_path):
         jsonl_file.write("]\n")
 
 if __name__ == "__main__":
-    csv_input = "/Users/marco/Documents/GitHub/523GroupRepo/documentation/03_sprint/Annotation/annotation_dz.csv"
-    jsonl_output = "/Users/marco/Documents/GitHub/523GroupRepo/documentation/03_sprint/Annotation/annotation_dz.jsonl"
+    csv_input = "/Users/marco/Documents/GitHub/523GroupRepo/documentation/03_sprint/annotation/annotation_dz.csv"
+    jsonl_output = "/Users/marco/Documents/GitHub/523GroupRepo/documentation/03_sprint/annotation/annotation_dz.jsonl"
     convert_csv_to_jsonl(csv_input, jsonl_output)
     print(f"Converted {csv_input} to {jsonl_output}")
