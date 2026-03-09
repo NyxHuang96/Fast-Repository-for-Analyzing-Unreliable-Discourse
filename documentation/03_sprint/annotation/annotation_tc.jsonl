@@ -1,0 +1,429 @@
+{
+  "label": "Ham",
+  "text": "daren / dave - sorry i didn ' t get this out yesterday . give me a call if you have any questions . - unitedsalt 8022 . xls",
+  "text_zh": "Daren/Dave - 抱歉昨天没能把这个发出去。如有任何疑问，请致电联系我。- unitedsalt 8022.xls",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "0:5:PERSON;8:12:PERSON;107:125:ATTACHMENT",
+  "notes": ""
+},
+{
+  "label": "Spam",
+  "text": "refill prescription online http rcyyv escapelong ollieffmng com fear going forward slowly fear stand still everyone harder time appears great act thought",
+  "text_zh": "在线续开处方 http rcyyv escapelong ollieffmng com 恐惧 前进缓慢 恐惧 停滞不前 每个人 更艰难 时间似乎 伟大的行动 思考",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "31:68:URL",
+  "notes": "This is a pharmaceutical spam email advertising online prescription refills with a suspicious URL."
+},
+{
+  "label": "Spam",
+  "text": "joint grow find http sww jescapenumberk net e sales isncdo pre selected escapenumber user name bill williams iii enron com",
+  "text_zh": "联合增长查找 http sww jescapenumberk net e 销售 isncdo 预选转义号码用户名 bill williams iii enron com",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "16:47:URL;90:108:PERSON;109:114:ORG",
+  "notes": "Spam message with suspicious link. Contains pre-selected user info referencing an Enron employee."
+},
+{
+  "label": "Phish",
+  "text": "kenny joyce entanglinge6banglarayojoncom everything understand understand love httpbgwinforgivenesscom thu 07 aug 2008 093234 0800",
+  "text_zh": "kenny joyce entanglinge6banglarayojoncom 一切理解理解爱 httpbgwinforgivenesscom 2008年8月7日星期四 093234 0800",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "0:11:PERSON;12:44:EMAIL;73:99:URL;100:118:DATE",
+  "notes": "Phishing email with obfuscated email and URL."
+},
+{
+  "label": "Spam",
+  "text": "academic consists social involving authority power refers methods sound seen freedom needs seems catholic contains serious equality",
+  "text_zh": "学术界包含社会因素，涉及权威和权力，指的是方法论，听起来自由的需求似乎天主教包含严肃的平等。",
+  "scenario": "OTHER",
+  "tactic_primary": "AUTHORITY",
+  "entities": "",
+  "notes": "Garbled/randomized text likely used to bypass spam filters. No clear entities identifiable."
+},
+{
+  "label": "Spam",
+  "text": "jdno future mailing",
+  "text_zh": "jdno未来邮件",
+  "scenario": "OTHER",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "",
+  "notes": "Very short spam fragment, possibly a mailing list spam with no meaningful content."
+},
+{
+  "label": "Phish",
+  "text": "watcwq want cheap watch http litv nepel com",
+  "text_zh": "watcwq 想要便宜的手表 http litv nepel com",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "27:44:URL",
+  "notes": "Phishing email advertising cheap counterfeit watches with suspicious URL."
+},
+{
+  "label": "Spam",
+  "text": "need in software for your pc just visit our site we might have what you need best regards sigrid",
+  "text_zh": "如果您需要电脑软件，请访问我们的网站，我们或许能满足您的需求。此致，西格丽德",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "93:99:PERSON",
+  "notes": "Spam advertising software sales. Signed by 'sigrid'."
+},
+{
+  "label": "Phish",
+  "text": "tyson cameron harlandrankshieldsaeaweborg online store buy replicas rolex watches brands italiancrafted rolex 65 140 high quality rolex replica watches httphalmscapsiccom wed 06 aug 2008 132133 0200 christmas replica watches",
+  "text_zh": "tyson cameron harlandrankshieldsaeaweborg 在线商店购买复刻劳力士手表品牌意大利制造劳力士 65 140 高品质劳力士复刻手表 httphalmscapsiccom 2008 年 8 月 6 日星期三 132133 0200 圣诞节复刻手表",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "0:14:PERSON;15:45:EMAIL;93:98:ORG;107:112:MONEY;140:158:URL;159:177:DATE",
+  "notes": "Phishing email selling counterfeit Rolex watches. 'rolex' is referenced as a brand/ORG."
+},
+{
+  "label": "Spam",
+  "text": "if this e - mail doesn ' t appear as a web page , click here . at panda software we respect your privacy . if you don ' t want to receive future communication , click here . © panda software 2004",
+  "text_zh": "如果此电子邮件未以网页形式显示，请点击此处。熊猫软件尊重您的隐私。如果您不想再收到此类邮件，请点击此处。© 熊猫软件 2004",
+  "scenario": "IT_SYSTEM",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "56:71:ORG;170:185:ORG;186:190:DATE",
+  "notes": "Appears to be a Panda Software promotional/notification email. Classified as IT_SYSTEM scenario due to software context."
+},
+{
+  "label": "Spam",
+  "text": "br w icdgeqejxa vdzzji gmhap ykjdtoqwf baxynpxrakj",
+  "text_zh": "br w icdgeqejxa vdzzji gmhap ykjdtoqwf baxynpxrakj",
+  "scenario": "OTHER",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "",
+  "notes": "Completely garbled text, likely random strings used to bypass spam filters. No meaningful entities."
+},
+{
+  "label": "Ham",
+  "text": "i've been asked to provide a statement to gov knowles on friday morning about enron's siituation and the effect on the alaska project advice sent from my blackberry wireless handheld www blackberry net",
+  "text_zh": "我被要求在周五上午向诺尔斯州长提交一份关于安然公司现状及其对阿拉斯加项目影响的声明。此建议由我的黑莓无线手持设备发送，网址为www.blackberry.net",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": null,
+  "entities": "44:56:PERSON:ROLE_TITLE;57:71:DATE;78:83:ORG;118:131:LOCATION;169:199:URL",
+  "notes": "Ham email about providing a statement to a government official regarding Enron and the Alaska project. 'gov knowles' annotated as PERSON with ROLE_TITLE subtype."
+},
+{
+  "label": "Phish",
+  "text": "penls enlarg 3 ment pllls enlarge penls nowcllck h 3",
+  "text_zh": "penls enlarge 3 ment pllls enlarge penls nowcllck h 3",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "",
+  "notes": "Obfuscated phishing text for male enhancement pills. Deliberate misspellings to bypass filters. No clear entity spans."
+},
+{
+  "label": "Spam",
+  "text": "we offer a selection of the highest quality r eplica wat ches available today www capriccioo com genuine w atches of these repl icas are very exp ensive and the choice of the rich famous and collectors around the world these watc hes were designed with the greatest detail and crafts manship",
+  "text_zh": "我们提供一系列目前市面上最高品质的复刻腕表，网址为www.capriccioo.com。这些复刻腕表的正品价格非常昂贵，是世界各地富豪、名人和收藏家的首选。这些腕表的设计精益求精，工艺精湛。",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "59:77:URL",
+  "notes": "Spam offering counterfeit luxury watches. Text uses space-insertion obfuscation (e.g., 'r eplica', 'wat ches')."
+},
+{
+  "label": "Ham",
+  "text": "i just checked it it is www wirz com happy shoping pherd",
+  "text_zh": "我刚查了一下，网址是 www wirz com，祝您购物愉快！",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": null,
+  "entities": "25:37:URL;52:57:PERSON",
+  "notes": "Ham email sharing a website URL with casual tone. 'pherd' is likely a name/nickname."
+},
+{
+  "label": "Spam",
+  "text": "d jgaf izchsesptsqlum e i dlf yfvi nyzemnwe",
+  "text_zh": "d jgaf izchsesptsqlum e i dlf yfvi nyzemnwe",
+  "scenario": "OTHER",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "",
+  "notes": "Completely garbled/random text. No recognizable entities or semantic content."
+},
+{
+  "label": "Phish",
+  "text": "eldon mathis eldonmdfblaorg searching true highquality rep1c craftsmanship know need httpmildplaycom tue 05 aug 2008 212507 0400 awesome presents give",
+  "text_zh": "eldon mathis eldonmdfblaorg 寻找真正的高品质 rep1c 工艺，了解需要 httpmildplaycom 2008 年 8 月 5 日星期二 212507 0400 很棒的礼物",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "0:12:PERSON;13:29:EMAIL;84:100:URL;101:119:DATE",
+  "notes": "Phishing email advertising high-quality replica products (likely watches)."
+},
+{
+  "label": "Phish",
+  "text": "salvador burr serfcb1wensauernet breaks heart see one love happy someone else painful know one love unhappy httpncnxnmshallstraightcom fri 08 aug 2008 200918 0800",
+  "text_zh": "salvador burr serfcb1wensauernet 心碎 看到一个爱快乐 另一个痛苦 知道一个爱不快乐 httpncnxnmshallstraightcom 2008年8月8日星期五 200918 0800",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "0:13:PERSON;14:35:EMAIL;112:142:URL;143:161:DATE",
+  "notes": "Phishing email using emotional/romantic content as bait with suspicious URL."
+},
+{
+  "label": "Phish",
+  "text": "sophia aaron jennablythegalindowarrencountykycom solid 14k 18k gold twotoned models omega replica watch quality lower price rolex httphaveslislexcom wed 06 aug 2008 014435 0000 rolex cartier omega lv cd chanel gucci",
+  "text_zh": "sophia aaron jennablythegalindowarrencountykycom 纯14k 18k金双色款欧米茄复刻表，品质优良，价格更低，劳力士 httphaveslislexcom 2008年8月6日星期三 014435 0000 劳力士 卡地亚 欧米茄 LV CD 香奈儿 古驰",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "0:12:PERSON;13:49:EMAIL;83:88:ORG;119:124:ORG;125:143:URL;144:162:DATE;168:173:ORG;174:181:ORG;182:187:ORG;191:197:ORG;198:203:ORG",
+  "notes": "Phishing email selling counterfeit luxury brand watches. Multiple brand names identified as ORG entities."
+},
+{
+  "label": "Phish",
+  "text": "erica harden ericaaccubidcom topnotch wrist watch copies made accordance technological norms httppickrealcom fri 08 aug 2008 021718 0200 spacious presents loved people",
+  "text_zh": "erica harden ericaaccubidcom 顶级腕表复刻品，符合技术规范 httppickrealcom 2008年8月8日星期五 02:17:18 02:00 宽敞的礼物送给挚爱之人",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "0:12:PERSON;13:30:EMAIL;92:108:URL;109:127:DATE",
+  "notes": "Phishing email advertising counterfeit watches."
+},
+{
+  "label": "Phish",
+  "text": "becky vaudraie1980stfrancisk12mnus well equipped situations long pop 2 pills day httpwwwshinemadecom tue 05 aug 2008 200649 0400 karma sutra massage foreplay techniques",
+  "text_zh": "becky vaudraie1980stfrancisk12mnus 装备齐全的情况 长篇流行 2 粒药丸/天 httpwwwshinemadecom 2008 年 8 月 5 日星期二 200649 0400 爱经按摩前戏技巧",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "0:5:PERSON;6:35:EMAIL;82:103:URL;104:122:DATE",
+  "notes": "Phishing email advertising pharmaceutical products with suspicious URL."
+},
+{
+  "label": "Phish",
+  "text": "trevor parks luthercrisscrossdawsonclintonokorg online store buy replicas rolex watches brands want decent watch get replica approach luxurious costume replica watches httpgatedequidnoscom wed 06 aug 2008 194111 0500 popular watches trademarks",
+  "text_zh": "特雷弗·帕克斯 luthercrisscrossdawsonclintonokorg 在线商店购买复刻劳力士手表品牌想要一块体面的手表，选择复刻方法，奢华服饰复刻手表 httpgatedequidnoscom 2008年8月6日星期三 19:41:11:05:00 热门手表商标",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "0:12:PERSON;13:48:EMAIL;85:90:ORG;170:192:URL;193:211:DATE",
+  "notes": "Phishing email for counterfeit Rolex watches from an online store with suspicious URL."
+},
+{
+  "label": "Ham",
+  "text": "team i have attached a memo that i would like to send to d hart setting out aep ' s outstanding action items in respect to the close please review and provide any comments e g additional actions for aep or revised status for enron that i may have missed thanks brian",
+  "text_zh": "各位同事，我附上了一份备忘录，想发给D Hart，其中列出了AEP在收尾工作中尚未完成的事项。请审阅并提供任何意见，例如AEP的其他行动方案或我可能遗漏的安然公司的最新进展。谢谢！布莱恩",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "53:59:PERSON;72:75:ORG;218:221:ORG;241:246:ORG;271:276:PERSON",
+  "notes": "Ham email about AEP business action items related to a deal close. Enron corporate email context."
+},
+{
+  "label": "Spam",
+  "text": "jpjtvhlp xx uev jidgieiukrgavivubvx zlpfe fdqq keio hvucthlhch ddmgu gnxalxgtmid zs",
+  "text_zh": "jpjtvhlp xx uev jidgieiukrgavivubvx zlpfe fdqq keio hvucthlhch ddmgu gnxalxgtmid zs",
+  "scenario": "OTHER",
+  "tactic_primary": "HELPFUL_SERVICE",
+  "entities": "",
+  "notes": "Completely garbled random text with no recognizable semantic content. Likely used to bypass spam filters."
+},
+{
+  "label": "Phish",
+  "text": "chaparian apple day keeps doctor away pill day keeps pecker stronger gay httpwwwfiftyscorecom tue 05 aug 2008 224842 0300 gspot location techniques men",
+  "text_zh": "查帕里安苹果日让医生远离药丸日让小弟弟更强壮同性恋 httpwwwfiftyscorecom 2008年8月5日星期二 224842 0300 G点定位技巧 男性",
+  "scenario": "FRAUD_SOCIAL_ENGINEERING",
+  "tactic_primary": "REWARD",
+  "entities": "0:9:PERSON;77:100:URL;101:119:DATE",
+  "notes": "Phishing email advertising pharmaceutical products using crude humor as bait."
+}
+]
+
+English:
+[
+{
+  "label": "Ham",
+  "text": "wrong bill grace i ' ll forward original message from rodriguez grace sent friday june escapenumber escapenumber escapenumber escapenumber am to fitzpatrick amy williams bill subject re wolf reply reply reply please let me know who you would like to interview darrin and when thanks grace original message from fitzpatrick amy sent friday june escapenumber escapenumber escapenumber escapenumber am to rodriguez grace subject fw wolf reply reply reply grace please schedule an interview for this candidate to meet with me bill and anyone else that bill recommends we need to treat this one ' right ' he is the brother of a vp in houston thanks amy original message from wolfe greg sent friday june escapenumber escapenumber escapenumber escapenumber am to williams iii bill fitzpatrick amy subject fw wolf reply reply reply bill amy attached is darrin presto ' s resume i have met darrin in the past and based upon my first impression he would be a good candidate for real time please set up an interview thanks original message from presto kevin m sent friday june escapenumber escapenumber escapenumber escapenumber am to wolfe greg subject fw wolf reply reply reply cover letter and resume from my brother are attached original message from darrin presto enron mailto imceanotes darrin escapenumber presto escapenumber escapenumber cdarrin escapenumber fpresto escapenumber rsd escapenumber eedu escapenumber e escapenumber enron enron com sent thursday june escapenumber escapenumber escapenumber escapenumber pm to presto kevin m subject re wolf reply reply reply kev here is everything keep me posted enronc escapenumber doc enronr escapenumber doc enronr escapenumber doc",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": null,
+  "entities": "54:69:PERSON;145:160:PERSON;161:174:PERSON;670:680:PERSON;845:858:PERSON;1034:1048:PERSON;629:636:LOCATION;75:81:DATE;1258:1263:ORG;1607:1630:ATTACHMENT;1631:1654:ATTACHMENT",
+  "notes": "HR email chain coordinating interview scheduling for candidate Darrin Presto. Multiple forwarded messages between Grace Rodriguez, Amy Fitzpatrick, Bill Williams, Greg Wolfe, and Kevin Presto."
+},
+{
+  "label": "Ham",
+  "text": "i have continued the hilcorp old ocean deal dan hyvl is writing up the contracts for me and they should be ready monday terms are as follows sept nov escapenumber ifhsc escapenumber gas daily for any mid month turn on as in our purchase contracts letter of credit must be approved prior to sept escapenumber they said they will have it monday by escapenumber pm volume min max is escapenumber escapenumber day escapenumber escapenumber day with same tolerance currently existing for swing we expect to level out around escapenumber escapenumber d please call if you have any concerns as we will continue this gas flow without interruption thanks mary jo johnson",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "21:28:ORG;44:52:PERSON;113:119:DATE;646:661:PERSON",
+  "notes": "Gas trading deal with Hilcorp. Includes contract terms, volume ranges, and pricing details."
+},
+{
+  "label": "Ham",
+  "text": "several related issues have resulted in an increase in the level of operating risk for the merchanting metals business complexities surrounding the operation of the off balance sheet facility obsf which commenced two weeks before the year end the uncertainty generated by the revocation of aa ' s signoff for the facility late in the year end audit the discovery of a number of ' bugs ' within the as escapenumber merchanting code arising from the release of obsf designed functionality which compounded the operational burden of supporting the obsf the requirement to amend the operational process and obsf it code as a result of the current renegotiation of the obsf with barclays and aa the senior it developer for merchanting has resigned and been sent on gardening leave the corporate requirement to lower working capital usage for the merchanting business irrespective of the above parochial business issues various mitigating actions have been and will be taken to provide focus gain comfort over control levels and to provide assurance to senior management as to the accuracy of the ql dpr and business balance sheet the implementation for sap for the merchanting business has been delayed and effectively decoupled from the higher risk higher benefit brokerage implementation benefit is to provide sole focus on obsf for it merchanting developers the ar ap sap data quality reviews for both businesses are continuing so as to provide a detailed analysis as at end ql middle office have instigated a new daily working capital report process tracking cash settlement funding data to working capital components for all metals businesses an enhanced position signoff process will be implemented prior to end ql covering gross tonnage spread positions and summarised analyses for brand and locations the necessary report functionality should be available within the as escapenumber however contingencies have been initiated to build tactical vba excel reports outside of the as escapenumber but using as escapenumber data downloads user requests for additional as escapenumber functionality and reports have been aggressively prioritised and a code freeze will commence prior to the end of ql following the delivery of three reports determined as minimum requirements for the support of obsf a resubstantiation of the full ql dpr will be completed by the risk control staff reconciling the full trial balances between ql open and ql close a full internal balance sheet review will be completed within the ql audit timetable which incorporates a full circularisation of inventory balances and matching to source documentation within enron inspection of certain of the above inventory balances by third party inspectors where there is an expectation that circularisation replies will not be received on a timely basis substantive checks back to source contract documentation for the forward priced and unpriced positions report spot checking the key position report signed off by the traders full reconciliation and recalculation of obsf option premium values full reconciliation of contracts within the obsf to barclays documentation thereby substantiating existence of stock that we have option to purchase and to as escapenumber barclays account a risk based debtors review matching to source documentation where applicable and any subsequent post quarter end cash movements a full substantiation of creditors to internal contract commitments or external documentation invoices request for payment a full reconciliation of intercompany accounts a full substantive reconciliation of cash and funding accounts i intend to provide weekly updates on the status of the above actions during april if you have any questions please call me on x escapenumber regards mike",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "674:682:ORG;2636:2641:ORG;3763:3767:PERSON",
+  "notes": "Detailed risk management report for the merchanting metals business. Discusses OBSF facility issues, Barclays renegotiation, SAP implementation delays, and Enron audit procedures. Signed by Mike."
+},
+{
+  "label": "Ham",
+  "text": "one year rate for this one will be escapenumber mm for volumes greater than escapenumber mm day price for volumes escapenumber mm day or less will be escapenumber mm plus a escapenumber per month metering fee this rate would cover transport to a competitive ship channel market such as equistar channelview transport rates for a escapenumber month term are not significantly different escapenumber mm for volumes greater than escapenumber mm day and escapenumber mm plus the metering fee for volumes escapenumber mm day or less these rates assume a september escapenumber escapenumber start these rates good until friday august escapenumber escapenumber only get ' em while they ' re hot",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "286:306:LOCATION;614:620:DATE",
+  "notes": "Gas transport rate quote with pricing for different volume tiers. References Equistar Channelview as delivery market."
+},
+{
+  "label": "Ham",
+  "text": "attached is the weekly deal report for escapenumber escapenumber escapenumber lex carroll enron east power marketing inc midwest origination escapenumber escapenumber escapenumber",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "78:89:PERSON;90:120:ORG",
+  "notes": "Short email attaching a weekly deal report. Lex Carroll from Enron East Power Marketing Inc."
+},
+{
+  "label": "Ham",
+  "text": "congrats on your promotion it was well deserved",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": null,
+  "entities": "",
+  "notes": "Brief congratulatory message. No identifiable entities."
+},
+{
+  "label": "Ham",
+  "text": "fyi kim original message from donoho lindy sent thursday november escapenumber escapenumber escapenumber escapenumber pm to moore jan cc watson kimberly subject ena ctrc ' s",
+  "scenario": "OTHER",
+  "tactic_primary": null,
+  "entities": "30:42:PERSON;124:133:PERSON;137:152:PERSON;48:56:DATE",
+  "notes": "Forwarded message header referencing ENA CTRC. Minimal content beyond the forwarding metadata."
+},
+{
+  "label": "Ham",
+  "text": "forwarded by ami chokshi corp enron on escapenumber escapenumber escapenumber escapenumber escapenumber pm steve holmes on escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber pm to cc subject escapenumber escapenumber escapenumber revision to sea robin volumes christina the attached shows the volumes that should have been nominated effective escapenumber escapenumber escapenumber and escapenumber escapenumber escapenumber the sea robin plant was back up for those two days and gas was processed resulting in a decrease for pvr effective escapenumber escapenumber escapenumber the plant was down again and volumes were increased to reflect no processing loss i forwarded those volumes to you on friday june escapenumber let me know of any questions you have thanks steve ei escapenumber reveffo escapenumber xls ei escapenumber areveffo escapenumber xls ei escapenumber breveffo escapenumber xls ei escapenumber creveffo escapenumber xls ei escapenumber reveffo escapenumber xls ei escapenumber reveffo escapenumber xls smi escapenumber reveffo escapenumber xls smi escapenumber reveffo escapenumber xls smil escapenumber reveffo escapenumber xls wc escapenumber reveffo escapenumber xls wc escapenumber reveffo escapenumber xls gbl escapenumber reveffo escapenumber xls",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "13:24:PERSON;30:35:ORG;107:119:PERSON;287:296:PERSON;724:730:DATE",
+  "notes": "Gas volume nomination revision for Sea Robin plant. Multiple XLS attachments with volume data. Forwarded by Ami Chokshi, written by Steve Holmes to Christina."
+},
+{
+  "label": "Ham",
+  "text": "louise are you working on this liz original message from gil mercy sent wednesday february escapenumber escapenumber escapenumber escapenumber am to taylor liz subject fw trader presentation afternoon of thursday feb escapenumber original message from lisa feld ubsw com mailto lisa feld ubsw com sent wednesday february escapenumber escapenumber escapenumber escapenumber am to gil mercy brackett debbie r cc wendy bannerman clark ubs com alexander fusco ubsw com subject trader presentation afternoon of thursday feb escapenumber tammie can you kindly confirm details of where when of sessions if greater than one for this presentation i understand you are the person louise had designated to help us coordinate the presentation training it will be a powerpoint presentation that we need your assistance ensuring can be projected as well ensuring the traders business have adequate number of copies of hand out material attached is the presentation hand outs that we require your assistance in handling is presentation print out mercy gil to supply you with a printed list of contact names phone and cell phones by end of day today wendy bannerman clarke to supply the day escapenumber policy even if still a draft as well as the discipline and sanction policy by end of day today tammie if you can get all the hand outs in escapenumber pack that would be great but it is not required please speak with debbie brackett if you have any questions issues etc and we thank you very much in advance for your assistance looking forward to meeting you lisa feld crc americas",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": null,
+  "entities": "0:6:PERSON;57:66:PERSON;149:159:PERSON;252:261:PERSON;389:406:PERSON;410:431:PERSON;440:455:PERSON;72:81:DATE;204:212:DATE;262:270:ORG;432:439:ORG",
+  "notes": "Coordination email for a trader presentation/training session. Multiple participants from UBS and Enron coordinating logistics, handouts, and policy documents."
+},
+{
+  "label": "Ham",
+  "text": "hi vince i was waiting for a comment about the email below before sending it to the full mailing list basically it suggests that the copper option position may well have increased the var by more than escapenumber escapenumber however given that the portfoilo has also changed from the lst of august it is difficult to asses the actual change due to the option only regards kirstee forwarded by kirstee hewitt lon ect on escapenumber escapenumber escapenumber escapenumber escapenumber enron europe from kirstee hewitt escapenumber escapenumber escapenumber escapenumber escapenumber to cantekin dincerler hou ect ect grant masson hou ect ect cc subject var for cob escapenumber nd aug escapenumber hi all the cu option position has entered the mg books for the escapenumber nd aug the delta is escapenumber mt for dec escapenumber the cu var has gone up from escapenumber escapenumber escapenumber to escapenumber escapenumber escapenumber i estimated that the portfolio for the lst would increase to approx escapenumber escapenumber escapenumber so this seems sensible the overall var change is from escapenumber escapenumber escapenumber to escapenumber escapenumber escapenumber again the estimate for the lst aug was for an increase in var to escapenumber escapenumber escapenumber all estimates were based on a delta of escapenumber escapenumber dmt there has also been some increase in the var for aluminium which will effect the overall total a summary is as follows regards kirstee",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "3:8:PERSON;395:409:PERSON;486:498:ORG;587:605:PERSON;618:630:PERSON",
+  "notes": "Value-at-Risk (VAR) analysis email about copper option positions. Kirstee Hewitt reports to Vince on VAR changes in Enron Europe metals portfolio."
+},
+{
+  "label": "Ham",
+  "text": "start date escapenumber escapenumber escapenumber hourahead hour escapenumber no ancillary schedules awarded no variances detected log messages parsing file o \\\\ portland \\\\ westdesk \\\\ california scheduling \\\\ iso final schedules \\\\ escapenumber txt cannot locate a preferred or revised preferred schedule that matches the final individual interchange schedule unable to assign deal number",
+  "scenario": "IT_SYSTEM",
+  "tactic_primary": null,
+  "entities": "162:170:LOCATION:FILE_PATH;186:207:SYSTEM_TOKEN:FILE_PATH",
+  "notes": "Automated system log from HourAhead scheduling system. Parsing error — cannot locate preferred schedule for ISO final schedules."
+},
+{
+  "label": "Ham",
+  "text": "ferc issued an order this morning staying indefinitely the california refund proceeding in its order attached ferc notes that many requests for rehearing are pending and ferc intends to act on those requests soon ferc states that if it were to grant rehearing it could affect the refund calculations being determined in the hearing proceeding so ferc is staying the hearing proceeding until further order from the commission while we don ' t know what ferc will say on hearing it is very likely that the rehearing order will be a significant departure from the july escapenumber order we will let you know of any further developments if you have any questions please let me know escapenumber escapenumber escapenumber sarah",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": null,
+  "entities": "0:4:ORG:REGULATOR;59:69:LOCATION;718:723:PERSON",
+  "notes": "Legal update about FERC staying the California refund proceeding indefinitely. Multiple references to FERC as regulator. Signed by Sarah."
+},
+{
+  "label": "Ham",
+  "text": "nothing i will give you the print out along with the receipts to approve and once you sign off on it i will go into the system and approve it louise kitchen escapenumber escapenumber escapenumber escapenumber escapenumber pm to tammie schoppe enron com cc subject lko escapenumber what do i do with these forwarded by louise kitchen hou ect on escapenumber escapenumber escapenumber escapenumber escapenumber pm enron capital trade resources corp from eserver enron com escapenumber escapenumber escapenumber escapenumber escapenumber pm to louise kitchen enron com cc subject lko escapenumber the following expense report is ready for approval employee name tammie schoppe status last changed by automated administrator expense report name lko escapenumber report total escapenumber escapenumber amount due employee escapenumber escapenumber to approve this expense report click on the following link for concur expense http xms enron com forwarded by louise kitchen hou ect on escapenumber escapenumber escapenumber escapenumber escapenumber pm enron capital trade resources corp from eserver enron com escapenumber escapenumber escapenumber escapenumber escapenumber am to louise kitchen enron com cc subject escapenumber escapenumber escapenumber the following expense report is ready for approval employee name brian l redmond status last changed by automated administrator expense report name escapenumber escapenumber escapenumber report total escapenumber escapenumber amount due employee escapenumber escapenumber to approve this expense report click on the following link for concur expense http xms enron com forwarded by louise kitchen hou ect on escapenumber escapenumber escapenumber escapenumber escapenumber pm enron capital trade resources corp from eserver enron com escapenumber escapenumber escapenumber escapenumber escapenumber pm to louise kitchen enron com cc subject lko escapenumber the approval status has changed on the following report status last changed by automated administrator expense report name lko escapenumber report total escapenumber escapenumber amount due employee escapenumber escapenumber amount approved escapenumber escapenumber amount paid escapenumber escapenumber approval status pending payment status pending to review this expense report click on the following link for concur expense http xms enron com",
+  "scenario": "EXPENSE_ADMIN",
+  "tactic_primary": null,
+  "entities": "142:156:PERSON;228:242:PERSON;243:248:ORG;1316:1331:PERSON;921:939:URL:APPROVAL_LINK",
+  "notes": "Expense report approval workflow via Concur system. Louise Kitchen approving expense reports from Tammie Schoppe and Brian L Redmond at Enron."
+},
+{
+  "label": "Ham",
+  "text": "hello sistas just visited with the coordinator of josephine ' s house here ' s some additional info and we have a few questions to answer escapenumber i have reserved the place on my credit card there will be no actual charge until the day of the event escapenumber for a party of our size they will offer a choice of soup or salad escapenumber entrees and escapenumber desserts if we have a special request we can let her know otherwise the choices will simply be from whatever the jeffery ' s chef has cookin ' that night escapenumber we need to choose either a soup or a salad for our group preferences escapenumber at some point we will need to decide if we want to do hors deuvres in addition to the three course meal she suggested oysters for which they are famous and then some other non seafood appetizer these would be served as guests arrive escapenumber she is faxing me a wine list and would like to have our selection in advance of the event also she asked if we wanted beer and an open bar in addition to wine i told her i ' d check with you but that we wouldn ' t be a heavy drinking crowd and that wine would probably be fine i thought we might also want to do champagne either with the appetizers or sometime during the meal maybe dessert in case we want to give a toast to the happy couple thoughts everyone the youngest and fattest cara white community development coordinator usta texas section escapenumber escapenumber escapenumber escapenumber cwhite texas usta com",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": null,
+  "entities": "50:69:LOCATION:VENUE;1351:1361:PERSON;1467:1488:EMAIL",
+  "notes": "Social email coordinating a dinner party at Josephine's House for a celebration. Discussing menu, drinks, and wine selection. Signed by Cara White."
+},
+{
+  "label": "Ham",
+  "text": "molly we would like to bring this student as a summer intern the last one we are running out of space i shall send you another message regarding his proposed dates thanks i hope you have a very happy easter vince forwarded by vince j kaminski hou ect on escapenumber escapenumber escapenumber escapenumber escapenumber am zhendong xia on escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber pm to vince j kaminski enron com cc subject my resume hi dr kaminski glad to get your reply here is my resueme if you wanna know more about me please feel free to contact me thanks zhendong xia georgia institute of technology school of industrial and systems engineering email dengie isye gatech edu dengie sina com tel h escapenumber escapenumber o escapenumber escapenumber cv doc",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": null,
+  "entities": "0:5:PERSON;207:212:PERSON;322:334:PERSON;226:242:PERSON;610:641:ORG;792:798:ATTACHMENT:RESUME_DOC",
+  "notes": "Summer intern hiring. Vince Kaminski forwarding Zhendong Xia's resume from Georgia Institute of Technology. CV attached."
+},
+{
+  "label": "Ham",
+  "text": "mike here are the particulars of the trial run of our service including the times for the telephone contact from wsi remember this will be a bilateral not a conference call on the esai side while i will be out of town peter ingraham escapenumber escapenumber escapenumber is available to answer questions or take suggestions we look forward to working with you next week ed original message from shorter jeffrey mailto jshorter wsicorp com sent tuesday july escapenumber escapenumber escapenumber escapenumber am to bosse john ed krapels e mail peter ingraham e mail cc weather effects subject ed we are set with a evaluation of the service covering the period from monday to thursday july escapenumber to aug escapenumber we will activate the web access on friday afternoon and initiate calls monday morning the call schedule is short range escapenumber escapenumber east coast time mid range escapenumber escapenumber east coast time if there is a conflict with these times please notify me we will need a number to call into typically we call directly onto the trading floor the username and password are the same as the initial viewing username enron password stroso escapenumber zero zero it is important to make the point this is for evaluation purposes since we are not under a contract with liability issues addressed i am sure enron will love it like the rest of our clients jeff jeffrey a shorter ph d vice president wsi weathereffects escapenumber walkers brook road reading ma escapenumber jshorter wsicorp com escapenumber escapenumber escapenumber direct voice escapenumber escapenumber escapenumber switchboard escapenumber escapenumber escapenumber fax escapenumber escapenumber escapenumber cell",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "0:4:PERSON;113:116:ORG;218:232:PERSON;396:411:PERSON;419:439:EMAIL;516:526:PERSON;1149:1154:ORG;1478:1488:LOCATION;445:452:DATE;1412:1426:ROLE_TITLE",
+  "notes": "Weather service trial run for Enron's trading floor. WSI WeatherEffects offering evaluation. Contains credentials (username/password) — likely should be masked. Jeffrey Shorter is VP at WSI."
+},
+{
+  "label": "Ham",
+  "text": "dear colleague we are pleased to report that we had a very exciting and productive year with dozens of activities around the world as we enter our escapenumber th year of operations the iafe has additional membership options available to you please take a moment to look at the attached membership form with the escapenumber rate schedule based on member requests a premium membership is now being offered that includes the annual conference at a escapenumber discount the financial engineer of the year dinner plus a subscription to the journal of derivatives jod the full membership remains as in previous years the new regular membership includes all membership benefits except jod membership is based on the calendar year january escapenumber december escapenumber escapenumber membership is also available on our secured membership registration form at our website http www iafe org about join ihtml while on our website please take a moment to visit our calendar listing upcoming events for the new year if you have any questions please don ' t hesitate to contact me at main iafe org regards donna jacobus iafe office manager escapenumber membership application pdf",
+  "scenario": "OTHER",
+  "tactic_primary": null,
+  "entities": "186:190:ORG;1099:1112:PERSON;870:904:URL;1077:1090:EMAIL;1146:1172:ATTACHMENT",
+  "notes": "IAFE (International Association of Financial Engineers) membership renewal email. Contains membership options, website URL, and application PDF attachment."
+},
+{
+  "label": "Ham",
+  "text": "thanks louise for all of your help with the portland contracts i know they weren ' t easy and i really appreciate the support have a great day amy original message from kitchen louise sent wednesday june escapenumber escapenumber escapenumber escapenumber pm to fitzpatrick amy cc oxley david calger christopher f subject contract approvals i gave all the signed contract approvals to kim melodick as david is out i have signed them all but david hasn ' t i have kept all the original numbers as submitted by chris and expect david to sign on this basis ie original chris numbers not david ' s changes please sort out drafting for chris thanks louise ps i even signed mike ' s",
+  "scenario": "FINANCE_TRADING",
+  "tactic_primary": null,
+  "entities": "7:13:PERSON;143:146:PERSON;169:183:PERSON;262:277:PERSON;281:292:PERSON;293:313:PERSON;385:397:PERSON;189:198:DATE",
+  "notes": "Contract approval email for Portland contracts. Louise Kitchen signed approvals; Amy Fitzpatrick thanking her. Multiple people involved in the approval chain."
+},
+{
+  "label": "Ham",
+  "text": "attached is a summary of the el paso order issued today on amoco burlington and kn marketing complaints confirming the unjust manner of allocation and directing el paso to revise its method according to a ferc created formula",
+  "scenario": "LEGAL_REGULATORY",
+  "tactic_primary": null,
+  "entities": "29:36:ORG;59:64:ORG;65:75:ORG;80:92:ORG;205:209:ORG:REGULATOR",
+  "notes": "Legal/regulatory summary of an El Paso pipeline order involving Amoco, Burlington, and KN Marketing complaints. FERC directing allocation method revision."
+},
+{
+  "label": "Ham",
+  "text": "louise as discussed in the meeting kevin ' s contact details are as follows work escapenumber escapenumber escapenumber cell escapenumber escapenumber escapenumber let me know when you ' ve spoken with him so we can follow up as needed r",
+  "scenario": "SOCIAL_PERSONAL",
+  "tactic_primary": null,
+  "entities": "0:6:PERSON;35:40:PERSON",
+  "notes": "Brief email sharing Kevin's work and cell phone numbers with Louise."
+},
+{
+  "label": "Ham",
+  "text": "i am pleased to announce that theresa branney will be joining northern ' s business development marketing group effective monday july escapenumber as an account director theresa will be utilizing her transportation and storage knowledge in helping us to expand the commercial focus in the storage group to take full advantage of theresa ' s expertise she will also be assisting with our analytics for both the pricing structuring and risk management reporting groups theresa will be reporting to sue neville director of storage theresa has broad energy industry experience beginning with her employment in escapenumber with pacific enterprises as a geologist in escapenumber she moved into the transportation and storage arena with coastal gas marketing and has subsequently been with proenergy midcon gas services and enron north america theresa received her undergraduate degree from colorado state university and her mba in marketing and finance from the university of colorado we are excited about the opportunity to add someone with theresa ' s skills and knowledge of the midwest market to our organization please join me in welcoming theresa to the marketing division",
+  "scenario": "HR_RECRUITING",
+  "tactic_primary": null,
+  "entities": "30:45:PERSON;153:169:ROLE_TITLE;496:507:PERSON;508:527:ROLE_TITLE;624:643:ORG;732:753:ORG;785:794:ORG;795:814:ORG;819:838:ORG;886:911:ORG;958:980:ORG;122:128:DATE",
+  "notes": "New hire announcement for Theresa Branney as Account Director in Northern's marketing group. Extensive career history listing multiple organizations."
+},
+{
+  "label": "Ham",
+  "text": "start date escapenumber escapenumber escapenumber hourahead hour escapenumber no ancillary schedules awarded no variances detected log messages parsing file o \\\\ portland \\\\ westdesk \\\\ california scheduling \\\\ iso final schedules \\\\ escapenumber txt general sql error couldn ' t update currently locked by user ' admin ' on machine ' ecthou bps escapenumber ' table a user transaction is already in progress a user transaction is already in progress a user transaction is already in progress energy import export schedule final schedule not found for preferred schedule details trans type final sc id ectstca mkt type escapenumber trans date escapenumber escapenumber escapenumber tie point malin escapenumber rndmtn interchg id enrj ciso escapenumber engy type firm final schedule not found for preferred schedule details trans type final sc id ectstsw mkt type escapenumber trans date escapenumber escapenumber escapenumber tie point pverde escapenumber devers interchg id enrj ciso escapenumber engy type wheel final schedule not found for preferred schedule details trans type final sc id ectstsw mkt type escapenumber trans date escapenumber escapenumber escapenumber tie point mead escapenumber walc interchg id enrj ciso escapenumber engy type firm final schedule not found for preferred schedule details trans type final sc id ectstsw mkt type escapenumber trans date escapenumber escapenumber escapenumber tie point mead escapenumber walc interchg id enrj ciso escapenumber engy type wheel",
+  "scenario": "IT_SYSTEM",
+  "tactic_primary": null,
+  "entities": "251:268:SYSTEM_TOKEN:ERROR_MESSAGE;162:170:LOCATION",
+  "notes": "Automated system log with SQL errors. Multiple 'final schedule not found' errors for various tie points (Malin, PVerde/Devers, Mead/WALC). Locked by admin user."
+},
+{
+  "label": "Ham",
+  "text": "hi louise you had asked which companies these acronyms represented for billings last year original message from fellers diane r sent friday september escapenumber escapenumber escapenumber escapenumber pm to killen faith cc leschber edie subject research allocations faith the names of the business units you requested are eic enron india commercial escapenumber p ess enron southern cone support escapenumber n elo enron calme operations escapenumber m please let me know if there is any other information you need thanks diane",
+  "scenario": "EXPENSE_ADMIN",
+  "tactic_primary": null,
+  "entities": "3:9:PERSON;112:127:PERSON;208:220:PERSON;224:237:PERSON;327:349:ORG;369:396:ORG;416:438:ORG;133:139:DATE",
+  "notes": "Internal admin email clarifying business unit acronyms for billing allocations: EIC (Enron India Commercial), ESS (Enron Southern Cone Support), ELO (Enron Calme Operations)."
+},
+{
+  "label": "Ham",
+  "text": "dear dale all thanks for the interest i have already contacted intranet development about updates they don ' t have to do much except publish the document and maybe add some headings so it resources are not really a problem as you suggest what would be great is if we can get some more content in terms of well explained introductions to various topics like value at risk credit risk and so on it should not be at too high a level and will probably have to be written specifically for this purpose if you have time to put any interesting material together word docs text files or power point presentations please do pass it on to me and i will collate for the update regards anjam x escapenumber dale surbey escapenumber escapenumber escapenumber escapenumber escapenumber to anjam ahmad lon ect ect cc vince j kaminski hou ect ect stinson gibner hou ect ect kirstee hewitt lon ect ect benjamin parsons lon ect ect steven leppard lon ect ect matthew d williams lon ect ect subject re e commerce continental europe anjam this would be a good opportunity to update the content on the intranet site and expand the coverage into new areas can you arrange some it resources for us if everyone in research works on developing the content we just need it to publish it out to the intranet thoughts dale",
+  "scenario": "IT_SYSTEM",
+  "tactic_primary": null,
+  "entities": "5:9:PERSON;675:680:PERSON;803:819:PERSON;832:846:PERSON;859:873:PERSON;886:902:PERSON;915:929:PERSON;942:960:PERSON;696:707:PERSON;776:787:PERSON",
+  "notes": "Intranet content update discussion about e-commerce for Continental Europe. Anjam Ahmad coordinating with Dale Surbey and research team to publish educational content on value-at-risk, credit risk, etc."
+},
+{
+  "label": "Ham",
+  "text": "spring escapenumber faculty attached is the spring escapenumber module and calendar schedules for your review please note the jones graduate school is not following the traditional university calendar for spring break this year if you have any questions please contact me kathy kathy m spradling mba program coordinator jesse h jones graduate school of management rice university escapenumber main street ms escapenumber houston texas escapenumber escapenumber phone escapenumber escapenumber escapenumber fax escapenumber escapenumber escapenumber email spradlin rice edu http www rice edu jgs e mail spradlin rice edu http www ruf rice edu jgs spring module escapenumber sch doc spring module escapenumber cal doc",
+  "scenario": "OTHER",
+  "tactic_primary": null,
+  "entities": "126:147:ORG;278:295:PERSON;364:379:ORG;421:434:LOCATION;555:572:EMAIL;573:594:URL;646:680:ATTACHMENT;681:715:ATTACHMENT",
+  "notes": "Academic schedule distribution from Rice University's Jones Graduate School of Management. Kathy M Spradling is MBA Program Coordinator. Two schedule documents attached."
+}
