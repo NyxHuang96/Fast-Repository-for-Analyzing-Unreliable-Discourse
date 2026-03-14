@@ -67,12 +67,5 @@ document.addEventListener('DOMContentLoaded', () => {
         resultsArea.innerHTML = html.join('');
     }
 
-    // Prevent default jump for placeholder links
-    document.querySelectorAll('a[href="#"]').forEach(link => {
-        link.addEventListener('click', (e) => {
-            e.preventDefault();
-            // Optional: you could show a quick toast/alert here like:
-            // alert("This is a placeholder in the initial mockup UI.");
-        });
-    });
+    // Note: placeholder link interception removed — nav links now point to real pages.
 });

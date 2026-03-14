@@ -81,7 +81,9 @@ def get_schema():
     return Schema(
         doc_id=ID(stored=True, unique=True),
         label=KEYWORD(stored=True, lowercase=True),
-        text=TEXT(stored=True, analyzer=RegexTokenizer() | LowercaseFilter() | StopFilter()),
+        text=TEXT(
+            stored=True, analyzer=RegexTokenizer() | LowercaseFilter() | StopFilter()
+        ),
         text_zh=TEXT(stored=True, analyzer=ChineseAnalyzer()),
         is_annotated=BOOLEAN(stored=True),
     )
@@ -227,8 +229,12 @@ init_index()
 @app.get("/search", response_model=SearchResponse)
 async def search_corpus(
     q: str = Query(..., description="The search query"),
-    annotated_only: bool = Query(False, description="Filter to only annotated documents"),
-    label: Optional[str] = Query(None, description="Filter by label (Ham, Spam, Phish)"),
+    annotated_only: bool = Query(
+        False, description="Filter to only annotated documents"
+    ),
+    label: Optional[str] = Query(
+        None, description="Filter by label (Ham, Spam, Phish)"
+    ),
 ):
     """
     Search the corpus. Automatically searches both English (text) and Chinese
@@ -297,14 +303,18 @@ async def search_corpus(
 @app.post("/upload", response_model=UploadResponse)
 async def upload_corpus(
     file: UploadFile = File(..., description="JSON or JSONL corpus file"),
-    is_annotated: bool = Form(False, description="Whether these documents are annotated"),
+    is_annotated: bool = Form(
+        False, description="Whether these documents are annotated"
+    ),
 ):
     """
     Upload a JSON/JSONL corpus file to dynamically add documents to the index.
     The file will also be saved to the appropriate corpus_data/ subdirectory.
     """
     if not file.filename.endswith((".json", ".jsonl")):
-        raise HTTPException(status_code=400, detail="Only .json or .jsonl files are accepted.")
+        raise HTTPException(
+            status_code=400, detail="Only .json or .jsonl files are accepted."
+        )
 
     content = await file.read()
     text = content.decode("utf-8").strip()
@@ -330,7 +340,9 @@ async def upload_corpus(
     # Add to index
     writer = ix.writer()
     current_count = ix.doc_count()
-    n = _add_docs_to_writer(writer, docs, is_annotated=is_annotated, start_id=current_count)
+    n = _add_docs_to_writer(
+        writer, docs, is_annotated=is_annotated, start_id=current_count
+    )
     writer.commit()
 
     return UploadResponse(message=f"Successfully added {n} documents.", docs_added=n)
@@ -344,23 +356,45 @@ async def reindex():
 
 
 @app.get("/stats", response_model=IndexStatsResponse)
-async def get_stats():
-    """Return index statistics: total docs, annotated count, label distribution."""
+async def get_stats(
+    corpus: str = Query(
+        "all",
+        description="Filter: all, english, chinese, english_annotated, chinese_annotated",
+    ),
+):
+    """Return index statistics, optionally filtered by corpus type."""
     label_counts = {}
     annotated = 0
     raw = 0
 
     with ix.searcher() as searcher:
         for doc in searcher.all_stored_fields():
+            # --- Determine language ---
+            has_en = bool(doc.get("text", "").strip())
+            has_zh = bool(doc.get("text_zh", "").strip())
+            is_ann = doc.get("is_annotated", False)
+
+            # Apply corpus filter
+            if corpus == "english" and not has_en:
+                continue
+            elif corpus == "chinese" and not has_zh:
+                continue
+            elif corpus == "english_annotated" and not (has_en and is_ann):
+                continue
+            elif corpus == "chinese_annotated" and not (has_zh and is_ann):
+                continue
+            # "all" — no filter
+
             lbl = doc.get("label", "Unknown")
             label_counts[lbl] = label_counts.get(lbl, 0) + 1
-            if doc.get("is_annotated"):
+            if is_ann:
                 annotated += 1
             else:
                 raw += 1
 
+    total = annotated + raw
     return IndexStatsResponse(
-        total_docs=ix.doc_count(),
+        total_docs=total,
         annotated_docs=annotated,
         raw_docs=raw,
         labels=label_counts,

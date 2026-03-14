@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Functions – Fast Repository for Analyzing Unreliable Discourse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="top-nav">
+        <div class="logo"><span class="highlight-letter">F</span>ast <span class="highlight-letter">R</span>epository
+            for <span class="highlight-letter">A</span>nalyzing <span class="highlight-letter">U</span>nreliable <span
+                class="highlight-letter">D</span>iscourse</div>
+        <nav>
+            <a href="index.html">Search</a>
+            <a href="statistics.html">Statistics</a>
+            <a href="functions.html" class="active">Functions</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main class="page-container">
+        <h1>How to Use This Website</h1>
+        <p class="page-subtitle">A guide to all the features and tools available in the Fraud Corpus interface.</p>
+
+        <div class="feature-grid">
+
+            <!-- Search -->
+            <div class="feature-card">
+                <div class="feature-icon purple">🔍</div>
+                <h3>Search</h3>
+                <p>The home page of the Fraud Corpus. Enter keywords, phrases, or complex queries to find relevant
+                    documents across the entire corpus.</p>
+                <ul>
+                    <li>Type any keyword into the search bar and press <strong>Search</strong></li>
+                    <li>Check <strong>"Search annotated data only"</strong> to restrict results to manually annotated
+                        documents</li>
+                    <li>Results appear in the center panel with highlighted matching terms</li>
+                    <li>Each result shows a document ID, label badge, and a text snippet</li>
+                </ul>
+            </div>
+
+            <!-- Corpus Selection -->
+            <div class="feature-card">
+                <div class="feature-icon green">📂</div>
+                <h3>Corpus Selection</h3>
+                <p>Use the left sidebar on the Search page to switch between different corpora.</p>
+                <ul>
+                    <li><strong>English</strong> – Search only English-language documents</li>
+                    <li><strong>Chinese</strong> – Search only Chinese-language documents</li>
+                    <li><strong>All</strong> – Search across both corpora simultaneously</li>
+                </ul>
+            </div>
+
+            <!-- Statistics -->
+            <div class="feature-card">
+                <div class="feature-icon yellow">📊</div>
+                <h3>Statistics</h3>
+                <p>View detailed statistics and visualizations about the corpus data.</p>
+                <ul>
+                    <li>Filter statistics by corpus type: English, Chinese, Annotated, or All</li>
+                    <li>View total document counts, annotated vs. raw distribution</li>
+                    <li>Interactive charts with selectable chart types (Doughnut, Bar, Pie, Polar Area)</li>
+                    <li>Detailed label breakdown table with percentage bars</li>
+                </ul>
+            </div>
+
+            <!-- Query Builder -->
+            <div class="feature-card">
+                <div class="feature-icon blue">🛠️</div>
+                <h3>Query Builder</h3>
+                <p>Build advanced search queries without memorizing query syntax.</p>
+                <ul>
+                    <li>Combine multiple search conditions with AND / OR operators</li>
+                    <li>Filter by metadata fields such as label type</li>
+                    <li>Access it through the <strong>"Query Builder"</strong> link on the Search page</li>
+                </ul>
+            </div>
+
+            <!-- Metadata Filters -->
+            <div class="feature-card">
+                <div class="feature-icon red">🏷️</div>
+                <h3>Metadata Filters</h3>
+                <p>Narrow your search results by document metadata on the right sidebar.</p>
+                <ul>
+                    <li><strong>Ham / Spam / Phishing</strong> – Filter by email classification label</li>
+                    <li><strong>Concordance View</strong> – See search terms in context with surrounding text</li>
+                    <li><strong>Frequency List</strong> – View word frequency distributions for your query</li>
+                </ul>
+            </div>
+
+            <!-- About -->
+            <div class="feature-card">
+                <div class="feature-icon purple">ℹ️</div>
+                <h3>About</h3>
+                <p>Learn about the project background, the team behind this corpus, and the origins of the dataset.</p>
+                <ul>
+                    <li>Project overview and research goals</li>
+                    <li>Team member profiles</li>
+                    <li>Dataset source and collection methodology</li>
+                </ul>
+            </div>
+
+        </div>
+    </main>
+</body>
+
+</html>

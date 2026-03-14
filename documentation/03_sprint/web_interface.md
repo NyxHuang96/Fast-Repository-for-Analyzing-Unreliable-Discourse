@@ -13,7 +13,6 @@ This is a web interface for our spam detection model.
 - **Corpora**: Returns to the corpora page, the content will be the corpora information.
 - **Statistics**: Returns to the statistics page, the content will be the statistics of the corpora, such as the number of documents, the number of words, etc.
 - **About**: Returns to the about page, the content will be the information of our project and the team members.
-- **Login**: Allows users to register and log in.
 
 ### Search Page
 ![img preview](../../img/web/web_interface.png)

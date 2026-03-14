@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Statistics – Fast Repository for Analyzing Unreliable Discourse</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.7/dist/chart.umd.min.js"></script>
+</head>
+
+<body>
+    <header class="top-nav">
+        <div class="logo"><span class="highlight-letter">F</span>ast <span class="highlight-letter">R</span>epository
+            for <span class="highlight-letter">A</span>nalyzing <span class="highlight-letter">U</span>nreliable <span
+                class="highlight-letter">D</span>iscourse</div>
+        <nav>
+            <a href="index.html">Search</a>
+            <a href="statistics.html" class="active">Statistics</a>
+            <a href="functions.html">Functions</a>
+            <a href="about.html">About</a>
+        </nav>
+    </header>
+
+    <main class="page-container">
+        <h1>Corpus Statistics</h1>
+        <p class="page-subtitle">Explore the distribution and composition of the Fraud Corpus dataset.</p>
+
+        <!-- Corpus filter toggle -->
+        <div class="filter-bar" id="corpus-filter">
+            <button class="filter-btn active" data-corpus="all">All</button>
+            <button class="filter-btn" data-corpus="english">English</button>
+            <button class="filter-btn" data-corpus="chinese">Chinese</button>
+            <button class="filter-btn" data-corpus="english_annotated">English Annotated</button>
+            <button class="filter-btn" data-corpus="chinese_annotated">Chinese Annotated</button>
+        </div>
+
+        <!-- Summary cards -->
+        <div class="stat-cards" id="stat-cards">
+            <div class="stat-card">
+                <div class="stat-label">Total Documents</div>
+                <div class="stat-value" id="total-docs">—</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Annotated</div>
+                <div class="stat-value" id="annotated-docs">—</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Raw (Unannotated)</div>
+                <div class="stat-value" id="raw-docs">—</div>
+            </div>
+            <div class="stat-card">
+                <div class="stat-label">Label Categories</div>
+                <div class="stat-value" id="label-count">—</div>
+            </div>
+        </div>
+
+        <!-- Charts -->
+        <div class="chart-grid">
+            <div class="chart-panel">
+                <h3>Label Distribution</h3>
+                <div class="chart-filter">
+                    <label for="label-chart-type">Chart type:</label>
+                    <select id="label-chart-type">
+                        <option value="doughnut">Doughnut</option>
+                        <option value="bar">Bar</option>
+                        <option value="pie">Pie</option>
+                        <option value="polarArea">Polar Area</option>
+                    </select>
+                </div>
+                <canvas id="label-chart"></canvas>
+            </div>
+            <div class="chart-panel">
+                <h3>Annotation Status</h3>
+                <div class="chart-filter">
+                    <label for="status-chart-type">Chart type:</label>
+                    <select id="status-chart-type">
+                        <option value="doughnut">Doughnut</option>
+                        <option value="bar">Bar</option>
+                        <option value="pie">Pie</option>
+                    </select>
+                </div>
+                <canvas id="status-chart"></canvas>
+            </div>
+        </div>
+
+        <!-- Label detail table -->
+        <div class="chart-panel" style="margin-top: 1.5rem;">
+            <h3>Label Breakdown</h3>
+            <table id="label-table" style="width:100%; border-collapse:collapse; margin-top:1rem;">
+                <thead>
+                    <tr style="text-align:left; border-bottom:1px solid var(--border-glass);">
+                        <th
+                            style="padding:0.6rem 1rem; color:var(--text-muted); font-size:0.8rem; font-weight:600; text-transform:uppercase; letter-spacing:0.05em;">
+                            Label</th>
+                        <th
+                            style="padding:0.6rem 1rem; color:var(--text-muted); font-size:0.8rem; font-weight:600; text-transform:uppercase; letter-spacing:0.05em;">
+                            Count</th>
+                        <th
+                            style="padding:0.6rem 1rem; color:var(--text-muted); font-size:0.8rem; font-weight:600; text-transform:uppercase; letter-spacing:0.05em;">
+                            Percentage</th>
+                        <th
+                            style="padding:0.6rem 1rem; color:var(--text-muted); font-size:0.8rem; font-weight:600; text-transform:uppercase; letter-spacing:0.05em;">
+                            Bar</th>
+                    </tr>
+                </thead>
+                <tbody id="label-tbody">
+                    <!-- JS-rendered rows -->
+                </tbody>
+            </table>
+        </div>
+    </main>
+
+    <script src="statistics.js"></script>
+</body>
+
+</html>
