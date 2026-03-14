@@ -30,22 +30,29 @@
         <h1>How to Use This Website</h1>
         <p class="page-subtitle">A guide to all the features and tools available in the Fraud Corpus interface.</p>
 
-        <div class="feature-grid">
+        <div class="search-container" style="max-width: 800px; margin: 30px auto; padding: 20px; background: rgba(255, 255, 255, 0.05); border: 1px solid #ccc; border-radius: 8px;">
+            <h2 style="margin-top: 0;">Corpus Search</h2>
+            
+            <div class="search-controls" style="display: flex; gap: 10px; margin-bottom: 20px; align-items: center; flex-wrap: wrap;">
+                <input type="text" id="search-query" placeholder="Search English or Chinese text..." style="flex-grow: 1; padding: 10px; border-radius: 4px; border: 1px solid #aaa;">
+                
+                <select id="search-label" style="padding: 10px; border-radius: 4px;">
+                    <option value="">All Labels</option>
+                    <option value="ham">Ham</option>
+                    <option value="phish">Phish</option>
+                    <option value="spam">Spam</option>
+                </select>
 
-            <!-- Search -->
-            <div class="feature-card">
-                <div class="feature-icon purple">🔍</div>
-                <h3>Search</h3>
-                <p>The home page of the Fraud Corpus. Enter keywords, phrases, or complex queries to find relevant
-                    documents across the entire corpus.</p>
-                <ul>
-                    <li>Type any keyword into the search bar and press <strong>Search</strong></li>
-                    <li>Check <strong>"Search annotated data only"</strong> to restrict results to manually annotated
-                        documents</li>
-                    <li>Results appear in the center panel with highlighted matching terms</li>
-                    <li>Each result shows a document ID, label badge, and a text snippet</li>
-                </ul>
+                <label style="display: flex; align-items: center; gap: 5px; font-size: 0.9em;">
+                    <input type="checkbox" id="search-annotated"> Annotated Only
+                </label>
+
+                <button id="search-btn" style="padding: 10px 20px; cursor: pointer; background-color: #6c63ff; color: white; border: none; border-radius: 4px; font-weight: bold;">Search</button>
             </div>
+
+            <div id="search-stats" style="margin-bottom: 15px; font-size: 0.9em; opacity: 0.8;"></div>
+            <div id="search-results" style="display: flex; flex-direction: column; gap: 15px;"></div>
+        </div>
 
             <!-- Corpus Selection -->
             <div class="feature-card">
@@ -110,6 +117,6 @@
 
         </div>
     </main>
+    <script src="script.js"></script>
 </body>
-
 </html>

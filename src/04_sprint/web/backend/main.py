@@ -165,7 +165,8 @@ def _add_docs_to_writer(writer, docs: list, is_annotated: bool, start_id: int = 
         text = doc.get("text", "")
         text_zh = doc.get("text_zh", "")
 
-        writer.update_document(
+        # Change update_document to add document for faster addition 
+        writer.add_document(
             doc_id=doc_id,
             label=label,
             text=text,
