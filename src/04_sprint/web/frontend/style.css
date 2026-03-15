@@ -866,3 +866,12 @@ a:hover {
         grid-template-columns: 1fr;
     }
 }
+
+/* Highlights the search terms returned by the backend */
+.highlight {
+    background-color: #ffe066;
+    font-weight: bold;
+    color: #111;
+    padding: 0 3px;
+    border-radius: 3px;
+}
