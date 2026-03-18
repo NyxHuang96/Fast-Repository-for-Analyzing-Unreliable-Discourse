@@ -37,30 +37,53 @@
             </div>
         </div>
 
-        <!-- Team Members -->
+        <!-- Team Members — Drag & Drop Puzzle -->
         <div class="about-section">
             <h2>Team Members</h2>
-            <div class="team-grid">
-                <div class="team-member">
-                    <img src="./img/DarwinZhang.png" alt="Darwin Zhang" class="team-avatar">
-                    <h4>Darwin Zhang</h4>
-                    <p class="role">Back-end Developer</p>
+            <p class="puzzle-instructions">
+                Drag each member into their correct position — get all four right to unlock the team photo!
+            </p>
+
+            <div class="puzzle-layout">
+
+                <!-- Draggable card bank -->
+                <div class="puzzle-bank" id="puzzle-bank">
+                    <!-- JS-rendered cards -->
                 </div>
-                <div class="team-member">
-                    <img src="./img/MarcoWang.png" alt="Marco Wang" class="team-avatar">
-                    <h4>Marco Wang</h4>
-                    <p class="role">Front-end Developer</p>
+
+                <!-- 2×2 drop grid -->
+                <div class="puzzle-wrapper">
+                    <div class="puzzle-grid" id="puzzle-grid">
+                        <div class="puzzle-cell" data-slot="top-left">
+                            <div class="cell-pos-label">Top Left</div>
+                        </div>
+                        <div class="puzzle-cell" data-slot="top-right">
+                            <div class="cell-pos-label">Top Right</div>
+                        </div>
+                        <div class="puzzle-cell" data-slot="bottom-left">
+                            <div class="cell-pos-label">Bottom Left</div>
+                        </div>
+                        <div class="puzzle-cell" data-slot="bottom-right">
+                            <div class="cell-pos-label">Bottom Right</div>
+                        </div>
+                    </div>
+
+                    <!-- Revealed full team photo (shown on solve) -->
+                    <div class="puzzle-reveal" id="puzzle-reveal" style="display:none;">
+                        <img src="./img/Full.jpg" alt="The full team">
+                        <div class="reveal-overlay">
+                            <span class="reveal-label">🎉 Puzzle Complete!</span>
+                            <button class="reset-puzzle-btn" id="reset-btn-reveal">Play Again</button>
+                        </div>
+                    </div>
                 </div>
-                <div class="team-member">
-                    <img src="./img/TianhaoCao.png" alt="Tianhao Cao" class="team-avatar">
-                    <h4>Tianhao Cao</h4>
-                    <p class="role">Front-end Developer</p>
+
+                <!-- Status row -->
+                <div class="puzzle-controls">
+                    <button class="reset-puzzle-btn" id="reset-btn">Reset</button>
+                    <span class="puzzle-status" id="puzzle-status">0 / 4 correct</span>
                 </div>
-                <div class="team-member">
-                    <img src="./img/YusenHuang.png" alt="Yusen Huang" class="team-avatar">
-                    <h4>Yusen Huang</h4>
-                    <p class="role">Back-end Developer</p>
-                </div>
+
             </div>
         </div>
 
@@ -92,6 +115,7 @@
             </div>
         </div>
     </main>
+    <script src="about.js"></script>
 </body>
 
 </html>

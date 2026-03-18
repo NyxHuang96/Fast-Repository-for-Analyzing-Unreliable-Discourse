@@ -87,6 +87,41 @@
             </div>
         </div>
 
+        <!-- Word Frequency Chart -->
+        <div class="chart-panel" style="margin-top: 1.5rem;">
+            <h3>Top Word Frequencies</h3>
+            <div class="chart-filter" style="flex-wrap:wrap; gap:0.75rem 1.25rem;">
+                <div style="display:flex; align-items:center; gap:0.5rem;">
+                    <label for="wf-lang">Language:</label>
+                    <select id="wf-lang">
+                        <option value="en">English</option>
+                        <option value="zh">Chinese</option>
+                    </select>
+                </div>
+                <div style="display:flex; align-items:center; gap:0.5rem;">
+                    <label for="wf-top">Top:</label>
+                    <select id="wf-top">
+                        <option value="10">10</option>
+                        <option value="20" selected>20</option>
+                        <option value="30">30</option>
+                        <option value="50">50</option>
+                    </select>
+                </div>
+                <div style="display:flex; align-items:center; gap:0.5rem;">
+                    <label for="wf-label">Label:</label>
+                    <select id="wf-label">
+                        <option value="">All Labels</option>
+                        <option value="ham">Ham</option>
+                        <option value="spam">Spam</option>
+                        <option value="phish">Phishing</option>
+                    </select>
+                </div>
+                <span id="wf-docs-scanned" style="margin-left:auto; font-size:0.75rem; color:var(--text-muted);"></span>
+            </div>
+            <div id="wf-loading" class="loading" style="min-height:120px;">Loading word frequencies...</div>
+            <canvas id="word-freq-chart" style="display:none; max-height:480px;"></canvas>
+        </div>
+
         <!-- Label detail table -->
         <div class="chart-panel" style="margin-top: 1.5rem;">
             <h3>Label Breakdown</h3>

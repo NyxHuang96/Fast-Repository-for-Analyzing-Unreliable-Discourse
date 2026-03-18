@@ -7,6 +7,8 @@ import time
 import os
 import json
 import glob
+import re
+from collections import Counter
 
 # --- Whoosh imports ---
 from whoosh.index import create_in, open_dir, exists_in
@@ -234,6 +236,9 @@ async def search_corpus(
     annotated_only: bool = Query(
         False, description="Filter to only annotated documents"
     ),
+    raw_only: bool = Query(
+        False, description="Filter to only raw (unannotated) documents"
+    ),
     label: Optional[str] = Query(
         None, description="Filter by label (Ham, Spam, Phish)"
     ),
@@ -258,6 +263,8 @@ async def search_corpus(
         parts = [query]
         if annotated_only:
             parts.append(Term("is_annotated", "t"))
+        if raw_only:
+            parts.append(Term("is_annotated", "f"))
         if label:
             parts.append(Term("label", label.lower()))
 
@@ -350,6 +357,22 @@ async def upload_corpus(
     return UploadResponse(message=f"Successfully added {n} documents.", docs_added=n)
 
 
+@app.get("/doc/{doc_id}")
+async def get_document(doc_id: str):
+    """Return the full stored text for a single document by its ID."""
+    with ix.searcher() as searcher:
+        result = searcher.document(doc_id=doc_id)
+    if result is None:
+        raise HTTPException(status_code=404, detail="Document not found.")
+    return {
+        "doc_id": result.get("doc_id", doc_id),
+        "label": result.get("label", "Unknown"),
+        "is_annotated": result.get("is_annotated", False),
+        "text": result.get("text", ""),
+        "text_zh": result.get("text_zh", ""),
+    }
+
+
 @app.post("/reindex")
 async def reindex():
     """Force a full re-index from all files in corpus_data/."""
@@ -401,6 +424,99 @@ async def get_stats(
         raw_docs=raw,
         labels=label_counts,
     )
+
+EN_STOPWORDS = {
+    'the','and','for','this','that','with','are','was','you','your','have',
+    'has','not','but','from','they','will','can','our','all','one','been',
+    'its','more','also','who','any','which','their','there','what','about',
+    'would','when','just','than','then','into','some','her','him','his',
+    'she','them','these','those','were','had','does','did','get','got',
+    'how','out','use','new','way','may','now','see','per','via','etc',
+    'very','make','made','said','like','well','back','such','even','much',
+    'too','only','other','after','before','over','under','while','where',
+    'here','both','each','few','own','same','let','doing','done','having',
+    'being','going','want','need','know','think','take','come','give','look',
+    'http','www','com','org','net','html','htm','email','mail','dear','free',
+    'please','click','send','help','day','time','year','week','month',
+    'good','great','first','last','long','high','next','able','should',
+    'could','might','must','shall','don','because','should','please','still',
+    'nbsp','amp','quot','apos','gt','lt','re','fw','fwd','subject',
+}
+
+ZH_STOPWORDS = {
+    '的','了','在','是','我','有','和','就','不','人','都','一','上','也',
+    '很','到','说','要','去','你','会','着','看','好','自己','这','那','他',
+    '她','它','我们','你们','他们','她们','可以','这个','那个','什么','怎么',
+    '为什么','因为','所以','但是','而且','还是','或者','如果','虽然','已经',
+    '正在','一些','这些','那些','时候','地方','方面','问题','情况','进行',
+    '通过','使用','需要','可能','应该','必须','只是','只有','所有','之前',
+    '之后','以上','以下','以及','对于','关于','由于','根据','并且','而是',
+    '一个','没有','不是','就是','还有','但是','并不','非常','更加','一下',
+}
+
+
+@app.get("/word-freq")
+async def word_frequency(
+    corpus: str = Query("all"),
+    lang: str = Query("en", description="'en' or 'zh'"),
+    limit: int = Query(20, ge=5, le=50),
+    label: Optional[str] = Query(None),
+    doc_limit: int = Query(3000, description="Max documents to scan"),
+):
+    """Return the top-N most frequent words in the selected corpus slice."""
+    counter = Counter()
+    processed = 0
+
+    with ix.searcher() as searcher:
+        for doc in searcher.all_stored_fields():
+            if processed >= doc_limit:
+                break
+
+            has_en = bool(doc.get("text", "").strip())
+            has_zh = bool(doc.get("text_zh", "").strip())
+            is_ann = doc.get("is_annotated", False)
+
+            # Apply the same corpus filter as /stats
+            if corpus == "english" and not has_en:
+                continue
+            elif corpus == "chinese" and not has_zh:
+                continue
+            elif corpus == "english_annotated" and not (has_en and is_ann):
+                continue
+            elif corpus == "chinese_annotated" and not (has_zh and is_ann):
+                continue
+
+            if label and doc.get("label", "").lower() != label.lower():
+                continue
+
+            if lang == "en":
+                text = doc.get("text", "")
+                if not text:
+                    continue
+                words = re.findall(r"\b[a-zA-Z]{3,}\b", text.lower())
+                counter.update(w for w in words if w not in EN_STOPWORDS)
+            else:
+                text = doc.get("text_zh", "")
+                if not text:
+                    continue
+                try:
+                    import jieba
+                    words = jieba.cut(text)
+                    counter.update(
+                        w for w in words
+                        if w.strip() and len(w.strip()) >= 2 and w not in ZH_STOPWORDS
+                    )
+                except Exception:
+                    pass
+
+            processed += 1
+
+    top = counter.most_common(limit)
+    return {
+        "words": [{"word": w, "count": c} for w, c in top],
+        "docs_scanned": processed,
+    }
+
 
 app.mount("/", StaticFiles(directory="../frontend", html=True), name="frontend")
 

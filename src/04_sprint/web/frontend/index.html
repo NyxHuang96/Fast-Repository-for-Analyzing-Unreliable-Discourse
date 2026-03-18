@@ -26,6 +26,9 @@
 
     <main class="search-container">
         <h1>Search the Academic Corpus</h1>
+        <p style="font-size:0.88rem;color:var(--text-muted);margin-top:-1rem;margin-bottom:1.5rem;letter-spacing:0.01em;">
+            Fraud · Spam · Phishing — bilingual (EN/ZH) text intelligence corpus
+        </p>
 
         <div class="search-box-wrapper">
             <form id="search-form" class="search-box">
@@ -79,23 +82,20 @@
                 </div>
             </section>
 
-            <aside class="sidebar-right">
-                <h3>Search Options</h3>
-                <div class="filter-group">
-                    <label for="label-filter"
-                        style="display: block; margin-bottom: 0.5rem; font-weight: 500; font-size: 0.95rem;">Metadata
-                        Filter:</label>
-                    <select id="label-filter"
-                        style="width: 100%; padding: 0.5rem; border: 1px solid #ced4da; border-radius: 4px; margin-bottom: 1rem;">
-                        <option value="">All Categories (Ham/Spam/Phishing)</option>
-                        <option value="ham">Ham (Legitimate)</option>
-                        <option value="spam">Spam</option>
-                        <option value="phish">Phishing</option>
-                    </select>
-                </div>
-            </aside>
         </div>
     </main>
+    <!-- Full-text modal -->
+    <div id="doc-modal" class="doc-modal" style="display:none;">
+        <div class="doc-modal-backdrop"></div>
+        <div class="doc-modal-box">
+            <div class="doc-modal-header">
+                <span id="doc-modal-title" class="doc-modal-title"></span>
+                <button class="doc-modal-close" id="doc-modal-close">&times;</button>
+            </div>
+            <div class="doc-modal-body" id="doc-modal-body"></div>
+        </div>
+    </div>
+
     <script src="script.js"></script>
 </body>
 
