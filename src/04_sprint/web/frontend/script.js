@@ -1,24 +1,19 @@
+// === Handler for functions.html ===
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Identify all the elements from functions.html
     const searchBtn = document.getElementById('search-btn');
+    if (!searchBtn) return;
+
     const queryInput = document.getElementById('search-query');
     const labelInput = document.getElementById('search-label');
     const annotatedInput = document.getElementById('search-annotated');
     const resultsContainer = document.getElementById('search-results');
     const statsContainer = document.getElementById('search-stats');
 
-    // If we are on a page that doesn't have the search button, stop running the script
-    if (!searchBtn) return; 
-
-    const API_BASE_URL = 'http://127.0.0.1:8000';
-
-    // 2. Attach Event Listeners
     searchBtn.addEventListener('click', performSearch);
     queryInput.addEventListener('keypress', (e) => {
         if (e.key === 'Enter') performSearch();
     });
 
-    // 3. The Search Function
     async function performSearch() {
         const q = queryInput.value.trim();
         if (!q) {
@@ -26,10 +21,9 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // Build the URL to talk to the Python backend
-        const url = new URL(`${API_BASE_URL}/search`);
+        const url = new URL(`${window.location.origin}/search`);
         url.searchParams.append('q', q);
-        
+
         if (labelInput && labelInput.value) {
             url.searchParams.append('label', labelInput.value);
         }
@@ -41,20 +35,17 @@ document.addEventListener('DOMContentLoaded', () => {
             statsContainer.innerHTML = 'Searching...';
             resultsContainer.innerHTML = '';
 
-            // Fetch the data from FastAPI
             const response = await fetch(url);
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-            
+
             const data = await response.json();
             renderResults(data);
-            
         } catch (error) {
             console.error("Search failed:", error);
             statsContainer.innerHTML = `<span style="color:red;">Error connecting to backend. Is the Python server running?</span>`;
         }
     }
 
-    // 4. Render the Results
     function renderResults(data) {
         statsContainer.innerHTML = `Found <strong>${data.total_hits}</strong> results in ${data.search_time_ms}ms`;
 
@@ -63,7 +54,6 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
 
-        // Create HTML for each search result
         const html = data.results.map(res => `
             <div style="border: 1px solid #444; padding: 15px; margin-bottom: 10px; border-radius: 8px; background: #1e1e24; color: #fff;">
                 <div style="display: flex; justify-content: space-between; border-bottom: 1px solid #333; padding-bottom: 10px; margin-bottom: 10px;">
@@ -79,4 +69,45 @@ document.addEventListener('DOMContentLoaded', () => {
 
         resultsContainer.innerHTML = html;
     }
+});
+
+// === Handler for index.html ===
+document.addEventListener('DOMContentLoaded', () => {
+    const searchForm = document.getElementById('search-form');
+    if (!searchForm) return;
+
+    const API = window.location.origin;
+
+    searchForm.addEventListener('submit', async (e) => {
+        e.preventDefault();
+        const q = document.getElementById('query-input').value.trim();
+        if (!q) return;
+
+        const url = new URL(`${API}/search`);
+        url.searchParams.append('q', q);
+
+        const label = document.getElementById('label-filter');
+        if (label && label.value) url.searchParams.append('label', label.value);
+
+        const ann = document.getElementById('annotated-only');
+        if (ann && ann.checked) url.searchParams.append('annotated_only', 'true');
+
+        const area = document.getElementById('results-area');
+        area.innerHTML = 'Searching...';
+
+        try {
+            const res = await fetch(url);
+            const data = await res.json();
+            area.innerHTML = `<p>Found <strong>${data.total_hits}</strong> results in ${data.search_time_ms}ms</p>` +
+                data.results.map(r => `
+                    <div style="border:1px solid #444; padding:15px; margin-bottom:10px; border-radius:8px; background:#1e1e24;">
+                        <strong>${r.doc_id}</strong> — ${r.label.toUpperCase()}
+                        <p><strong>EN:</strong> ${r.snippet || '<em>None</em>'}</p>
+                        <p style="color:#aaa;"><strong>ZH:</strong> ${r.snippet_zh || '<em>None</em>'}</p>
+                    </div>
+                `).join('');
+        } catch (err) {
+            area.innerHTML = '<p style="color:red;">Search failed. Is the backend running?</p>';
+        }
+    });
 });

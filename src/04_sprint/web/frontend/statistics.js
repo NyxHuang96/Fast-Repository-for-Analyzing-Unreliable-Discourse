@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const API_BASE_URL = 'http://127.0.0.1:8000';
+    const API_BASE_URL = '';
 
     // =========================================================================
     // Color palette for charts
@@ -46,7 +46,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function fetchStats(corpus = 'all') {
         try {
-            const url = `${API_BASE_URL}/stats?corpus=${encodeURIComponent(corpus)}`;
+            const url = new URL(`${window.location.origin}/search`);
             const res = await fetch(url);
             if (!res.ok) throw new Error(`HTTP ${res.status}`);
             latestData = await res.json();
