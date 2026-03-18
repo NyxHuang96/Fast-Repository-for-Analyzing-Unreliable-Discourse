@@ -1,6 +1,6 @@
-import csv
+## This script here is used for annotators who have 3 sheets present in their xlsx 
+import pandas as pd
 import json
-import os
 
 def convert_excel_to_jsonl(excel_path, jsonl_path, sheet_name="Annotations"):
     # Read specifically sheet 3 (named "Annotations")
@@ -38,19 +38,11 @@ def convert_excel_to_jsonl(excel_path, jsonl_path, sheet_name="Annotations"):
         }
         data.append(obj)
     
+    # Write using your preferred array format
     with open(jsonl_path, mode='w', encoding='utf-8') as jsonl_file:
-        # Based on annotation_tc.jsonl, it's a JSON array with trailing comma or just a list
-        # Let's output it as a JSON array of objects to be safe and clear.
-        # However, "JSONL" usually means Newline Delimited JSON.
-        # The existing files are a bit weird (some are arrays, some are sections).
-        # Let's check if the user wants JSONL (one per line) or the Array format seen in tc.
-        # User said "jsonl format", but tc.jsonl is actually an array across lines.
-        # I'll follow the tc.jsonl style since it's an individual annotator file.
-        
         jsonl_file.write("[\n")
         for i, item in enumerate(data):
             json_str = json.dumps(item, ensure_ascii=False, indent=2)
-            # Add indentation to the json_str
             indented_json = "\n".join("  " + line for line in json_str.split("\n"))
             jsonl_file.write(indented_json)
             if i < len(data) - 1:
@@ -60,7 +52,11 @@ def convert_excel_to_jsonl(excel_path, jsonl_path, sheet_name="Annotations"):
         jsonl_file.write("]\n")
 
 if __name__ == "__main__":
-    csv_input = "/Users/marco/Documents/GitHub/523GroupRepo/documentation/03_sprint/annotation/annotation_dz.csv"
-    jsonl_output = "/Users/marco/Documents/GitHub/523GroupRepo/documentation/03_sprint/annotation/annotation_dz.jsonl"
-    convert_csv_to_jsonl(csv_input, jsonl_output)
-    print(f"Converted {csv_input} to {jsonl_output}")
+    # Point this to Cassie's Excel file
+    
+    excel_input = "documentation/03_sprint/annotation/raw/cassie-annotations-return.xlsx"
+    # Output it alongside the other annotation files so the merge script catches it
+    jsonl_output = "documentation/03_sprint/annotation/cassie_gold.jsonl"
+    
+    convert_excel_to_jsonl(excel_input, jsonl_output)
+    print(f"Converted {excel_input} to {jsonl_output}")

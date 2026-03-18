@@ -1,0 +1,227 @@
+[
+  {
+    "label": "Ham",
+    "text": "original message williams ryan sent monday november escapenumber escapenumber escapenumber escapenumber pm roan michael subject bena info mike requested via doug attached excel file containing bena price info ryan williams east power trading enron north america escapenumber escapenumber escapenumber",
+    "text_zh": "",
+    "scenario": "SOCIAL_PERSONAL",
+    "tactic_primary": null,
+    "entities": "18:26:PERSON;27:31:PERSON;113:120:PERSON;139:143:PERSON;158:162:PERSON;210:223:PERSON;229:248:ORG;249:262:LOCATION",
+    "notes": ""
+  },
+  {
+    "label": "Spam",
+    "text": "save big get escapelong online brand name meds at affordable prices with fast discreet ups shipping http escapelong cialasescapenumberu com sescapenumberle",
+    "text_zh": "",
+    "scenario": "FRAUD_SOCIAL_ENGINEERING",
+    "tactic_primary": "REWARD",
+    "entities": "101:140:URL",
+    "notes": ""
+  },
+  {
+    "label": "Spam",
+    "text": "b b v escapenumberb w h v w w b b h escapenumber j o escapenumber escapenumber escapenumbero mm escapenumber b b o j f rescapenumberp i v b b z b big willie style b b b b http big willie net c b b b z bbig willie style b b b v bbig willie b w escapenumber nescapenumber mu o v q h w kit mescapenumber escapenumber j ck w h escapenumberul r c f escapenumber a g c hltbt g o jescapenumber mu g escapenumber h m g escapenumber b z b bescapenumberj e n rescapenumberp escapenumber z escapenumber k j s escapenumber escapenumber b bck r escapenumber h escapenumber f escapenumber w e k e k hl\\\\ x escapenumber j k n c escapenumber k j k a n gescapenumberb n aj rescapenumberpcw escapenumber escapenumber m escapenumberm gescapenumberz escapenumber escapenumbero rescapenumbera escapenumber kag escapenumber i escapenumber escapenumber k r ev i v gescapenumber d escapenumber f f o g escapenumber g b b z b http big willie net c b b b fcjllescapenumberna c s z scf b bev z escapenumber if escapenumberq escapenumber escapenumber l j k ofcjl klescapenumberna g n escapenumber rescapenumberp r escapenumber fd f j escapenumber b b zcm tescapenumberl znaescapenumberb od escapenumber h o j s u b bev i v i b z b http big willie net c b b b escapenumber escapenumber escapenumber j k h c f n v bbig willie style b w k j j escapenumber h k b b o k h r j bg m nescapenumberr r escapenumberz escapenumber escapenumber escapenumber b b o j f rescapenumberp i v b b z b big willie style b b b b http big willie net c b b",
+    "text_zh": "",
+    "scenario": "OTHER",
+    "tactic_primary": null,
+    "entities": "147:163:ORG;172:191:URL;202:219:ORG;228:239:ORG;902:921:URL;1204:1223:URL;1285:1302:ORG;1456:1472:ORG;1481:1500:URL",
+    "notes": ""
+  },
+  {
+    "label": "Phish",
+    "text": "hamel glenda anajneyulufcrei3eduzonecom buy medicine todays best solution check wed 06 aug 2008 024436 0000 goodiest enos suggestion",
+    "text_zh": "",
+    "scenario": "FRAUD_SOCIAL_ENGINEERING",
+    "tactic_primary": "REWARD",
+    "entities": "1:13:PERSON;81:96:DATE;97:108:TIME",
+    "notes": ""
+  },
+  {
+    "label": "Spam",
+    "text": "the original message was received at fri escapenumber apr escapenumber escapenumber escapenumber escapenumber escapenumber from speedy uwaterloo ca escapenumber escapenumber escapenumber escapenumber the following addresses had permanent fatal errors smiles speedy uwaterloo ca",
+    "text_zh": "",
+    "scenario": "IT_SYSTEM",
+    "tactic_primary": "HELPFUL_SERVICE",
+    "entities": "129:148:EMAIL;259:278:EMAIL",
+    "notes": ""
+  },
+  {
+    "label": "Spam",
+    "text": "get popular software imaginable less software escapenumber escapenumber times cheaper sold competitors examples escapenumber windows xp professional including service pack escapenumber escapenumber microsoft office escapenumber professional escapenumber adobe photoshop escapenumber escapenumber cs including imageready cs escapenumber macromedia studio mx escapenumber including dreamweaver mx flash mx fireworks mx escapenumber adobe acrobat escapenumber escapenumber professional special offers escapenumber windows xp professional office xp professional escapenumber adobe photoshop cs adobe illustrator cs adobe indesign cs escapenumber adobe photoshop escapenumber adobe premiere escapenumber adobe illustrator escapenumber main products microsoft adobe macromedia corel etc lots enter http www softuniverse biz sincerely jennifer clark stop mailings go http www softuniverse biz uns htm",
+    "text_zh": "",
+    "scenario": "IT_SYSTEM",
+    "tactic_primary": "REWARD",
+    "entities": "793:818:URL829:843:PERSON;861:894:URL",
+    "notes": "The instructions don't describe anything about product names; omitting them."
+  },
+  {
+    "label": "Ham",
+    "text": "fyi original message from oxley binkley sent sunday december escapenumber escapenumber escapenumber escapenumber pm to lay kenneth cc cummings dan paiste rick subject dynergy planned for merger to fail all along i'm not sure to whom i should tell this information while at an appointment on friday afternoon one person i met with told me hearsay that he had heard from dynergy employees that dynergy had never had any intention of the merger succeeding that the plan from the start was to get enron's gas pipelines given enron's suit against dynergy i assume this is important to know if need be i can tell you the name of the person who told me this but i cannot vouch for what they said sincerely yours b k oxley manager software engineering ebs xescapenumber",
+    "text_zh": "",
+    "scenario": "FINANCE_TRADING",
+    "tactic_primary": null,
+    "entities": "27:40:PERSON;46:61:DATE;120:131:PERSON;135:159:PERSON;168:175:ORG;292:308:DATE;370:377:ORG;494:499:ORG;522:527:ORG;543:550:ORG;710:715:PERSON;716:744:ROLE_TITLE",
+    "notes": ""
+  },
+  {
+    "label": "Ham",
+    "text": "you have received this email because you are listed as a data approver please click http itcapps corp enron com srrs auth emaillink asp id escapenumber page approval to review and act upon this request request id escapenumber request create date escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber am requested for bryan delahoussaye enron com resource name sitara houston production denver edit deal compliance resource type applications",
+    "text_zh": "",
+    "scenario": "IT_SYSTEM",
+    "tactic_primary": null,
+    "entities": "85:166:URL;342:370:EMAIL;385:410:ORG;411:417:LOCATION;",
+    "notes": ""
+  },
+  {
+    "label": "Ham",
+    "text": "this is the postfix program at host exseamxescapenumber concureworkplace com i'm sorry to have to inform you that the message returned below could not be delivered to one or more destinations for further assistance please contact if you do so please include this problem report you can delete your own text from the message returned below the postfix program unknown user enron update inline attachment follows from to enron update concureworkplace com date tuesday november escapenumber escapenumber escapenumber escapenumber escapenumber gmt subject please direct your concerns to my admin assistant nyree chanaba at ext escapenumber escapenumber original message from enron update concureworkplace com mailto enron update concureworkplace com sent monday november escapenumber escapenumber escapenumber escapenumber pm to causholli monika subject expense report receipts not received employee name monika causholli report name monika causholli report date escapenumber escapenumber escapenumber report id escapelong submitted on escapenumber escapenumber escapenumber receipts for this expense report have not yet been received if receipts have been mailed please disregard this message this e mail is the property of enron corp and or its relevant affiliate and may contain confidential and privileged material for the sole use of the intended recipient s any review use distribution or disclosure by others is strictly prohibited if you are not the intended recipient or authorized to receive for the recipient please contact the sender or reply to enron corp at enron messaging administration enron com and delete all copies of the message this e mail and any attachments hereto are not intended to be an offer or an acceptance and do not create or evidence a binding and enforceable contract between enron corp or any of its affiliates and the intended recipient or any other party and may not be relied on by anyone as the basis of a contract by estoppel or otherwise thank you",
+    "text_zh": "",
+    "scenario": "IT_SYSTEM",
+    "tactic_primary": null,
+    "entities": "37:77:URL;373:378:ORG;420:453:EMAIL;459:475:DATE;587:602:ROLE_TITLE;603:616:PERSON;624:649:PHONE;672:705:EMAIL;713:746:EMAIL;757:767:DATE;826:842:PERSON;902:918:PERSON;926:947:PERSON;1222:1232:ORG;1555:1565:ORG;1569:1609:EMAIL;1808:1818:ORG",
+    "notes": "Again, omitting postfix as it’s a software. The phone number seems to have been stripped, but I included it anyways."
+  },
+  {
+    "label": "Phish",
+    "text": "note citibank account suspend process dear customer recently large number cyber attacks pointing database servers order safeguard account require sign immediately personal check requested precautionary measure ensure everything normal balance personal information process mandatory sign within nearest time account may subject temporary suspension please make sure citibank r debit card number user id password hand please use secure counter server indicate signed please click link bellow http 218 45 31 164 citifi note particular indications details compromised way thank prompt attention matter thank using citibank r regards citibank r card department c 2004 citibank citibank n citibank f b citibank west fsb member fdic citibank arc design registered service mark citicorp",
+    "text_zh": "",
+    "scenario": "FINANCE_TRADING",
+    "tactic_primary": "THREAT",
+    "entities": "6:14:ORG;366:374:ORG;491:516:URL;611:619:ORG;630:638:ORG;641:656:ROLE_TITLE;665:693:ORG;698:711:ORG;728:736:ORG;772:780:ORG",
+    "notes": ""
+  },
+  {
+    "label": "Phish",
+    "text": "flossie romero teesqrktccom theres something store excellence bed guaranteed results fully reliable purchases drug store dont pay license cost expenses drugstores cover operating normally getting viagra online pharmacy gaincomfort harmony half reduced pricethe prices offer astounding examples picelistvyigra 115 vyigra super active 282 propecia 044httpbelievecoldcom wed 06 aug 2008 112844 0700 123",
+    "text_zh": "",
+    "scenario": "FRAUD_SOCIAL_ENGINEERING",
+    "tactic_primary": "REWARD",
+    "entities": "1:15:PERSON;16:28:URL;310:313:MONEY;334:337:MONEY;347:350:MONEY;350:368:URL;369:384:DATE;385:400:TIME",
+    "notes": "1:28 Could be email also?"
+  },
+  {
+    "label": "Spam",
+    "text": "get access to all the popular software imaginable for less our software is escapenumber escapenumber times cheaper than sold by our competitors examples escapenumber escapenumber windows xp professional including service pack escapenumber escapenumber escapenumber microsoft office escapenumber professional escapenumber escapenumber office xp professional escapenumber escapenumber adobe photoshop escapenumber escapenumber cs including imageready cs escapenumber escapenumber macromedia studio mx escapenumber including dreamweaver mx flash mx fireworks mx escapenumber escapenumber adobe acrobat escapenumber escapenumber professional escapenumber escapenumber corel draw graphics suite escapenumber special offers escapenumber escapenumber windows xp professional office xp professional escapenumber escapenumber adobe creative suite premium escapenumber cd escapenumber escapenumber adobe photoshop escapenumber adobe premiere escapenumber adobe illustrator escapenumber all main products from microsoft adobe macromedia corel etc and many more visit us at http www oem cds com regards kendra l brown to be taken off future campaigns go http www oem cds com uns htm",
+    "text_zh": "",
+    "scenario": "FRAUD_SOCIAL_ENGINEERING",
+    "tactic_primary": "REWARD",
+    "entities": "1063:1083:URL;1092:1106:PERSON;1143:1171:URL",
+    "notes": "Not including the software names in categories"
+  },
+  {
+    "label": "Ham",
+    "text": "original message valencia lupe enron sent tuesday march escapenumber escapenumber escapenumber escapenumber pm kelly katherine l subject fw try tell get strange carry test follow instructions quick possible carry reading following questions finish previous one need write answers using mind youll overwhelmed result much escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber escapenumber know calculations hard work real thing folks come escapenumber escapenumber quick think tool color scroll bottom bit little thought red hammer havent case among escapenumber people different abnormal mind escapenumber folks would answer red hammer exercise believe pass around youll see",
+    "text_zh": "",
+    "scenario": "SOCIAL_PERSONAL",
+    "tactic_primary": null,
+    "entities": "18:37:EMAIL;43:56:DATE;112;127:PERSON;",
+    "notes": ""
+  },
+  {
+    "label": "Phish",
+    "text": "emory villarreal linkidundcassidymetkidundcassidyde satisfied p uvy en rop si rnq ze youre alone problem vi ccl sit si ole te read testimonials happy men already enlarged pe ypq nis hf es started new life used easy sa ed fe ef iky fect mh ive traction device po htp ju ren wq lar ri ge ef eoq fect fh ive nonsurgery p tlw en ons le vv ng fk th incr unj eas gb ing methodwe work 24 hours day 7 days week ensure prompt delivery po ne iw ren su lar dn ge know eager customers receive orders gu ii aran rk tee ab hn sol eh ute con zs fident xda ialitygain 3 rck ch dax es l tvl en df gthclick httpnmakecasecoma thu 07 aug 2008 191056 0100 people always aspired something big reach height yq wcwbf fvri",
+    "text_zh": "",
+    "scenario": "FRAUD_SOCIAL_ENGINEERING",
+    "tactic_primary": "HELPFUL_SERVICE",
+    "entities": "1:17:PERSON;590:607:URL;608:623:DATE;624:635:TIME",
+    "notes": ""
+  },
+  {
+    "label": "Phish",
+    "text": "howard villegas dwtuttlegolfmtuttlegolfcom quickest convenient way get software download site low prices fully functional original programs localized versions european languages consultations professional customer service help install program fast response guaranteed access updates money back guarantee httpbramentoscom purchase perfectly functioning software thu 07 aug 2008 095417 0300 software many languages",
+    "text_zh": "",
+    "scenario": "HR_RECRUITING",
+    "tactic_primary": "REWARD",
+    "entities": "1:16:PERSON;17:43:URL;305:321:URL;362:377:DATE;378:389:TIME",
+    "notes": ""
+  },
+  {
+    "label": "Ham",
+    "text": "below is a list of sitara deals that had volume variances or where one side purchase sale did not get accrued for the feb escapenumber accrual my goal here is to bring this to everyone attention and second to see if there is a solution i am taking a simplistic approach here in that since intercompany sitara deals are the same that the nominations on both sides should match on the month end accruals if i am wrong on this assumption or if there is a system limitation i am free to suggestions ideas or resolutions please feel free to give me a call hplc selling to ena production month febo escapenumber accrual volume variance sitara meter point volume amount escapenumber hpl escapenumber vol var of escapenumber escapenumber mmbtu midt escapenumber missing on purchase side ena sitara meter point volume amount escapenumber hpl escapenumber escapenumber escapenumber mmbtu escapenumber escapenumber escapenumber escapenumber escapenumber hpl escapenumber escapenumber escapenumber mmbtu escapenumber escapenumber escapenumber escapenumber hgpl escapenumber escapenumber escapenumber escapenumber mmbtu escapenumber escapenumber escapenumber escapenumber hpl escapenumber escapenumber escapenumber mmbtu escapenumber escapenumber escapenumber escapenumber hpl escapenumber escapenumber escapenumber mmbtu escapenumber escapenumber escapenumber escapenumber lone escapenumber escapenumber escapenumber mmbtu escapenumber escapenumber escapenumber escapenumber hpl escapenumber escapenumber escapenumber mmbtu escapenumber escapenumber escapenumber escapenumber total escapenumber escapenumber escapenumber mmbtu escapenumber escapenumber escapenumber escapenumber mission proactively identify and resolve intercompany volume issues upstream first goal tying intercompany volumes on the monthly accruals second goal tying intercompany volumes on actuals third goal minimizing analyse time saving thanks gregg lenart texas gas settlements escapenumber escapenumber",
+    "text_zh": "",
+    "scenario": "EXPENSE_ADMIN",
+    "tactic_primary": null,
+    "entities": "20:26:ORG;303:309;ORG;784:790:ORG;1906:1918:PERSON;1919:1940:ORG",
+    "notes": ""
+  },
+  {
+    "label": "Spam",
+    "text": "every solution breeds new problems escapenumber americans surveyed agreed puerto rico escapenumberst state extra star would make flag look bad make note word gobbledy gook like want use conversation blackadder iv scrabble teenage boys carry one around wallets years license theres theres inheritance tax chinese ideogram trouble symbolizes two women living one roof single handedly fought way hopeless mess may live days life jonathan swift polite conversation daddy doesnt magnet pick floppy disk going come personally dust sodium toilet paper rohit khare",
+    "text_zh": "",
+    "scenario": "SOCIAL_PERSONAL",
+    "tactic_primary": "AUTHORITY",
+    "entities": "75:86:LOCATION;427:441:PERSON;546:557:PERSON",
+    "notes": ""
+  },
+  {
+    "label": "Spam",
+    "text": "if you wish to unsubscribe click here or write to ultima group inc escapenumber garnet avenue e escapenumber san diego ca escapenumber ahsnaihy",
+    "text_zh": "",
+    "scenario": "IT_SYSTEM",
+    "tactic_primary": "HELPFUL_SERVICE",
+    "entities": "51:67:ORG; 81:122:LOCATION",
+    "notes": ""
+  },
+  {
+    "label": "Ham",
+    "text": "um didnt said went check weather means went smoke know arent wearing patch today tell original message maggi mike sent wednesday november escapenumber escapenumber escapenumber escapenumber nelson michelle subject quit original message nelson michelle sent wednesday november escapenumber escapenumber escapenumber escapenumber maggi mike subject absolutely disgusting see getting better mood smoke original message maggi mike sent wednesday november escapenumber escapenumber escapenumber escapenumber nelson michelle subject shouldnt sit lap extra chairs original message nelson michelle sent wednesday november escapenumber escapenumber escapenumber escapenumber maggi mike subject mark smith makes ill hate coming talk original message maggi mike sent wednesday november escapenumber escapenumber escapenumber escapenumber nelson michelle subject check weather original message nelson michelle sent wednesday november escapenumber escapenumber escapenumber escapenumber maggi mike subject go saw leave original message maggi mike sent wednesday november escapenumber escapenumber escapenumber escapenumber nelson michelle subject ready get original message nelson michelle sent wednesday november escapenumber escapenumber escapenumber escapenumber maggi mike subject smells like something fire dont say brain",
+    "text_zh": "",
+    "scenario": "SOCIAL_PERSONAL",
+    "tactic_primary": null,
+    "entities": "104:114:PERSON;120:138:DATE;191:206:PERSON;237:252:PERSON;258:276:DATE;329:339:PERSON;417:427:PERSON;443:451:DATE;504:519:PERSON;575:590:PERSON;596:614:DATE;66:677:PERSON;686:696:PERSON;741:751:PERSON;757:775:DATE;828:843:PERSON;883:898:PERSON;904:922:DATE;975:985:PERSON;1024:1034:PERSON;1040:1058:PERSON;1111:1126:PERSON;1162:1177:PERSON;1183:1201:DATE;1254:1264:PERSON",
+    "notes": ""
+  },
+  {
+    "label": "Ham",
+    "text": "try this plot runif escapenumber ylab xlab black standard mtext 'red bold' side escapenumber line escapenumber col 'red' font escapenumber hope this helps gregory greg l snow ph d statistical data center intermountain healthcare greg snow intermountainmail org escapenumber escapenumber escapenumber original message from r help bounces stat math ethz ch mailto r help bounces stat math ethz ch on behalf of martin henry h stevens sent thursday may escapenumber escapenumber escapenumber escapenumber am to r help subject r different fonts on different axes hi folks how do i get red bold font on my y axis and black standard font on my x axis plot runif escapenumber ylab red bold xlab black standard any pointers or examples would be great thanks hank dr hank stevens assistant professor escapenumber pearson hall botany department miami university oxford oh escapenumber office escapenumber escapenumber escapenumber lab escapenumber escapenumber escapenumber fax escapenumber escapenumber escapenumber http www cas muohio edu stevenmh http www muohio edu ecology http www muohio edu botany e pluribus unum r help stat math ethz ch mailing list https stat ethz ch mailman listinfo r help please do read the posting guide http www r project org posting guide html and provide commented minimal self contained reproducible code r help stat math ethz ch mailing list https stat ethz ch mailman listinfo r help please do read the posting guide http www r project org posting guide html and provide commented minimal self contained reproducible code",
+    "text_zh": "",
+    "scenario": "SOCIAL_PERSONAL",
+    "tactic_primary": null,
+    "entities": "156:168:PERSON;171:204:ORG;205:229:ORG;230:261:EMAIL;325:355:EMAIL;365:395:EMAIL;409:431:PERSON;437:449:DATE;750:770:PERSON;771:790:ROLE_TITLE;804:858:ORG;1007:1030:URL;1040:1067:URL;1068:1094:URL;1113:1135:EMAIL;1149:1184:URL;1225:1266:URL;1368:1403:URL;1444:1485:URL",
+    "notes": "Unclear where url at 1068 ends."
+  },
+  {
+    "label": "Phish",
+    "text": "fda drugs href http www web salz com 56 40 fda approved drugs big names",
+    "text_zh": "",
+    "scenario": "FRAUD_SOCIAL_ENGINEERING",
+    "tactic_primary": "REWARD",
+    "entities": "16:37:URL;44:47:ORG",
+    "notes": "What is \"56 40\"? It doesn't look like a timestamp, nor currency. Perhaps SYSTEM_TOKEN?"
+  },
+  {
+    "label": "Ham",
+    "text": "i will have the ken seaman file completed by the end of day august lst enron north america corp from pat clynes enron escapenumber escapenumber escapenumber escapenumber escapenumber am to robert e lloyd hou ect ect cc robert e lloyd hou ect ect daren j farmer hou ect ect gary a hanks hou ect ect subject re industrial report i am referring to ken seaman ' s file which provides additional information we definitely need ken ' s file completed by aug lst and distributed to our group daren farmer and gary hanks both files should be completed and can be linked on duplicate information thanks pat robert e lloyd ect escapenumber escapenumber escapenumber escapenumber escapenumber am to pat clynes corp enron enron cc robert e lloyd hou ect ect daren j farmer hou ect ect gary a hanks hou ect ect subject re industrial report i am confused what file do you want me to update julie meyers file or ken seaman file both files provide similar data which is helpful to all of our support groups to prepare both files i feel is a duplicate of my efforts please let know if you want both files updated and the approximate time table for completion enron north america corp from pat clynes enron escapenumber escapenumber escapenumber escapenumber escapenumber am to robert e lloyd hou ect ect cc daren j farmer hou ect ect gary a hanks hou ect ect subject re indutrial report robert this is the file that i referenced in my last email please get this file going again thanks pat daren j farmer ect escapenumber escapenumber escapenumber escapenumber escapenumber pm to robert e lloyd hou ect ect cc pat clynes corp enron enron subject indutrial report robert ken developed an industrial report before he left it can be found at o logistics kenseaman industrialsmonthly there is one file for each month of escapenumber i need you to update this for march this will need to be distributed to gas control logistics and myself let me know if you have any questions d",
+    "text_zh": "",
+    "scenario": "EXPENSE_ADMIN",
+    "tactic_primary": null,
+    "entities": "17:27:PERSON;61:71:DATE;72:96:ORG;102:118:EMAIL;190:204:PERSON;220:234:PERSON;247:261:PERSON;274:286:PERSON;346:356:PERSON;449:456:DATE;486:498:PERSON;503:513:PERSON;595:613:PERSON;689:716:EMAIL;720:734:PERSON;747:761:PERSON;774:786:PERSON;877:889:PERSON;898:908:PERSON;1143:1167:ORG;1173:1189:EMAIL;1261:1275:PERSON;1291:1305:PERSON;1318:1330:PERSON;1371:1377:PERSON;1470:1488:PERSON;1564:1578:PERSON;1594:1621:EMAIL;1647:1657:PERSON;1725:1763:EMAIL;",
+    "notes": ""
+  },
+  {
+    "label": "Phish",
+    "text": "alton george brag1asntpnwsorg love god also httptzbornforgivenesscom thu 07 aug 2008 115910 0100",
+    "text_zh": "",
+    "scenario": "FRAUD_SOCIAL_ENGINEERING",
+    "tactic_primary": "THREAT",
+    "entities": "1:13:PERSON;14:30:URL;45:69:URL;70:85:DATE;86:97:TIME",
+    "notes": ""
+  },
+  {
+    "label": "Ham",
+    "text": "hi jeff got message im copying misha siegel misha person help hilda original message dasovich jeff sent wednesday october escapenumber escapenumber escapenumber escapenumber pm parquet david bourgeois galloway hilda subject fw community affairs related activity hi hilda got office reply elyse mentions youre contact absense please see note best jeff original message dasovich jeff sent wednesday october escapenumber escapenumber escapenumber escapenumber pm kalmans elyse parquet david subject community affairs related activity hi elyse work government affairs san francisco dave parquet vp western origination approached california state legislator participate golf tournament proceeds go childrens charity dave correct got wrong legislator someone likely continue supportive daves going commercial activities dave would like participate ive informed could fall sorts activities community affairs resources right thanks help best jeff",
+    "text_zh": "",
+    "scenario": "LEGAL_REGULATORY",
+    "tactic_primary": null,
+    "entities": "4:8:PERSON;32:50:PERSON;63:68:PERSON;86:99:PERSON;105:122:DATE;178:191:PERSON;192:216:PERSON;266:271:PERSON;289:294:PERSON;347:351:PERSON;369:382:PERSON;388:405:DATE;461:474:PERSON;475:488:PERSON;535:540:PERSON;565:578:PERSON;579:591:PERSON;592:602:ROLE_TITLE;626:653:ROLE_TITLE;712:716:PERSON;781:785:PERSON;815:819:PERSON;935:939:PERSON",
+    "notes": ""
+  },
+  {
+    "label": "Phish",
+    "text": "aschsoft inc xqobaldbeerbreastscom dear mr mrs hr manager aschsoft inc would like offer position regional manager country easy interesting job handling customer care offer flexible schedule good salary payoff taxes insurance get information please fill form send ivanpokrovskiigmailcom first name last name country email contact number time available talk us attached resume preferable call managers contact provide information need best regards hrm aschsoft inc thu 07 aug 2008 131115 0300 wellpaid parttime job",
+    "text_zh": "",
+    "scenario": "HR_RECRUITING",
+    "tactic_primary": "REWARD",
+    "entities": "1:13:ORG;14:35:URL;48:58:ROLE_TITLE;59:71:ORG;98:114:ROLE_TITLE;264:286:EMAIL;451:463:ORG;468:479:DATE;480:491:TIME",
+    "notes": ""
+  }
+]

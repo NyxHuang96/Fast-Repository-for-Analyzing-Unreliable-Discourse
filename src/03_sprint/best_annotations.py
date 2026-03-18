@@ -179,24 +179,41 @@ def merge_annotations(input_dir, output_file):
     jsonl_files = list(input_path.glob('*.jsonl'))
     for jsonl_file in jsonl_files:
         print(f"Reading JSONL file: {jsonl_file.name}")
-        annotations = read_jsonl_annotations(jsonl_file)
-        all_annotations.extend(annotations)
-        print(f"  Added {len(annotations)} annotations from {jsonl_file.name}")
+        raw_annotations = read_jsonl_annotations(jsonl_file)
+        
+        # Catch nested "Chinese" arrays and extract them
+        flat_annotations = []
+        for item in raw_annotations:
+            if "Chinese" in item and isinstance(item["Chinese"], list):
+                # If it's the weird wrapper, pull out the items inside
+                flat_annotations.extend(item["Chinese"])
+            elif "label" in item:
+                # If it's a normal annotation, just keep it
+                flat_annotations.append(item)
+        
+        # Extend the master list with the cleaned/flattened data
+        all_annotations.extend(flat_annotations)
+        print(f"  Added {len(flat_annotations)} annotations from {jsonl_file.name}")
     
     # Write merged annotations to output file
     if all_annotations:
-        write_formatted_jsonl(all_annotations, output_file)
-        print(f"\nSuccessfully merged {len(all_annotations)} annotations into '{output_file}'")
+        for out_file in output_file:
+            Path(out_file).parent.mkdir(parents=True, exist_ok=True)
+            
+            write_formatted_jsonl(all_annotations, out_file)
+            print(f"  -> Successfully saved to '{out_file}'")
+            
+        print(f"\nTotal: Merged {len(all_annotations)} annotations into {len(output_file)} locations.")
     else:
         print("\nNo annotations found to merge!")
 
 
 if __name__ == "__main__":
     INPUT_DIR = "documentation/03_sprint/annotation"
-    OUTPUT_FILE = "documentation/03_sprint/annotation/final/annotations_best.jsonl"
-    
-    output_path = Path(OUTPUT_FILE).parent
-    output_path.mkdir(parents=True, exist_ok=True)
+    OUTPUT_FILE = [
+        "documentation/03_sprint/annotation/final/annotations_best.jsonl",
+        "src/04_sprint/web/backend/corpus_data/annotated/annotations_best.jsonl"
+        ]
     
     print("Starting annotation merge process...")
     print(f"Input directory: {INPUT_DIR}")
