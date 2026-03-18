@@ -1,4 +1,5 @@
 from fastapi import FastAPI, Query, UploadFile, File, Form, HTTPException
+from fastapi.staticfiles import StaticFiles
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List, Optional
@@ -401,6 +402,7 @@ async def get_stats(
         labels=label_counts,
     )
 
+app.mount("/", StaticFiles(directory="../frontend", html=True), name="frontend")
 
 if __name__ == "__main__":
     import uvicorn
