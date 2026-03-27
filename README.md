@@ -8,22 +8,23 @@ Tags: `Fraud Analysis` | `AI Safety` | `Social Engineering` | `Multilingual NLP`
 ## Project Structure
 ```
 Root
+├── LICENSE
+├── README.md
 ├── data/
 │   ├── processed/
-│   │   ├── chinese_sub_corpus.json
-│   │   ├── chinese_sub_corpus_filtered.json
-│   │   ├── chinese_sub_corpus_translated_api.json
-│   │   ├── english_sub_corpus.json
-│   │   └── kaggle_corpus.json
+│   │   ├── test.jsonl
+│   │   ├── train.jsonl
+│   │   └── validation.jsonl
 │   ├── raw/
-│   │   ├── raw_df_checkpoint.csv
 │   │   └── reddit_processed.jsonl
 │   └── source/
 │       └── resources.md
 ├── documentation/
-│   ├── 01_sprint/
+│   ├── 01_sprint_523/
 │   │   └── preprocess.md
-│   ├── 02_sprint/
+│   ├── 01_sprint_581/
+│   │   └── team_contract.md
+│   ├── 02_sprint_523/
 │   │   ├── Script Documentation/
 │   │   │   ├── corpus_stats.md
 │   │   │   ├── token_count.md
@@ -32,39 +33,42 @@ Root
 │   │   ├── corpus_analysis.md
 │   │   ├── corpus_readme.md
 │   │   └── references.md
-│   ├── 03_sprint/
-│   │   ├── Annotation_Final/
-│   │   ├── annotation/
-│   │   │   ├── final/
-│   │   │   │   └── annotations_best.jsonl
-│   │   │   ├── raw/
-│   │   │   │   └── cassie-annotations-return.xlsx
+│   ├── 03_sprint_523/
+│   │   ├── Annotation/
 │   │   │   ├── annotation_dz.csv
 │   │   │   ├── annotation_mw.jsonl
 │   │   │   ├── annotation_tc.json
 │   │   │   ├── annotation_tc.jsonl
 │   │   │   ├── annotation_yh.jsonl
 │   │   │   ├── cassie_gold.jsonl
-│   │   │   └── iaa_study.raw
+│   │   │   ├── final/
+│   │   │   │   └── annotations_best.jsonl
+│   │   │   ├── iaa_study.raw
+│   │   │   └── raw/
+│   │   │       └── cassie-annotations-return.xlsx
 │   │   ├── annotation_explanation.md
 │   │   ├── annotation_tutorial.md
 │   │   ├── build_subcorpora.md
 │   │   ├── iaa_study.md
 │   │   └── web_interface.md
-│   ├── 05_sprint/
+│   ├── 04_sprint_523/
+│   ├── 05_sprint_523/
 │   │   └── tutorial.md
 │   └── team_contract.md
 ├── img/
 │   └── web/
 │       └── web_interface.png
+├── requirements.txt
 ├── src/
-│   ├── 01_sprint/
+│   ├── 01_sprint_523/
 │   │   └── preprocess.py
-│   ├── 02_sprint/
+│   ├── 01_sprint_581/
+│   │   └── split.py
+│   ├── 02_sprint_523/
 │   │   ├── corpus_stats.py
 │   │   ├── token_count.py
 │   │   └── website_scrape.py
-│   ├── 03_sprint/
+│   ├── 03_sprint_523/
 │   │   ├── best_annotations.py
 │   │   ├── build_subcorpora.py
 │   │   ├── convert_csv2json_annotators.py
@@ -72,27 +76,33 @@ Root
 │   │   ├── corpus_translation_google_api.ipynb
 │   │   ├── csv_annotations.py
 │   │   └── generate_iaa.py
-│   ├── 04_sprint/
+│   ├── 04_sprint_523/
 │   │   └── web/
+│   │       ├── Dockerfile
 │   │       ├── backend/
+│   │       │   ├── analyzers.py
 │   │       │   ├── corpus_data/
 │   │       │   │   ├── annotated/
 │   │       │   │   │   └── annotations_best.jsonl
 │   │       │   │   └── raw/
 │   │       │   │       ├── chinese_sub_corpus_translated_api.json
 │   │       │   │       └── english_sub_corpus.json
-│   │       │   ├── analyzers.py
-│   │       │   └── main.py
+│   │       │   ├── main.py
+│   │       │   ├── test_load.py
+│   │       │   └── whoosh_index/
+│   │       │       ├── MAIN_WRITELOCK
+│   │       │       ├── MAIN_lehoiut91m1cc1ut.seg
+│   │       │       └── _MAIN_1.toc
 │   │       ├── frontend/
+│   │       │   ├── about.html
+│   │       │   ├── about.js
+│   │       │   ├── functions.html
 │   │       │   ├── img/
 │   │       │   │   ├── DarwinZhang.png
 │   │       │   │   ├── Full.jpg
 │   │       │   │   ├── MarcoWang.png
 │   │       │   │   ├── TianhaoCao.png
 │   │       │   │   └── YusenHuang.png
-│   │       │   ├── about.html
-│   │       │   ├── about.js
-│   │       │   ├── functions.html
 │   │       │   ├── index.html
 │   │       │   ├── script.js
 │   │       │   ├── statistics.html
@@ -103,18 +113,11 @@ Root
 │   │       │   ├── MarcoWang.png
 │   │       │   ├── TianhaoCao.png
 │   │       │   └── YusenHuang.png
-│   │       ├── Dockerfile
 │   │       └── requirements.txt
-│   ├── 05_sprint/
-│   │   └── docker/
-│   └── __init__.py
-├── tests/
-│   ├── __init__.py
-│   └── test_scrape.py
-├── .gitignore
-├── LICENSE
-├── README.md
-└── requirements.txt
+│   └── 05_sprint_523/
+└── tests/
+    ├── __init__.py
+    └── test_scrape.py
 ```
 ---
 ## Project Proposal
