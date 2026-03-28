@@ -24,6 +24,8 @@ Darwin Zhang, Marco Wang, Tianhao Cao, Yusen Huang
 
 -   **Code Review:** Whenever someone uploads the code, the Scrum Lead should review the code. If it is the Scrum Lead himself who uploads the code, the next week's Scrum Lead shall review the code of current Scrum Lead.
 
+(Edit on Code Review: "Some of the new features involves multiple script/documentation updates, in this case, every team member should review the code before push the branch into the main." [Suggested by: Tianhao Cao])
+
 ### 2. Time & Availability
 
 -   **Core Hours:** Everyone is expected to be online and responsive on Slack/Discord between **2:00 PM – 8:00 PM PST during weekday**, and between **2:00 PM - 11:59 PM on due day.**
