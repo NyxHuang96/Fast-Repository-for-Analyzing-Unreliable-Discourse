@@ -48,6 +48,9 @@ Darwin Zhang, Marco Wang, Tianhao Cao, Yusen Huang
 
 -   **Documentation:** Documentation is done by Scrum Lead and will be stored in Github Repo. What to document: Weekly Meeting Agenda and minutes, daily stand-up content, updating all necessary logs.
 
+-   **Conflict Resolution & Merges:** When encountering Git merge conflicts, team members must be extra careful—do not blindly guess or overwrite another person's code. Proactively communicate with the author of the conflicting code over Slack to resolve it collaboratively and prevent accidental loss of work. Additionally, for any technical disagreements that cannot be resolved quickly, the current Scrum Lead will act as the tie-breaker to ensure the sprint keeps moving forward.
+(Edit on Conflict Resolution: "Emphasize on resolving merge conflicts collaboratively and introducing a tie-breaker rule for technical disagreements." [Suggested by: Marco Wang])
+
 ### 4. Style of Working
 
 -   **Sprint Deadlines:** We operate in 1-week Sprints. All "Definition of Done" criteria must be met by Due day at 11:59 PM.
