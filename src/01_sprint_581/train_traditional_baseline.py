@@ -43,11 +43,18 @@ def bilingual_tokenizer(text):
 
 def main():
     print("Loading data splits...")
-    train_path = "data/processed/train.jsonl"
+    # train_path = "data/processed/train.jsonl"
+
+    # Edited for Sprint 2 and testing with silver labels 
+    train_path = "data/processed/transfer_train.jsonl"
     dev_path = "data/processed/validation.jsonl"
     
+    # Code for Sprint 1 
     X_train, y_train = load_jsonl(train_path)
     X_dev, y_dev = load_jsonl(dev_path)
+
+    # Sprint 2: Add the Gold switch to the evaluation data
+    X_dev = [f"{text} _source_gold_" for text in X_dev]
     
     print(f"Training on {len(X_train)} samples, Evaluating on {len(X_dev)} samples.\n")
 
