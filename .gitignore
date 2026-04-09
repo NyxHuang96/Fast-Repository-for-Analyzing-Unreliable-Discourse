@@ -9,3 +9,4 @@ __pycache__/
 
 # Ignore whoosh index files
 src/04_sprint/web/backend/whoosh_index/models/
+models/
