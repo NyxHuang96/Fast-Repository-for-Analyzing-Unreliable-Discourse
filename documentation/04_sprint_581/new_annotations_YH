@@ -1,0 +1,269 @@
+{
+  "Chinese": [
+    {
+      "label": "Phish",
+      "text": "robby dickerson antacid97nulifevitaminscom many young lady realize strong love young man fails pass approval test parents httpkvpweostartoccurcom fri 08 aug 2008 150938 0800",
+      "text_zh": "robby dickerson antacid97nulifevitaminscom 许多年轻女士意识到强烈的爱，年轻男子未能通过父母的批准测试 httpkvpweostartoccurcom 2008年8月8日星期五 150938 0800",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "REWARD",
+      "entities": "0:15:PERSON;16:42:EMAIL;73:96:URL;97:109:DATE;110:116:TIME;117:121:TIME",
+      "notes": "Phishing email using emotional manipulation around love/relationships. Contains obfuscated email and URL."
+    },
+    {
+      "label": "Phish",
+      "text": "utf 8 q pimped utf 8 q rolex watch veritable replications wristwatches offer next trademarks available also bvlgari chopard iwc zenith omega",
+      "text_zh": "utf 8 q 改装版 utf 8 q 劳力士手表 veritable replicas 腕表提供下一个商标，还有宝格丽、萧邦、万国、真力时、欧米茄",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "REWARD",
+      "entities": "20:23:ORG;57:60:ORG;61:63:ORG;64:66:ORG;67:70:ORG;71:74:ORG",
+      "notes": "Phishing email selling counterfeit luxury watches. ORGs are brand names: 劳力士(Rolex), 宝格丽(Bvlgari), 萧邦(Chopard), 万国(IWC), 真力时(Zenith), 欧米茄(Omega)."
+    },
+    {
+      "label": "Ham",
+      "text": "attached notes latest timeline weeks gtv ii status meeting bill fortney escapenumber escapenumber",
+      "text_zh": "附件笔记 最新时间线 周 gtv ii 状态会议 比尔·福特尼 转义编号 转义编号",
+      "scenario": "IT_SYSTEM",
+      "tactic_primary": null,
+      "entities": "0:4:ATTACHMENT;13:19:SYSTEM_NAME;25:31:PERSON",
+      "notes": "Ham email about project status meeting notes with attachment."
+    },
+    {
+      "label": "Spam",
+      "text": "see attachment http www thyfade com she let the blanket drop back he grinned sometimes she lau you make me forget my duties it seemed to her that with eac",
+      "text_zh": "见附件 http www thyfade com 她让毯子滑落下来，他咧嘴一笑。有时她笑着说："你让我忘记了我的职责。"在她看来，每次",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "HELPFUL_SERVICE",
+      "entities": "0:3:ATTACHMENT;4:24:URL",
+      "notes": "Spam email with suspicious link and erotic narrative bait to lure clicks."
+    },
+    {
+      "label": "Spam",
+      "text": "¹öæ°à » å¬¸¯çï½ã¸é ¼ö½å°åºîã³¸®°¡ àì·ç¾î áý´ï´ù don£§t want receive mail anymore click deny ±×¸²àì º¸àìáö ¾êà¸½ã¸é çï´üàç àì¹ìáö º¸±â ¸¦ å¬¸¯ çï¼¼¿ä",
+      "text_zh": "1öæ°à » å¸̸̸çï½ã¸é ¼ö½å°åºîã³¸®°¡ àì·ç¸ áý´ï´ù 不想再收到邮件了点击拒绝 ±×¸²àì º¸àìáö ¸à¸½ã¸é çï´üàç àìгìáö º¸±â ¸Р å¸´嗬嗬",
+      "scenario": "OTHER",
+      "tactic_primary": "HELPFUL_SERVICE",
+      "entities": "",
+      "notes": "Garbled multilingual spam with encoding artifacts. No clear entity spans.But offered to not receive emails."
+    },
+    {
+      "label": "Phish",
+      "text": "harder ere ctions sp erm increase sperm volume orgasm length main benifits longest intense orgasms life erctions like steel increased libido desire stronger ejaculaton watch aiming multiple orgasms 5 oo volume cover want studies show tastes sweeter dlscreet day shipplng try lt love thank optout",
+      "text_zh": "更强劲的勃起，增加精液量，延长性高潮时间，主要益处包括：更持久、更强烈的性高潮，勃起如钢铁般坚挺，性欲增强，射精更强劲，可实现多次性高潮，500毫升容量，研究表明味道更甜美，dlscreet当日发货，尝试一下，喜欢，谢谢，选择退出",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "REWARD",
+      "entities": "",
+      "notes": "Obfuscated phishing email advertising male enhancement products. No identifiable entity spans."
+    },
+    {
+      "label": "Ham",
+      "text": "happy thanksgiving see you friday early http www lsusports net wallpaper escapelong jpg",
+      "text_zh": "感恩节快乐，周五见！http://www.lsusports.net/wallpaper/escapelong.jpg",
+      "scenario": "SOCIAL_PERSONAL",
+      "tactic_primary": null,
+      "entities": "10:59:URL",
+      "notes": "Ham email with Thanksgiving greeting and shared sports wallpaper link."
+    },
+    {
+      "label": "Ham",
+      "text": "where did you go",
+      "text_zh": "你去哪儿",
+      "scenario": "SOCIAL_PERSONAL",
+      "tactic_primary": null,
+      "entities": "",
+      "notes": "Very short personal message with no identifiable entities."
+    },
+    {
+      "label": "Phish",
+      "text": "jacques dutton dwuscellularstoremuscellularstorecom di bsz sco ah ver wid ys est sel uj ect hnz ion al ltp th wed 06 aug 2008 082610 0600 hope information help solve health problems",
+      "text_zh": "jacques dutton dwuscellularstoremuscellularstorecom di bsz sco ah ver wid ys est sel uj ect hnz ion al ltp th wed 06 aug 2008 082610 0600 hope information help solve health problems",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "HELPFUL_SERVICE",
+      "entities": "0:14:PERSON;15:51:EMAIL;110:125:DATE;126:132:TIME;133:137:TIME",
+      "notes": "Phishing email with obfuscated split words designed to evade spam filters. Health-related offer."
+    },
+    {
+      "label": "Ham",
+      "text": "if any of you would like to join vicki and bob for the california call at escapenumber escapenumber p m cdt they will be in room ebescapenumber thank you",
+      "text_zh": "如果您想加入 Vicki 和 Bob 的加州电话会议，请于下午 1 点（中部夏令时）在 e 房间（中部夏令时）联系他们。谢谢！",
+      "scenario": "OTHER",
+      "tactic_primary": null,
+      "entities": "7:12:PERSON;15:18:PERSON;30:44:TIME",
+      "notes": "Ham email inviting people to join a California conference call."
+    },
+    {
+      "label": "Phish",
+      "text": "manuel doherty dwsuperxstudiosmsuperxstudioscom b ipu uy best ed im paw c dyt ine ava wtb ila rs ble wx alt lsc h wed 06 aug 2008 080013 0300 manuel doherty",
+      "text_zh": "manuel doherty dwsuperxstudiosmsuperxstudioscom b ipu uy best ed im paw c dyt ine ava wtb ila rs ble wx alt lsc h wed 06 aug 2008 080013 0300 manuel doherty",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "HELPFUL_SERVICE",
+      "entities": "0:14:PERSON;15:47:EMAIL;114:129:DATE;130:136:TIME;137:141:TIME;142:156:PERSON",
+      "notes": "Phishing email with obfuscated split words. Sender name repeated at end."
+    },
+    {
+      "label": "Phish",
+      "text": "increase length girth penis wish could better http www siratu com ss room without books like body without soul like politicians wars society teenagers deserves life story would make good book even try one dies long time squeaking wheel always get grease sometimes gets replaced",
+      "text_zh": "增加阴茎长度和周长，希望更好。http://www.siratu.com/ss 房间里没有书，就像没有灵魂的躯体，就像政客、战争、社会、青少年一样，值得拥有人生故事，这会是一本好书，即使尝试过，一个人也会死去很久。会哭的孩子有奶吃，总会得到润滑，有时会被替换。",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "REWARD",
+      "entities": "15:39:URL",
+      "notes": "Phishing email for male enhancement product with suspicious URL. Garbled filler text to evade spam filters."
+    },
+    {
+      "label": "Phish",
+      "text": "important news hey visioson hpp za net download popular programs site get back later eduardo baez need get pedicure feet smell itch 1",
+      "text_zh": "重要新闻 嘿 visioson hpp za net 下载热门程序网站 稍后回来 eduardo baez 需要做足疗 脚臭 痒 1",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "HELPFUL_SERVICE",
+      "entities": "7:26:URL;41:53:PERSON",
+      "notes": "Phishing email with suspicious download link. Garbled personal content appended as noise."
+    },
+    {
+      "label": "Phish",
+      "text": "chucho canute ninfoagroupdk check pills fast delivery check tue 05 aug 2008 225127 0000 mego grant suggestion",
+      "text_zh": "chucho canute ninfoagroupdk 检查药丸快速送货检查 2008 年 8 月 5 日星期二 225127 0000 mego grant 建议",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "HELPFUL_SERVICE",
+      "entities": "0:13:PERSON;14:27:EMAIL;39:56:DATE;57:63:TIME;64:68:TIME;69:79:PERSON",
+      "notes": "Phishing email about pill delivery. Template-generated sender/recipient names."
+    },
+    {
+      "label": "Ham",
+      "text": "start date : 12 / 14 / 01 ; hourahead hour : 17 ; hourahead schedule download failed . manual intervention required .",
+      "text_zh": "开始日期：2001年12月14日；提前小时数：17；提前小时数日程下载失败，需要人工干预。",
+      "scenario": "IT_SYSTEM",
+      "tactic_primary": null,
+      "entities": "5:16:DATE;23:25:TIME",
+      "notes": "Automated IT system log message about schedule download failure requiring manual intervention."
+    }
+  ],
+  "English": [
+    {
+      "label": "Ham",
+      "text": "steve , below is a partial answer to most of your questions . can we set a time for wednesday afternoon 12 / 5 to talk ? thanks max hourly quantity : we are reviewing capability to deliver the mhq in a 16 hr block . doesn ' t appear to be any problem . what will be the plant ' s complete hourly capability ? contract rate : will be a negotiated rate ( eliminates rate risk for gila ) . the rate design is currently one - part ( no differentiation between reservation and commodity ) . the rate does not include aga / gri surcharges or fuel . it covers a minimal return on the project ' s capital cost plus the ongoing o the offer to panda is consistent with the current tariff . delivery term : as the term gets shorter , the rate by necessity , goes up to cover the return hurdles . services : delivery pressure at the panda / epng interconnect should be a minimum 750 # capacity of the lateral from copper eagle to epng will be 500 , 000 dth / d . alternative rec / del combinations : our thought here was if panda is willing to commit to taking capacity in the project , then tw would give you all the necessary flexibility to move gas to other destinations at the contract rate . for instance , panda would be paying a one - part rate for delivery to the plant . if for some reason , plant demand was reduced , then you would have all the flexibility to move gas to alternative markets . backhaul : the 50 , 000 / day would be a guarantee . daily imbalances , short notice start up / shut down : we have to plan for the worst case scenario and assume there is no storage . with this in mind , tw will have some flexibility just due to the size of the project ( 36 \" pipe and 750 - 900 # pressure ) but this will depend on what other shippers are doing . ( what did we do for southpoint / griffith ) ?",
+      "scenario": "FINANCE_TRADING",
+      "tactic_primary": null,
+      "entities": "0:5:PERSON;84:110:DATE;128:131:PERSON;378:382:LOCATION;634:639:ORG;829:833:ORG;902:914:LOCATION;1080:1082:ORG",
+      "notes": "Internal discussion about gas delivery contract rates. gila=Gila River area, panda=Panda Energy, epng=El Paso Natural Gas, tw=Transwestern Pipeline."
+    },
+    {
+      "label": "Ham",
+      "text": "subject fourth midcontinental workshop phonology mcwop 4 university michigan ann arbor michigan beginning afternoon friday october 16 ending sunday morning october 18 1998 three previous workshops intend fairly informal gathering open students faculty especially suitable graduate students presenting work progress hope possible accept abstract submissions number submissions received exceeds capacity workshop find solution presentations dealing various areas phonological investigation broadly construed welcome presentations planned approximately 20 minutes length additional period discussion hopefully present provide us title clearly indicates paper topic scope name affiliation possible brief 1 2 paragraph summary content talk september 20 e mail submissions mcwop organizing committee mcwop4 umich edu information email mcwop4 umich edu",
+      "scenario": "OTHER",
+      "tactic_primary": null,
+      "entities": "57:95:ORG;116:133:DATE;156:171:DATE;735:747:DATE;794:810:EMAIL",
+      "notes": "Academic linguistics workshop announcement. ORG is University of Michigan Ann Arbor."
+    },
+    {
+      "label": "Phish",
+      "text": "etheeh manhood feels heavy make really massive httpwwwfiftywincom tue 05 aug 2008 223552 0300 slap ass",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "REWARD",
+      "entities": "47:65:URL;66:81:DATE;82:88:TIME;89:93:TIME",
+      "notes": "Phishing email for male enhancement with obfuscated URL."
+    },
+    {
+      "label": "Spam",
+      "text": "networking lunch chesapeake bay golf club in north east wednesday november escapenumber th escapenumber escapenumber am smallcompanies com in conjunction with michael garrity of college funding services will be hosting a networking lunch on wednesday november escapenumber th at escapenumber escapenumber am at the chesapeake bay golf club in north east this lunch is for anyone doing business in cecil county and the surrounding area please feel free to invite friends these lunches are held monthly and we offer anyone looking to network in the area a chance to co sponsor these lunches these are free to anyone participating please email us to confirm your reservation at this month ' s lunch at cecillunch smallcompanies com smallcompanies com will advertise our marketing opportunities and event schedule via email if you are not interested in receiving these emails you are able to opt out of our mailing list by simply clicking on the unsubscribe link click hereif the above link is not live in your email please copy and paste the following url onto your browser address textbox to unsubscribe http www smallcompanies com html unsubscribe asp smallcompanies comp o box escapenumber columbia md escapenumber phone escapenumber escapenumber escapenumber fax escapenumber escapenumber escapenumber",
+      "scenario": "SOCIAL_PERSONAL",
+      "tactic_primary": "HELPFUL_SERVICE",
+      "entities": "17:41:LOCATION;159:174:PERSON;178:202:ORG;699:728:EMAIL;1102:1150:URL",
+      "notes": "Networking lunch event spam for Cecil County area. Unsolicited mass mailing."
+    },
+    {
+      "label": "Ham",
+      "text": "i need hpl sales and purchases back dated to escapenumber escapenumber between hpl and teco to book any processing revenue or losses apparently this is in addition to the current deal in place and is priced at at different rate please let me know when these tickets are in place so that i can get track id ' s and finalize this issue thank you mary",
+      "scenario": "FINANCE_TRADING",
+      "tactic_primary": null,
+      "entities": "7:10:ORG;87:91:ORG;344:348:PERSON",
+      "notes": "Internal Ham email requesting backdated sales entries between HPL and TECO."
+    },
+    {
+      "label": "Phish",
+      "text": "p f jarginine vcd j vcd dvd j dvd j x city f h j vcd g w j dvd e copyright 2004 arena entertainment co ltd rights reserved copyright 1997 2004 x city website rights reserved",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "REWARD",
+      "entities": "75:79:DATE;80:106:ORG;133:142:DATE;143:149:ORG",
+      "notes": "Phishing email impersonating an adult entertainment company with copyright claims."
+    },
+    {
+      "label": "Phish",
+      "text": "new high quality incest site presents totally exclusive incest pictures stories videos kinds incestous relations motherson daddauther brothersister family group sex much click free tour remove email",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "REWARD",
+      "entities": "",
+      "notes": "Phishing email advertising explicit adult content site. No identifiable entity spans."
+    },
+    {
+      "label": "Spam",
+      "text": "name brand software at low low low low prices everything comes to him who hustles while he waits many would be cowards if they had courage enough",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "REWARD",
+      "entities": "",
+      "notes": "Spam email advertising pirated software. Garbled filler text appended."
+    },
+    {
+      "label": "Phish",
+      "text": "bait excelled em ca card waiting activated problems seeing graphics please go platinum benefit group inc urgent notice prior code 1 case type 1567 respond asap crd 2732 page lof 1 notice type important guaranteed approval platinum benefit group pbg prepaid mastercard card guaranteed approval credit checks turn downs security deposit employment required approved act click usa patriot act federal law requires financial institutions obtain verify record information identifies person opens account asked provide name address date birth information allow us identify may also asked provide documentation proof identification 100 approval one turned contingent upon successfully passing mandatory identification confirmation platinum benefit group pbg prepaid mastercard card issued bankfirst wish opt offer click platinum benefits group c impulse marketing group 1100 hammond drive ne suite 410 202 atlanta georgia 30328 message solicitation wish opt e mails please go also write us bargainbuyernetwork net opt department 6311 van nuys blvd 403 van nuys ca 91401",
+      "scenario": "FINANCE_TRADING",
+      "tactic_primary": "AUTHORITY",
+      "entities": "78:104:ORG;782:791:ORG;839:862:ORG;863:920:LOCATION;983:1006:URL",
+      "notes": "Phishing email impersonating a prepaid Mastercard issuer. Invokes USA PATRIOT Act authority to request personal information."
+    },
+    {
+      "label": "Phish",
+      "text": "lmnandi02pnetmailcoza dear sirmadam compliments day got email address south african line network without wasting time let go straight point department discovered sum 20million us dollarstwentymillion us dollars account belongs one foreign customers late mrthompson morris age 61 american unfortunately lost life plane crash alaska airlines flight261 crashed january 31 2000 including wife daughter since got information deathwe expecting next kin relatives come claim money release unless somebody applies next kin relation deceased indicated banking guidelines unfortunately learned supposed next kin daughter died along plane crash leaving nobody knowledge fund behind claimit therefore upon discovery two officials department decided make business release money next kin beneficiary funds safety keeping subsequent disbursement since nobody coming dont want money go back government treasury asunclaimed bill banking law guidelines stipulates money remained five years money transferred banking treasury unclaimed funds agreed 35 money foreign partner balance colleagues visit country disbursement according percentages indicated money gets account please honest note transaction confidential risk free soon receive email contact email address please note necessary arrangement smooth release funds finalized hope hear soon lawson mnandi emaillawmnandiyahooit mon 04 jun 2007 203452 0200 lawson urgent proposal",
+      "scenario": "FINANCE_TRADING",
+      "tactic_primary": "REWARD",
+      "entities": "0:21:EMAIL;324:349:ORG;358:373:DATE;1327:1340:PERSON;1341:1362:EMAIL;1363:1378:DATE;1379:1385:TIME;1386:1390:TIME",
+      "notes": "Classic advance-fee fraud (Nigerian 419 scam). Impersonates a South African bank official claiming unclaimed funds from a deceased customer."
+    },
+    {
+      "label": "Spam",
+      "text": "hole fraction shout wheel course road found feel many leave right kept ago free ten foot call keep roll help mean nothing wish feet hot self crowd show friend said old ago ease cross sing sure shout type long self family choose contain water question year many tire sun center port pass mean consonant men red send come supply indicate phone escapenumber escapenumber escapenumber mobile escapenumber escapenumber escapenumber email georginajepson dialin net",
+      "scenario": "OTHER",
+      "tactic_primary": "HELPFUL_SERVICE",
+      "entities": "433:458:EMAIL",
+      "notes": "Spam with garbled random text to bypass filters. Contains a contact email at the end."
+    },
+    {
+      "label": "Spam",
+      "text": "hello , we would like to offer localized software versions ( qerman , french , spanish , uk , and many others ) . all listed software is available for immediate downioad ! no need to wait 2 - 3 week for cd delivery ! just few examples : - norton internet security pro 2005 - $ 29 . 95 - windows xp professionai with sp 2 full version - $ 59 . 95 - corel draw graphics suite 12 - $ 49 . 95 - dreamweaver mx 2004 ( homesite 5 . 5 includinq ) - $ 39 . 95 - macromedia studio mx 2004 - $ 119 . 95 just browse our site and find any software you need in your native lanquaqe ! best regards , abbie",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "REWARD",
+      "entities": "239:272:ORG;275:284:MONEY;287:310:ORG;336:345:MONEY;348:376:ORG;379:388:MONEY;391:410:ORG;442:451:MONEY;454:479:ORG;482:492:MONEY;586:591:PERSON",
+      "notes": "Spam advertising pirated software at deep discounts. ORG spans are product names."
+    },
+    {
+      "label": "Spam",
+      "text": "what are you looking for if your looking for a companion for friendship love a date or just good ole ' fashioned then try our brand new site it was developed and created to help anyone find what they ' re looking for a quick bio form and you ' re on the road to satisfaction in every sense of the word no matter what that may be try it out and youll be amazed have a terrific time this evening copy and pa ste the add ress you see on the line below into your browser to come to the site http www meganbang biz bld acc no more plz http www naturalgolden com retract counterattack aitken step preemptive shoehorn scaup electrocardiograph movie honeycomb monster war brandywine pietism byrne catatonia encomia lookup intervenor skeleton turn catfish",
+      "scenario": "FRAUD_SOCIAL_ENGINEERING",
+      "tactic_primary": "REWARD",
+      "entities": "487:517:URL;530:556:URL",
+      "notes": "Spam advertising adult dating site with two suspicious URLs. Garbled text appended to evade filters."
+    },
+    {
+      "label": "Ham",
+      "text": "fpl florida power light thing sure jp morgan morgan stanley original message heard marie sent wednesday october escapenumber escapenumber escapenumber escapenumber aronowitz alan clark morris davis angela del vecchio peter douglas stephen h evans mark london legal gray barbara n hansen leslie heard marie hendry brent hodge jeffrey jones tana keohane peter koehler anne c lech kalembka e mail leite francisco pinto mccullough travis mellencamp lisa murphy harlan murray julia nemec gerald portz david rick antonoff e mail rohauer tanya sager elizabeth sayre frank shackleton sara simons paul st clair carol van hooser steve viverito john williams jason r credit subject master netting agreement assignments attached current list master netting agreement assignments circulate revised list periodically file master netting agreement assignments doc",
+      "scenario": "FINANCE_TRADING",
+      "tactic_primary": null,
+      "entities": "0:23:ORG;35:44:ORG;45:59:ORG;77:88:PERSON;94:111:DATE;164:178:PERSON",
+      "notes": "Internal Enron email distributing master netting agreement assignments to a large distribution list."
+    },
+    {
+      "label": "Phish",
+      "text": "mr cole cuts monthly payments hello sent email recently like confirm everything please read info let know questions accepting ortgage qualifications bad cr edit ok get 200 000 loan 525 per month payment approval process take 1 minute visit link fill quick easy form http gffefv net azebu thank time sincere regards manager bryon deleon first national bank 5124 first street jacksonville fla multinomial 218 coffeecup demurred lettermen 66276367 countervail herpetology 5 iterate milwaukee wis summary springtime conferring disneyland bryon deleon jeres antonym 1768141572 appearance",
+      "scenario": "FINANCE_TRADING",
+      "tactic_primary": "REWARD",
+      "entities": "168:175:MONEY;181:184:MONEY;266:287:URL;323:335:PERSON;336:355:ORG;356:390:LOCATION",
+      "notes": "Phishing email impersonating a bank offering a mortgage loan. Garbled text appended to evade filters."
+    },
+    {
+      "label": "Ham",
+      "text": "fyi el paso mojave tpas initiated karen electronic copy hard copy communicated changes asked send revised copy original message nemec gerald sent monday september escapenumber escapenumber escapenumber escapenumber pm lakho shahnaz subject mojave tpa shane reviewing mojave tpa contacted carlos pena el paso discuss agreed section escapenumber escapenumber b stricken also agreed sentence section page escapenumber reads text end item escapenumber inserted enron north america corp note stricken also consistency sake section escapenumber escapenumber b main body agreement stricken exhibit overrides section strike necessary main body agreement lastly full legal name enron north america corp inserted agreement let know questions",
+      "scenario": "LEGAL_REGULATORY",
+      "tactic_primary": null,
+      "entities": "4:11:ORG;34:39:PERSON;128:140:PERSON;146:162:DATE;218:231:PERSON;288:299:PERSON;457:481:ORG",
+      "notes": "Internal Enron email about reviewing and amending the Mojave TPA (Transportation and Purchase Agreement) with El Paso."
+    }
+  ]
+}
