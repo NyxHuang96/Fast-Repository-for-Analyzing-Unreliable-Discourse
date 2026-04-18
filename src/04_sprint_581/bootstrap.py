@@ -51,19 +51,19 @@ def main():
     bootstrap_subset = random.sample(yh_pool, sample_size)
 
     # Using best existing model (Traditional baseline)
-    X_teacher = [d['text'] for d in sprint2_data]
-    y_teacher = [d['label'].capitalize() for d in sprint2_data]
+    X_best_model = [d['text'] for d in sprint2_data]
+    y_best_model = [d['label'].capitalize() for d in sprint2_data]
     
-    teacher_model = Pipeline([
+    best_model_model = Pipeline([
         ('tfidf', TfidfVectorizer(tokenizer=bilingual_tokenizer, ngram_range=(1, 2))),
         ('clf', LinearSVC(class_weight='balanced', random_state=42))
     ])
 
-    teacher_model.fit(X_teacher, y_teacher)
+    best_model_model.fit(X_best_model, y_best_model)
 
     # Inference and bootstrap (only extracting the texts)
     X_unseen = [d['text'] for d in bootstrap_subset] 
-    pseudo_labels = teacher_model.predict(X_unseen)
+    pseudo_labels = best_model_model.predict(X_unseen)
 
     # Augmenting the dataset 
     augmented_train = list(sprint2_data)
@@ -85,21 +85,21 @@ def main():
     X_aug = [d['text'] for d in augmented_train]
     y_aug = [d['label'].capitalize() for d in augmented_train]
     
-    student_model = Pipeline([
+    train_model = Pipeline([
         ('tfidf', TfidfVectorizer(tokenizer=bilingual_tokenizer, ngram_range=(1, 2))),
         ('clf', LinearSVC(class_weight='balanced', random_state=42))
     ])
 
-    student_model.fit(X_aug, y_aug)
+    train_model.fit(X_aug, y_aug)
 
     # Evaluate on Dev set
     dev_data = load_jsonl(dev_path)
-    
+
     # Add the gold switch to dev data for evaluation consistency
     X_dev = [f"{d['text']} _source_gold_" for d in dev_data] 
     y_dev = [d['label'].capitalize() for d in dev_data]
     
-    y_pred = student_model.predict(X_dev)
+    y_pred = train_model.predict(X_dev)
     
     print("\n" + "="*40)
     print(" BOOTSTRAPPING EVALUATION RESULTS")
