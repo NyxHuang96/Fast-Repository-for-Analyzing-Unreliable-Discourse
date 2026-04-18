@@ -30,7 +30,7 @@
     {
       "label": "Spam",
       "text": "see attachment http www thyfade com she let the blanket drop back he grinned sometimes she lau you make me forget my duties it seemed to her that with eac",
-      "text_zh": "见附件 http www thyfade com 她让毯子滑落下来，他咧嘴一笑。有时她笑着说："你让我忘记了我的职责。"在她看来，每次",
+      "text_zh": "见附件 http www thyfade com 她让毯子滑落下来，他咧嘴一笑。有时她笑着说：\"你让我忘记了我的职责。\"在她看来，每次",
       "scenario": "FRAUD_SOCIAL_ENGINEERING",
       "tactic_primary": "HELPFUL_SERVICE",
       "entities": "0:3:ATTACHMENT;4:24:URL",
