@@ -1,0 +1,209 @@
+[
+  {
+    "label": "Ham",
+    "text": "Hi team , your SSL certificate for api . internal . acme . com expires in 14 days on 2025 - 07 - 31 . please renew via the it portal at https : / / it . acme . com / certs or contact helpdesk @ acme . com .",
+    "text_zh": "您好团队，您的 api.internal.acme.com SSL 证书将在 14 天后（2025-07-31）到期，请通过 IT 门户 https://it.acme.com/certs 续期，或联系 helpdesk@acme.com。",
+    "scenario": "IT_SYSTEM",
+    "tactic_primary": null,
+    "entities": "35:62:DOMAIN;85:99:DATE;136:171:URL;183:204:EMAIL",
+    "notes": "Automated SSL certificate expiry alert with renewal link. Looks suspicious due to URL and urgency but is a routine IT notification."
+  },
+  {
+    "label": "Ham",
+    "text": "you have been invited to a zoom meeting . host : sarah chen , topic : q3 budget review , time : thursday july 10 2025 at 2 : 00 pm est , join url : https : / / zoom . us / j / 98765432100 , meeting id : 987 654 321 , passcode : 4829 .",
+    "text_zh": "您已受邀参加 Zoom 会议。主持人：陈莎拉，主题：Q3 预算审查，时间：2025年7月10日（周四）下午2点（美东时间），加入链接：https://zoom.us/j/98765432100，会议 ID：987 654 321，密码：4829。",
+    "scenario": "WORKPLACE",
+    "tactic_primary": null,
+    "entities": "49:59:PERSON;70:86:TOPIC;96:134:DATETIME;148:187:URL;203:214:ID",
+    "notes": "Legitimate Zoom meeting invite with join link. May appear suspicious due to external URL and access credentials but is routine."
+  },
+  {
+    "label": "Ham",
+    "text": "dear john smith , this is a password reset confirmation from acme corp it security . your temporary password is : Xk9 # mP2 ! valid for 24 hours . log in at https : / / login . acme . com and change it immediately . do not share this email .",
+    "text_zh": "尊敬的 John Smith，这是来自 Acme Corp IT 安全部门的密码重置确认。您的临时密码为：Xk9#mP2!，有效期 24 小时。请登录 https://login.acme.com 并立即更改密码，请勿转发此邮件。",
+    "scenario": "IT_SYSTEM",
+    "tactic_primary": null,
+    "entities": "5:15:PERSON;61:70:ORG;136:144:DURATION;157:187:URL",
+    "notes": "Legitimate IT-issued temporary password reset. Contains credential-like content and URL that naive classifiers may flag as phish."
+  },
+  {
+    "label": "Ham",
+    "text": "important hr notice : open enrollment for benefits begins monday september 8 2025 and closes september 22 2025 . review your plan options and submit elections at https : / / hr . acme . com / enrollment . contact benefits @ acme . com with questions .",
+    "text_zh": "重要人力资源通知：福利开放注册将于2025年9月8日（周一）开始，于2025年9月22日结束。请登录 https://hr.acme.com/enrollment 查看计划选项并提交选择。如有问题请联系 benefits@acme.com。",
+    "scenario": "HR_ADMIN",
+    "tactic_primary": null,
+    "entities": "58:81:DATE;93:110:DATE;162:202:URL;213:234:EMAIL",
+    "notes": "HR open enrollment reminder with portal link. Deadline urgency and link may trigger spam filters but is a standard HR communication."
+  },
+  {
+    "label": "Ham",
+    "text": "alert : unusual sign - in detected on your microsoft 365 account . location : toronto , canada , time : 2025 - 06 - 15 03 : 42 utc . if this was you no action is needed . if not visit https : / / mysignins . microsoft . com to secure your account .",
+    "text_zh": "警报：检测到您的 Microsoft 365 账户有异常登录。位置：加拿大多伦多，时间：2025-06-15 03:42 UTC。如果是您本人操作，无需采取任何行动。如非本人操作，请访问 https://mysignins.microsoft.com 保护您的账户。",
+    "scenario": "IT_SYSTEM",
+    "tactic_primary": null,
+    "entities": "43:56:PRODUCT;78:94:LOCATION;104:130:DATETIME;184:223:URL",
+    "notes": "Legitimate Microsoft 365 sign-in alert. Mimics phishing template structure but links to real Microsoft domain."
+  },
+  {
+    "label": "Ham",
+    "text": "this is an automated reminder from payroll that your direct deposit information has not been updated for the 2025 fiscal year . please log in to workday at https : / / acme . workday . com / d / home and verify your bank account details by june 30 2025 .",
+    "text_zh": "这是来自薪资部门的自动提醒：您的直接存款信息尚未针对2025财年进行更新。请登录 Workday（https://acme.workday.com/d/home）并在2025年6月30日前核实您的银行账户信息。",
+    "scenario": "HR_ADMIN",
+    "tactic_primary": null,
+    "entities": "156:199:URL;240:252:DATE",
+    "notes": "Automated payroll reminder to verify bank details via Workday. Highly phish-like in structure but from internal HR system."
+  },
+  {
+    "label": "Ham",
+    "text": "network maintenance notice : the vpn gateway vpn . acme . com will be unavailable on saturday july 12 2025 from 2 : 00 am to 6 : 00 am est for scheduled upgrades . plan accordingly and save all work . contact noc @ acme . com for emergencies .",
+    "text_zh": "网络维护通知：VPN 网关 vpn.acme.com 将于2025年7月12日（周六）凌晨2:00至6:00（美东时间）因计划升级而停止服务。请提前做好安排并保存所有工作。如有紧急情况请联系 noc@acme.com。",
+    "scenario": "IT_SYSTEM",
+    "tactic_primary": null,
+    "entities": "45:61:DOMAIN;85:106:DATE;112:121:TIME;125:134:TIME;209:225:EMAIL",
+    "notes": "Scheduled network maintenance window notice. Urgent tone and domain reference may appear suspicious but is routine IT ops."
+  },
+  {
+    "label": "Spam",
+    "text": "congratulations ! you have been selected for a free trial of slimquick ultra . lose up to 30 lbs in 30 days guaranteed ! order now and get a second bottle free . call 1 - 800 - 555 - 0199 or visit www . slimquickdeal . com . offer expires soon .",
+    "text_zh": "恭喜！您已被选中免费试用 SlimQuick Ultra。在30天内保证减重30磅！立即订购，再赠一瓶。拨打 1-800-555-0199 或访问 www.slimquickdeal.com。优惠即将截止。",
+    "scenario": "HEALTH_WELLNESS",
+    "tactic_primary": "URGENCY",
+    "entities": "61:76:PRODUCT;167:187:PHONE;197:222:URL",
+    "notes": "Unsolicited weight-loss supplement promotion with free trial hook. No credential harvesting; classic health spam."
+  },
+  {
+    "label": "Spam",
+    "text": "hot singles in your area are waiting to chat ! join passion connect today for free and meet thousands of local singles . limited time offer : upgrade to premium for just $ 9 . 99 / month . visit www . passionconnect . net now . unsubscribe anytime .",
+    "text_zh": "您所在地区的单身人士正在等待聊天！免费加入 Passion Connect，认识数千名当地单身人士。限时优惠：仅需每月 $9.99 即可升级至高级会员。立即访问 www.passionconnect.net。",
+    "scenario": "ADULT_DATING",
+    "tactic_primary": "HELPFUL_SERVICE",
+    "entities": "52:67:PRODUCT;195:221:URL",
+    "notes": "Adult dating site unsolicited mass email. Uses urgency and low-price hook. No phishing element."
+  },
+  {
+    "label": "Spam",
+    "text": "re : your order # 48821 from deal depot has shipped ! track your package at www . dealdepot - track . biz . also check out this week ' s top deals : 70 % off electronics , buy 2 get 1 free on all apparel . shop now at www . dealdepot . biz .",
+    "text_zh": "关于您在 Deal Depot 的订单 #48821 已发货！请访问 www.dealdepot-track.biz 追踪包裹。另外，本周精选特惠：电子产品七折，服装买二赠一。立即前往 www.dealdepot.biz 选购。",
+    "scenario": "ECOMMERCE",
+    "tactic_primary": "URGENCY",
+    "entities": "18:23:ID;29:39:ORG;76:105:URL;218:239:URL",
+    "notes": "Fake order confirmation bundled with promotional upsell. Suspicious tracker URL but no credential theft attempt."
+  },
+  {
+    "label": "Spam",
+    "text": "canadian pharmacy online - save up to 80 % on brand - name medications . no prescription required . viagra , cialis , ambien , and more shipped discreetly to your door . order before midnight and receive free shipping . www . canapharmrx . com .",
+    "text_zh": "加拿大在线药店——品牌药品最高节省80%，无需处方。伟哥、西力士、安必恩等药品低调送货上门。今晚午夜前下单免运费。www.canapharmrx.com。",
+    "scenario": "PHARMA",
+    "tactic_primary": "HELPFUL_SERVICE",
+    "entities": "0:24:ORG;100:106:PRODUCT;109:115:PRODUCT;118:124:PRODUCT;220:243:URL",
+    "notes": "Online pharmacy spam offering prescription drugs without prescription. Classic spam pattern; no credential harvesting."
+  },
+  {
+    "label": "Spam",
+    "text": "make money from home starting today ! our proven system has helped over 50 , 000 people earn $ 500 - $ 2000 per week working just 2 hours a day . no experience needed . get your free starter kit at www . wfhprofits . net . limited spots available !",
+    "text_zh": "今天就开始在家赚钱！我们的成熟系统已帮助超过50,000人每周只需工作2小时即可赚取500至2000美元，无需经验。前往 www.wfhprofits.net 获取免费入门套件，名额有限！",
+    "scenario": "FINANCIAL_OPPORTUNITY",
+    "tactic_primary": "URGENCY",
+    "entities": "198:220:URL",
+    "notes": "Work-from-home income opportunity spam. Uses social proof and scarcity. No credential theft; pure financial spam."
+  },
+  {
+    "label": "Spam",
+    "text": "you are invited to the grand opening of luxe auto spa at 4500 sunset boulevard , los angeles , ca 90028 on saturday august 2 2025 . enjoy free detailing demos , giveaways , and refreshments . rsvp at www . luxeautospa . com / event by july 25 2025 .",
+    "text_zh": "诚邀您莅临 Luxe Auto Spa 盛大开业典礼，地址：加利福尼亚州洛杉矶日落大道4500号（邮编90028），时间：2025年8月2日（周六）。届时将有免费美容展示、抽奖及茶点。请于2025年7月25日前在 www.luxeautospa.com/event 回复确认出席。",
+    "scenario": "LOCAL_BUSINESS",
+    "tactic_primary": "HELPFUL_SERVICE",
+    "entities": "40:53:ORG;57:103:LOCATION;107:129:DATE;200:231:URL;235:247:DATE",
+    "notes": "Unsolicited local business grand opening promotional email. Benign marketing with no malicious payload."
+  },
+  {
+    "label": "Spam",
+    "text": "exclusive offer for alumni of state university ! subscribe to alumni advantage magazine for only $ 19 . 99 / year and stay connected with your campus community . includes digital access and quarterly print edition . order at www . alumniadv . org / subscribe .",
+    "text_zh": "专为州立大学校友提供的独家优惠！订阅《校友优势》杂志，每年仅需 $19.99，与您的校园社区保持联系。包含数字版访问权限和季刊印刷版。访问 www.alumniadv.org/subscribe 立即订阅。",
+    "scenario": "SUBSCRIPTION",
+    "tactic_primary": "HELPFUL_SERVICE",
+    "entities": "30:46:ORG;62:87:PRODUCT;225:258:URL",
+    "notes": "Alumni magazine subscription spam. Loosely targeted by institution affiliation. No phishing; pure unsolicited marketing."
+  },
+  {
+    "label": "Phish",
+    "text": "urgent : your chase bank account has been temporarily suspended due to suspicious activity . to restore access verify your identity immediately at https : / / secure - chase - verify . com / login . failure to verify within 24 hours will result in permanent closure .",
+    "text_zh": "紧急通知：您的 Chase 银行账户因可疑活动已被暂时停用。请立即访问 https://secure-chase-verify.com/login 验证身份以恢复访问权限。如未在24小时内完成验证，账户将被永久关闭。",
+    "scenario": "FINANCE_BANKING",
+    "tactic_primary": "AUTHORITY",
+    "entities": "14:24:ORG;147:196:URL;224:232:DURATION",
+    "notes": "Spear-phish impersonating Chase Bank. Uses account suspension threat and fake verification URL to harvest credentials."
+  },
+  {
+    "label": "Phish",
+    "text": "from : it - admin @ acme - corp . net subject : mandatory microsoft 365 password reset . all employees must reset their microsoft 365 password immediately via https : / / acme - ms365 - reset . com . non - compliance will result in account deactivation within 48 hours .",
+    "text_zh": "发件人：it-admin@acme-corp.net 主题：强制 Microsoft 365 密码重置。所有员工必须立即通过 https://acme-ms365-reset.com 重置其 Microsoft 365 密码。不遵守规定将导致账户在48小时内被停用。",
+    "scenario": "IT_IMPERSONATION",
+    "tactic_primary": "AUTHORITY",
+    "entities": "7:37:EMAIL;58:71:PRODUCT;159:197:URL;260:268:DURATION",
+    "notes": "IT admin spear-phish targeting Microsoft 365 credentials. Spoofed internal sender and fake reset portal with deactivation threat."
+  },
+  {
+    "label": "Phish",
+    "text": "dear valued customer , irs records indicate you are owed a federal tax refund of $ 847 . 00 . to claim your refund submit your social security number and bank routing details at https : / / irs - refund - portal . com / claim . refunds expire after 30 days .",
+    "text_zh": "尊敬的客户，IRS 记录显示您有 $847.00 的联邦税款退款待领取。请在 https://irs-refund-portal.com/claim 提交您的社会安全号码和银行路由信息以领取退款。退款将在30天后过期。",
+    "scenario": "GOVERNMENT_IMPERSONATION",
+    "tactic_primary": "AUTHORITY",
+    "entities": "23:26:ORG;81:91:MONEY;178:225:URL;249:256:DURATION",
+    "notes": "IRS impersonation phish requesting SSN and banking details via fraudulent refund claim portal."
+  },
+  {
+    "label": "Phish",
+    "text": "your apple id has been locked due to too many failed sign - in attempts . to unlock your account and prevent data loss visit https : / / appleid - account - recovery . net / unlock and confirm your payment method and security questions within 12 hours .",
+    "text_zh": "您的 Apple ID 因多次登录失败已被锁定。请访问 https://appleid-account-recovery.net/unlock 解锁账户并防止数据丢失，在12小时内确认您的付款方式和安全问题。",
+    "scenario": "TECH_IMPERSONATION",
+    "tactic_primary": "AUTHORITY",
+    "entities": "5:13:PRODUCT;125:180:URL;243:251:DURATION",
+    "notes": "Apple ID credential phish. Impersonates Apple security team using account lockout pretext to steal payment and security answers."
+  },
+  {
+    "label": "Phish",
+    "text": "linkedin security alert : we detected a login from an unrecognized device in bucharest , romania . if this was not you immediately secure your account at https : / / linkedin - secure - auth . com / verify and re - enter your credentials to protect your profile .",
+    "text_zh": "LinkedIn 安全警报：我们检测到一台未被识别的设备从罗马尼亚布加勒斯特登录。如果不是您本人操作，请立即访问 https://linkedin-secure-auth.com/verify 保护您的账户并重新输入凭据以保护您的个人资料。",
+    "scenario": "TECH_IMPERSONATION",
+    "tactic_primary": "AUTHORITY",
+    "entities": "0:8:ORG;77:96:LOCATION;154:205:URL",
+    "notes": "LinkedIn security alert spear-phish using foreign login pretext. Directs victim to credential harvesting page mimicking LinkedIn auth."
+  },
+  {
+    "label": "Phish",
+    "text": "notice from human resources : as part of our annual compliance audit all staff must reconfirm employment details and direct deposit account numbers via the secure hr portal at https : / / hr - compliance - audit . net / staff - verify by end of business friday june 20 2025 .",
+    "text_zh": "来自人力资源部的通知：作为年度合规审计的一部分，所有员工必须通过安全HR门户（https://hr-compliance-audit.net/staff-verify）在2025年6月20日（周五）下班前重新确认就业信息和直接存款账号。",
+    "scenario": "HR_IMPERSONATION",
+    "tactic_primary": "AUTHORITY",
+    "entities": "12:27:ORG;176:234:URL;254:273:DATE",
+    "notes": "HR department impersonation phish targeting direct deposit banking credentials under guise of compliance audit."
+  },
+  {
+    "label": "Phish",
+    "text": "fedex shipment notification : your package 7489320156 is on hold pending customs clearance . a fee of $ 2 . 99 is required to release it . provide your card details at https : / / fedex - customs - fee . com / pay . package will be returned after 5 days .",
+    "text_zh": "FedEx 货运通知：您的包裹（追踪号：7489320156）因等待清关而被暂扣。需支付 $2.99 的费用才能放行。请在 https://fedex-customs-fee.com/pay 提供您的银行卡信息。包裹将在5天后退回。",
+    "scenario": "DELIVERY_IMPERSONATION",
+    "tactic_primary": "AUTHORITY",
+    "entities": "0:5:ORG;43:53:ID;102:110:MONEY;168:213:URL;247:253:DURATION",
+    "notes": "FedEx delivery phish using customs fee pretext to harvest payment card details. Distinct from spam by explicit credential/payment theft goal."
+  },
+  {
+    "label": "Spam",
+    "text": "supercharge your performance today with our leading enlargement product . special discount guys ! take advantage of this limited time offer on our top enhancement pe patch . click here to get info or remove email .",
+    "text_zh": "今天用我们领先的增大产品提升你的表现。特价优惠兄弟们！抓住我们顶级增强 PE 贴片的限时优惠。点击这里获取信息或移除电子邮件。",
+    "scenario": "HEALTH_WELLNESS",
+    "tactic_primary": "REWARD",
+    "entities": "",
+    "notes": "Targeted spam example explicitly mimicking enhancement product spam to fix dev set error."
+  },
+  {
+    "label": "Spam",
+    "text": "last chance to buy the industries leading enlargement pe patch . our enhancement product sale is ending soon . get info on special discounts for performance enhancement . remove email .",
+    "text_zh": "最后机会购买行业领先的增大 PE 贴片。我们的增强产品促销即将结束。获取关于提升表现特价折扣的信息。移除电子邮件。",
+    "scenario": "HEALTH_WELLNESS",
+    "tactic_primary": "URGENCY",
+    "entities": "",
+    "notes": "Targeted spam example explicitly mimicking enhancement product spam to fix dev set error."
+  }
+]
